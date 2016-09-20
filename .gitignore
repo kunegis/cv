@@ -1,0 +1,9 @@
+*.aux
+*.bbl
+*.blg
+*.log
+konect-extr
+cv-kunegis-long.tex
+*.dvi
+publications-long.tex
+publications-short.tex

@@ -1,0 +1,546 @@
+\documentclass[line,margin]{res}
+
+\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{hyperref}
+\usepackage[usenames,dvipsnames]{color}
+
+\newcommand{\hide}[1]{}
+
+\makeatletter
+\renewenvironment{thebibliography}[1]
+     {\section{\bibname}% <-- this line was changed from \chapter* to \section*
+      \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+\makeatother
+
+\definecolor{urlcolor}{rgb}{0.1, 0.1, 0.9}
+
+\hypersetup{ 
+  colorlinks=true, pdftitle={Dr. Jérôme Kunegis},
+  pdfauthor={Jérôme Kunegis}, 
+  urlcolor=urlcolor
+} 
+
+\begin{document}
+
+\name{Dr.\ Jérôme Kunegis
+%- (Complete CV)
+}
+\begin{resume}
+
+\vspace{0.5cm}
+
+\hspace{-3cm}
+\begin{tabular}{lcr}
+  University of Koblenz--Landau               &\hspace{4.0cm}\hfill& Tel: {\tt +49 261 287-2775}\\
+  Institute for Web Science and Technologies && Fax: {\tt +49 261 287-100-2775}\\
+  Universitätsstraße 1                       && {\tt kunegis@uni-koblenz.de}\\
+  56070 Koblenz                              && {\tt
+    \href{http://www.uni-koblenz.de/~kunegis/}{uni-koblenz.de/\~{ }kunegis}}\\
+  Germany                                    &&
+  {\tt \href{http://twitter.com/kunegis}{twitter.com/kunegis}} \\
+  && {\tt \href{http://www.linkedin.com/in/kunegis}{linkedin.com/in/kunegis}} \\
+  && {\tt \href{http://networkscience.wordpress.com/}{networkscience.wordpress.com}} \\
+  && {\tt \href{http://konect.uni-koblenz.de/}{konect.uni-koblenz.de}}
+
+\end{tabular}
+\vspace{1cm}
+
+
+\section{Education}
+
+\begin{format}
+\title{l}\dates{r}\\
+\employer{l}\\
+\end{format}
+
+\title{\bf Dr.\ rer.\ nat.}
+\employer{\href{http://www.uni-koblenz-landau.de/}{University of Koblenz--Landau}}
+\dates{2011}
+\begin{position}
+Thesis:
+\emph{\href{http://userpages.uni-koblenz.de/~kunegis/paper/kunegis-phd-thesis-on-the-spectral-evolution-of-large-networks.pdf}{On
+    the Spectral Evolution of Large Networks}}  
+\end{position}
+
+\title{\bf Dipl.-Inform.}
+\employer{\href{http://www.tu-berlin.de/}{Technical University of Berlin}}
+\dates{2006}
+\begin{position}
+Thesis: \emph{\href{http://userpages.uni-koblenz.de/~kunegis/paper/kunegis-diploma-thesis-using-integer-linear-programming-for-search-results-optimization.pdf}{Using Integer Linear Programming for Search Results Optimization}}
+\end{position}
+
+\title{\bf Baccalauréat}
+\employer{\href{http://www.fg-berlin.de/}{Lycée Français de Berlin}}
+\dates{1999}
+\begin{position}
+%- Série scientifique
+\end{position}
+
+\title{\bf Abitur}
+\employer{\href{http://www.fg-berlin.de/}{Lycée Français de Berlin}}
+\dates{1999}
+\begin{position}
+%- Leistungskurse:  Mathematik, Physik
+\end{position}
+
+\title{\bf Diplôme national du brevet}
+\employer{\href{http://www.fg-berlin.de/}{Lycée Français de Berlin}}
+\dates{1996}
+\begin{position}
+%- Série collège
+\end{position}
+
+\section{Positions}
+
+\begin{format}
+\title{l}\dates{r}\\
+\employer{l} \\
+%- \body\\
+\end{format}
+
+\title{\bf Postdoctoral Researcher}
+\employer{\href{http://west.uni-koblenz.de/}{Institute for Web Science and Technologies}, University of Koblenz--Landau} 
+\dates{2011--present}
+\begin{position}
+%- \href{http://www.robust-project.eu/}{ROBUST} (EU FP7), \href{http://www.socialsensor.eu/}{SocialSensor} (EU FP7), \href{http://konect.uni-koblenz.de/}{Koblenz Network Collection} (KONECT), Social Information Processing (DFG WGI), \href{http://revealproject.eu/}{REVEAL} (EU FP7).
+\end{position}
+
+\title{\bf Visiting Postdoctoral Researcher}
+\employer{\href{http://www.cl.cam.ac.uk/research/srg/netos/}{Networks and Operating Systems Group}, University of Cambridge}
+\dates{2013}
+\begin{position}
+\end{position}
+
+\title{\bf Research Assistant}
+\employer{\href{http://west.uni-koblenz.de/}{Institute for Web Science and Technologies}, University of Koblenz--Landau} 
+\dates{2010--2011}
+\begin{position}
+%- WeKnowIt (EU FP7), ROBUST (EU FP7), MULTIPLA (DFG).
+\end{position}
+
+\title{\bf Research Assistant}
+\employer{\href{http://dai-labor.de/}{DAI Lab}, Technical University of Berlin}
+\dates{2006--2010}
+\begin{position}
+%- Projects PIA (Personalized Information Agent), Universal Recommender
+%- (Semantic Recommendation Engine), Connected Living (Innovationszentrum
+%- ``Vernetztes Leben''), Smart Senior (Intelligent Services for Elderly People),
+%- UCPM (User Centric Profile Management), WebTV (Semantic TV
+%- Recommendations), SERUM (Semantic Recommenders based on Large,
+%- Unstructured Data).    
+\end{position}
+
+\title{\bf Student Research Assistant}
+\employer{\href{http://dai-labor.de/}{DAI Lab}, Technical University of Berlin}
+\dates{2002--2006}
+\begin{position}
+%- Projects Corinna und Cornelius (Speech-controlled Personal Digital
+%- Assistant), PIA (Personalized Information Agent), Synergie
+%- (Collaborative e-Science Platform).  
+\end{position}
+
+\section{Teaching}
+\begin{itemize}
+\item 
+  \href{https://west.uni-koblenz.de/en/studying/courses/ss16/network-theory-and-dynamic-systems}{Network
+    Theory and Dynamic Systems}, University of Koblenz--Landau, SS 2016.
+\item
+  \href{https://west.uni-koblenz.de/en/studying/courses/ss16/seminar}{Advanced
+    Topics in Network Science}, University of Koblenz--Landau, SS 2016. 
+\item
+  \href{https://west.uni-koblenz.de/en/studium/lehrveranstaltungen/ws1516/grundlagen-der-datenbanken}{Introduction
+    to Database Systems} (Grundlagen der Datenbanken, 
+  Lecturer), University of Koblenz--Landau, WS 2015/2016.
+\item 
+  \href{https://west.uni-koblenz.de/en/studium/lehrveranstaltungen/ws1516/proseminar-learning-analytics}{Learning
+  Analytics: Aspects of Machine Learning and Empirical Psychology in E-Learning}, (Learning
+    analytics: Aspekte des Machine Learnings und empirischer Psychologie
+    beim E-Learning, Proseminar), University of Koblenz--Landau, WS 2015/2016.
+\item 
+  \href{https://west.uni-koblenz.de/en/studium/lehrveranstaltungen/ss15/network-theory-dynamic-systems}{Network
+    Theory and Dynamic Systems}, University of Koblenz--Landau, SS 2015.
+\item
+  \href{https://west.uni-koblenz.de/en/studium/lehrveranstaltungen/ss15/recommender-systems}{Recommender
+    Systems} (Seminar), University of Koblenz--Landau, SS 2015.
+\item
+  \href{https://web.west.uni-koblenz.de/en/studium/lehrveranstaltungen/ws1415/gddb}{Introduction
+    to Database Systems} (Grundlagen der Datenbanken, 
+  Lecturer), University of Koblenz--Landau, WS 2014/2015.
+\item
+  \href{https://web.west.uni-koblenz.de/en/studium/lehrveranstaltungen/ws1415/forschungspraktikum}{Distributed
+    Scalable Network Analysis} (Research Lab), University of
+  Koblenz--Landau, WS 2014/2015. 
+\item
+  \href{http://www.uni-koblenz-landau.de/campus-koblenz/fb4/west/teaching/ss14/seminar}{Advanced
+    Topics in Network Theory} (Seminar), University of Koblenz--Landau, SS 2014. 
+\item 
+  \href{http://www.uni-koblenz-landau.de/campus-koblenz/fb4/west/teaching/ss14/network-theory-and-dynamic-systems}{Network
+    Theory and Dynamic Systems}, University of Koblenz--Landau, SS 2014.
+\item
+  \href{http://west.uni-koblenz.de/teaching/ws1314/GdDB/GdDB}{Introduction
+    to Database Systems} (Grundlagen der Datenbanken, 
+  Lecturer), University of Koblenz--Landau, WS 2013/2014.
+\item 
+  \href{https://west.uni-koblenz.de/teaching/ss13/network-theory-and-dynamic-systems}{Network
+    Theory and Dynamic Systems}, University of Koblenz--Landau, SS 2013.
+\item
+  \href{https://west.uni-koblenz.de/teaching/ss13/proseminar-soziale-netzwerke}{Social
+  Networks} (Soziale Netzwerke, Proseminar), University of Koblenz--Landau, SS 2013.
+\item
+  \href{https://www.uni-koblenz-landau.de/campus-koblenz/fb4/west/teaching/ws1213/datenbanken}{Introduction
+    to Database Systems} (Grundlagen der Datenbanken, 
+  Lecturer), University of Koblenz--Landau, WS 2012/2013.
+\item
+  \href{https://www.uni-koblenz-landau.de/koblenz/fb4/AGStaab/Teaching/ss12/proseminar-soziale-netzwerke}{Social
+  Networks} (Soziale Netzwerke, Proseminar), University of Koblenz--Landau, SS 2012.
+\item
+  \href{http://www.uni-koblenz-landau.de/koblenz/fb4/AGStaab/Teaching/ws1112/Datenbanken}{Introduction
+  to Database Systems} (Grundlagen der Datenbanken, Assistant), University of
+  Koblenz--Landau, WS 2011/2012. 
+\item 
+  \href{http://www.uni-koblenz-landau.de/koblenz/fb4/institute/IFI/AGStaab/Teaching/ws1011/Datenbanken/}{Introduction
+  to Database Systems} (Grundlagen der Datenbanken, Assistant), University of
+  Koblenz--Landau, WS 2010/2011. 
+\end{itemize}
+
+\section{Supervised \\ Theses}
+\begin{itemize}
+\item Marcel Reif.  Automatische Erkennung von exakten und
+  Near-Duplikaten in einer Netzwerkdatenbank, \emph{Bachelor of
+    Science}, University of Koblenz--Landau, 2016.
+\item Nils Geilen.  Entwicklung eines Systems zur Vorhersage von
+  Nutzeraktivität auf den Diskussionsseiten der Wikipedia,
+  \emph{Bachelor of Science}, University of Koblenz--Landau, 2015.
+\item Jesús Cabello González.  Berechnung und Approximation von
+  Kürzeste-Pfad-Statistiken in großen Netzwerken für KONECT,
+  \emph{Bachelor of Science}, University of Cádiz, 2014. 
+\item Julia Preusse. Analysis of the WebUni Online Student Community,
+  \emph{Dipl.-Inform.}, Otto-von-Guericke University Magdeburg, 2010.  
+\item Stephan Spiegel.  A Hybrid Approach to Recommender Systems based
+  on Matrix Factorization, \emph{Dipl.-Inform.}, Technical University of
+  Berlin, 2009.  
+\item Christian Banik.  Recommending Wiki Articles using Collaborative
+  Filtering, \emph{Dipl.-Inform.}, Technical University of Berlin, 2009. 
+\item Iris Breddin.  Untersuchung der Klassifizierbarkeit und
+  Klassifikation von Schweißnahtdaten, \emph{Dipl.-Inform.}, Technical
+  University of Berlin, 2008.    
+\end{itemize}
+
+\section{Conference Organization}
+\begin{itemize}
+\item \href{https://sites.google.com/site/ocm2016/}{WeST Off-Campus
+  Meeting} (OCM), 2016, Chair. 
+\item \href{http://informatik2013.de/}{INFORMATIK}, 2013, Publicity Chair. 
+\item \href{http://www.websci11.org/}{Web Science Conf.} (WebSci), 2011,
+  Publicity Chair.  
+\item \href{http://www.dai-labor.de/unm2010/}{Special Session on
+  Uncertainty in Network Mining} (UNM) at the Int.\ Conf.\ on Information
+  Processing and Management of Uncertainty in Knowledge-based Systems (IPMU),
+  2010, Technical Chair.   
+\end{itemize}
+
+\section{Program Committees}
+\begin{itemize}
+\item \href{http://www.icwsm.org/2016/index.php}{Int.\ AAAI Conf.\ on
+  Web and Social Media} (ICWSM), 2016.
+\item \href{http://www.snow-workshop.org/}{Workshop on Social News on
+  the Web} (SNOW) at the World Wide Web Conf.\ (WWW), 2016. 
+\item \href{http://events.kmi.open.ac.uk/salsa2016/}{Workshop on SociAL
+  Semantic Analysis} (SALSA), 2016.
+\item \href{https://failworkshops.wordpress.com/fail-at-ir16/}{\#FAIL!
+  -- The Workshop Series} at the Internet Research Conf.\ (IR), 2015.
+\item \href{http://www.www2015.it/call-for-web-science-track/}{Web
+  Science Track}, Int.\ World Wide Web Conf.\ (WWW), 2015.
+\item \href{https://failworkshops.wordpress.com/fail-workshop-at-websci15/}{\#FAIL! -- The Workshop Series} at the Web Science Conf.\ (WebSci), 2015.
+\item \href{http://www.websci14.org/}{Web Science Conf.} (WebSci),
+  2014. 
+\item \href{http://www.snow-workshop.org/}{Workshop on Social News on
+  the Web} (SNOW) at the World Wide Web Conf.\ (WWW), 2014.
+\item \href{http://www.cool2014.com/}{Workshop on Connecting Online \&
+  Offline Life} (COOL) at the World Wide Web Conf.\ (WWW), 2014. 
+\item \href{http://www2014.kr/calls/call-for-web-science-track/}{Web
+  Science Track}, Int.\ World Wide Web Conf.\ (WWW), 2014.
+\item \href{http://ijcai13.org/}{Int.\ Joint Conf.\ on Artificial
+  Intelligence} (IJCAI), 2013.  
+\item \href{http://www.websci13.org/}{Web Science Conf.} (WebSci), 2013. 
+\item \href{http://webscience-education-workshop.blogs.usj.edu.lb/}{Web
+  Science Education Workshop} at the Web Science Conf.\ (WebSci), 2013. 
+\item \href{http://www.ftsm.ukm.my/stair13/}{Conf.\ on Semantic
+  Technology and Information Retrieval} (STAIR), 2013. 
+\item \href{http://spim-workshop.org/}{Int.\ Workshop on Semantic
+  Personalized Information Management} (SPIM) at the Int.\ Conf.\ on Web
+  Search and Data Mining (WSDM), 2013.  
+\item \href{http://ecir2013.org/}{European Conf.\ on Information
+  Retrieval} (ECIR), 2013.  
+\item \href{http://mama.west.uni-koblenz.de/}{Workshop on Metrics,
+  Analysis and Tools for Online Community Management} (MAMA), at
+  INFORMATIK, 2013
+\item \href{http://www.websci12.org/}{Web Science Conf.} (WebSci), 2012. 
+\item \href{http://ecir2012.upf.edu/}{European Conf.\ on Information
+  Retrieval} (ECIR), poster track, 2012.  
+\item \href{http://www.oegai.at/konvens2012/}{Conf.\ on Natural Language
+  Processing} (KONVENS), 2012. 
+\item \href{http://spim-workshop.org/}{Workshop on Personalized
+  Information Management: Linking Social and Semantic Web} (SPIM) at the
+  Int.\ Conf.\ on Web Engineering (ICWE), 2012. 
+\item \href{http://www.cikm2011.org/}{Conf.\ on Information and Knowledge
+  Management} (CIKM), 2011.
+\item \href{http://www.websci11.org/}{Web Science Conf.} (WebSci), 2011.
+\item \href{http://www.sigkdd.org/kdd/2011/}{Int.\ Conf.\ on 
+  Knowledge Discovery and Data Mining} (KDD), research track, 2011.
+\item \href{http://www.dai-labor.de/camra2010/}{Challenge on
+  Context-aware Movie Recommendation} (CAMRa) at the Conf.\ on  
+  Recommender Systems (RecSys), 2010.   
+\item \href{http://www.dai-labor.de/unm2010/}{Special Session on Uncertainty in Network Mining} (UNM) at the
+  Int.\ Conf.\ on Information Processing and Management of
+  Uncertainty in Knowledge-based Systems (IPMU), 2010. 
+\end{itemize}
+
+%- \section{Review Boards and Other Reviewing}
+%- \begin{itemize}
+%- \item \href{http://journals.cambridge.org/action/displayJournal?jid=NWS}{Network Science}, 2015, 2016.
+%- \item \href{http://surveys.acm.org/}{ACM Computing Surveys}, 2014, 2015. 
+%- \item \href{http://www.webscience-journal.net}{The J.\ of Web Science}, 2014. 
+%- \item \href{http://toit.acm.org/}{ACM Trans. on Internet
+%- Technologies} (TOIT), 2014.  
+%- \item \href{http://www.ii.pwr.wroc.pl/~krol/eng_EPP.htm}{Special
+%- Issue on ``Propagation Phenomenon in Complex Networks:  Theory and
+%- Practice''}, New Generation Computing, 2014. 
+%- \item \href{http://iswc2013.semanticweb.org/}{Int.\ Semantic Web Conf.}
+%- (ISWC), 2013.  
+%- \item \href{http://www.compstat2012.org/}{Int.\ Conf. on Computational
+%- Statistics} (COMPSTAT), 2012.  
+%- \item
+%- \href{http://www.journals.elsevier.com/computer-networks/}{Int.\ J.\ of
+%- Computer and Telecommunications Networking} (COMNET), 2012. 
+%- \item \href{http://ieee-cis.org/pubs/tnn/}{IEEE Trans. on Neural
+%- Networks} (TNN), 2011.   
+%- \item
+%- \href{http://www.springer.com/computer/ai/journal/10458}{J.\ on Autonomous
+%- Agents and Multi-agent Systems} (AAMAS), Special Issue on Agent Mining,
+%- 2011. 
+%- \item \href{http://tkdd.cs.uiuc.edu/}{ACM Trans. on Knowledge
+%- Discovery from Data} (TKDD), 2011.  
+%- \item \href{http://mklab.iti.gr/tvca/}{TV Content Analysis} (TVCA), 2011.
+%- \item \href{http://www.loa-cnr.it/ontolex2010}{Workshop on Ontologies
+%- and Lexical Resources} (OntoLex) at the Int.\ Conf.\ on Computational
+%- Linguistics (COLING), 2010. 
+%- \end{itemize}
+
+\newcommand{\bibname}{
+%- \hide{
+Ten Selected
+%- }
+Publications
+}
+%\bibliographystyle{alpha}
+%\bibliographystyle{unsrturl}
+% The style is defined in publications.tex, not here
+\bibliography{kunegis}
+
+\section{Keynotes and Invited Talks}
+\begin{itemize}
+\item Algebraic Graph-theoric Measures of Conflict, 
+  \href{http://jgss.sciencesconf.org/}{Journée Graphes et Systèmes
+    Sociaux} (Seminar on Graphs and Social Systems), 2016.  
+\item Measuring Conflict in Signed Social Networks, 
+  Application of Network Theory on Computational Social Science
+  (Workshop), 2015.
+\item Large Network Collections:  The Power of Many Datasets,
+  \href{http://www.ars15.unisa.it/}{Int.\ Workshop on Social
+    Network Analysis} (ARS), 2015. 
+\item Network Analysis Tools for Online Communities: The Koblenz Network
+  Collection. Keynote, \href{http://mama.west.uni-koblenz.de/}{Workshop
+    on Metrics, Analysis and Tools for Online Community Management}
+  (MAMA), 2013.  
+\end{itemize}
+
+%- \section{Other Talks}
+%- \begin{itemize}
+%-   \item Web Science in Practice:  Web Observatories.  WSTNet Web
+%-     Science Summer School, 2016.  
+%-   \item KONECT: The Koblenz Network Collection -- Towards a Broad
+%-     Analysis of Complex Systems.  ETH Zürich, 2015.
+%-   \item Observing the Web: The Koblenz Network Collection.
+%-     Bournemouth University, 2013.
+%-   \item Growth and Decay: Using Machine Learning to Predict the Web's
+%-     Future, Workshop on Artificial Intelligence on the Web, 2012. 
+%-   \item Models of Like, Dislike, Similarity and Dissimilarity using
+%-     Split-complex Numbers, University College Dublin, 2012. 
+%-   \item Why Is Beyoncé More Popular Than Me:  Fairness, Diversity and
+%-     Other Measures of Network Equality. University of Freiburg, 2012. 
+%-   \item Fairness on the Web: Alternatives to the Power
+%-     Law. 
+%-     Leibniz-Institut für Sozialwissenschaften, Cologne, 2012.  
+%-   \item On the Spectral Evolution of Large Networks.  University College
+%-     Cork, 2011.   
+%-   \item On the Spectral Evolution of Large Networks.  Fraunhofer IAIS,
+%-     St.\ Augustin, 2011.  
+%-   \item On the Spectral Evolution of Large Networks. Technical
+%-     University of Berlin, 2011.  
+%-   \item The Slashdot Zoo: Mining a Social Network with Negative
+%-     Edges. Data and Knowledge Engineering Research Colloquium,
+%-     Otto-von-Guericke University Magdeburg, 2010.  
+%-   \item The Slashdot Zoo: Mining a Social Network with Negative
+%-     Edges. University of Koblenz--Landau, 2010. 
+%-   \item The Slashdot Zoo: Mining a Social Network with Negative
+%-     Edges. University of Hannover, 2010. 
+%-   \item PIA+COMM~-- an Intelligent Search Engine.
+%-     Michael Hahne, Corinna Jung, Jérôme Kunegis, Andreas Lommatzsch and
+%-     André Paus. 
+%-     Workshop on the Formation of Social Networks in Social Software
+%-     Applications, INFORMATIK, 2006. 
+%- \end{itemize}
+
+%- \section{Posters without Publication}
+%- \begin{itemize}
+%-   \item Linguistic Neighbourhoods:  Explaining Cultural Borders on
+%-     Wikipedia through Multilingual Co-editing Activity.  Anna
+%-     Samoilenko, Fariba Karimi, Daniel Edler, Jérôme Kunegis, Markus
+%-     Strohmaier, Int.\ School and Conf.\ on Network Science (NetSciX),
+%-     2016. 
+%-   \item
+%-     Social Network Observatory.  Jérôme Kunegis, Markus Strohmaier,
+%-     Steffen Staab.  Computational Social Science Winter Symposium, 2015.
+%-   \item 
+%-     Quantifying Cultural Similarity through Language Co-occurrences
+%-     in Wikipedia Editing Activity. Anna Samoilenko, Fariba Karimi,
+%-     Daniel Edler, Jérôme Kunegis, Markus Strohmaier.  Computational
+%-     Social Science Winter Symposium, 2015.
+%-   \item 
+%-     Polarisation in Voting Platforms: A Case Study of LiquidFeedback
+%-     in the German Pirate Party. Manuel Mittler, Christoph Carl Kling,
+%-     Jérôme Kunegis, Markus Strohmaier, Computational Social Science
+%-     Winter Symposium, 2015.
+%-   \item
+%-     Twitter as a Political Network -- Predicting the Following and
+%-     Unfollowing Behavior of {German} Politicians. Julia Perl, Claudia
+%-     Wagner, Jérôme Kunegis, Steffen Staab, Web Science Conf., 2015. 
+%-   \item 
+%-     Online Delegative Democracy: A Case Study of the German Pirate
+%-     Party's Voting Platform.  Christoph Carl Kling, Jérôme Kunegis,
+%-     Heinrich Hartmann.  Computational Social Science Winter
+%-     Symposium, 2014.
+%-   \item
+%-     Social Networking By Proxy: A Case Study of Catster, Dogster and
+%-     Hamsterster. Computational Social Science Winter
+%-     Symposium, 2014.
+%-   \item 
+%-     A Theory-Driven Approach for Link and Unlink Predictions in
+%-     Directed Social Networks. Julia Perl, Claudia Wagner, Jérôme
+%-     Kunegis, Steffen Staab.  Computational Social Science Winter
+%-     Symposium, 2014.
+%-   \item 
+%-     \href{http://userpages.uni-koblenz.de/~kunegis/paper/kunegis-konect.poster.netsci2012.pdf}{KONECT -- The Koblenz Network Collection}.  
+%-     Jérôme Kunegis, Steffen Staab, Daniel Dünker.
+%-     Int.\ School and Conf.\ on Network Science, 2012.  
+%-   \item
+%-     \href{http://uni-koblenz.de/~kunegis/paper/kunegis-konect.poster.essir.pdf}{Need
+%-     Networks? KONECT -- The Koblenz Network Collection}.
+%-     European Summer School on Information Retrieval, 2011. 
+%-   \item
+%-     \href{http://uni-koblenz.de/~kunegis/paper/kunegis-konect.poster.pdf}{KONECT~--
+%-     The Koblenz Network Collection}. Web Science Conf., 2011. 
+%-   \item
+%-     \href{http://uni-koblenz.de/~kunegis/paper/kunegis-spread-modes.poster.pdf}{Uncovering
+%-     Multi-modal Spread Modes using Joint 
+%-     Diagonalization in Dynamic Human Contact Networks}. 
+%-     Damien Fay, Jérôme Kunegis, Eiko Yoneki.  Interdisciplinary
+%-     Workshop on Information and Decision in Social Networks, 2011. 
+%-   \item
+%- \href{http://uni-koblenz.de/~kunegis/paper/kunegis-phdthesis.poster.pdf}{On
+%- the Spectral Evolution of Large Networks}. Postersession 
+%-         für Nachwuchswissenschaftler/innen, University of Koblenz--Landau,
+%-         2011. 
+%-   \item
+%- \href{http://uni-koblenz.de/~kunegis/paper/kunegis-phdthesis.poster-sdm.pdf}{On
+%- the Spectral Evolution of Large Networks}. SIAM 
+%-     Conf.\ on Data Mining Doctoral Forum, 2010. 
+%- \end{itemize}
+
+%- \section{Demonstrations and Presentations}
+%- \begin{itemize}
+%-  \item Institute for Web Science and Technologies, conference booth.
+%-        \href{http://informatik2013.de}{INFORMATIK 2013}.  
+%-  \item Schülerinformationstage, Institute for Web Science and
+%-        Technologies, University of Koblenz--Landau, 2011, 2013, 2015, 2016.  
+%-  \item LiveTweet: Monitoring and Predicting Interesting Microblog
+%-        Posts, \href{http://ecir2012.upf.edu/}{European Conference on Information Retrieval} (ECIR),
+%-        2012. 
+%-  \item Time-aware Centrality in Contact Network Analysis.
+%-        Eiko Yoneki, Damien Fay, Jérôme Kunegis.
+%-        \href{http://www.eccs2011.eu/}{European Conference on Complex Systems} (ECCS), 2011. 
+%-  \item PIA, Spree, CeBIT, 2010.
+%-  \item PIA+COMM, CeBIT, 2007.
+%-  \item PIA, Lange Nacht der Wissenschaften Berlin/Potsdam, 2006. 
+%- \end{itemize}
+
+\section{Mentions in Media}
+\begin{itemize}
+  \item
+    \href{https://www.piratenpartei.de/2015/05/31/die-abstimmungssoftware-liquidfeedback-der-piratenpartei-wegweisend-fuer-demokratie-2-0/}{Die
+      Abstimmungssoftware LiquidFeedback in der Piratenpartei:
+      wegweisend für Demokratie 2.0?}, www.piratenpartei.de, May 2015. 
+\item
+  \href{http://www.wired.it/attualita/2015/04/01/come-funzionato-davvero-democrazia-liquida-dei-pirati-tedeschi/}{Come
+    ha funzionato davvero la democrazia liquida dei Pirati tedeschi},
+  Wired Italia, April 2015. 
+\end{itemize}
+
+\section{Awards and Nominations}
+\begin{itemize}
+  \item First Prize, Int.\ Conf.\ on Web and Social Media (ICWSM) Science Slam, 2016.
+  \item Best Poster Award, Int.\ School and Conf.\ on Network Science
+    (NetSciX), 2016. 
+  \item Best Paper Honorable Mention, Int.\ Conf.\ on Web and Social
+    Media (ICWSM), 2015.  
+  \item Ted Nelson Newcomer Award Nominee, Conf.\ on Hypertext and
+    Social Media (HT), 2012.   
+  \item Student Travel Award, Int.\ Conf.\ on Information and Knowledge
+    Management (CIKM), 2010. 
+  \item Student Travel Fellowship Award, SIAM Conf.\ on Data Mining (SDM),
+    2010.  
+  \item Best Paper Nominee, Industrial Conf.\ on Data Mining (IndCDM), 2007.    
+  \item Premier Prix (First Prize), Rallye mathématique d'Alsace, Terminale (Alsace Mathematical Rally), 1999. 
+\end{itemize}
+
+\section{Main Software Authorship}
+\begin{itemize}
+  \item \href{https://github.com/kunegis/stu}{Stu}, build automation (C++11)
+  \item SynGraphy, graph generator (Matlab)
+  \item \href{http://konect.uni-koblenz.de/toolbox}{KONECT Toolbox}, network analysis toolbox (Matlab, C99)
+  \item \href{https://west.uni-koblenz.de/Research/systems/polcovar}{Polcovar}, software for counting patterns in random graphs (Matlab)
+  \item Universal Recommender, recommendation library (Java)
+  \item BabyChess, chess engine (C++98)
+\end{itemize}
+
+\section{Miscellaneous}
+\begin{itemize}
+  \item Birthday:  March 27
+  \item Languages: French (first language), German (first language),
+    English (advanced)
+  \item Programming languages and technologies I use extensively:
+    Bourne shell, C, C++, Java, Latex, Make, Matlab, sed
+%-  \item Other programming languages and technologies I have used:
+%-    BASIC, HTML, JavaScript, Logo, Perl, PHP, Turbo Pascal 
+\end{itemize}
+
+\end{resume}
+\end{document}
+

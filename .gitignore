@@ -1,9 +1,10 @@
+konect-extr
+bibtex
 *.aux
 *.bbl
 *.blg
 *.log
-konect-extr
-cv-kunegis-long.tex
 *.dvi
+cv-kunegis-long.tex
 publications-long.tex
 publications-short.tex

@@ -13,13 +13,11 @@
 cv-kunegis.pdf:  
 	cv-kunegis.tex kunegis.bib tub.bib konect.bib
 	publications-short.aux
-	## mkbbl 
 {
 	rm -f *.log *.out *.bbl *.blg
 	cp publications-short.aux cv-kunegis.aux
 	pdflatex cv-kunegis.tex
 	bibtex cv-kunegis
-##	./mkbbl cv-kunegis.bbl
 	pdflatex cv-kunegis.tex
 	pdflatex cv-kunegis.tex
 }
@@ -36,13 +34,11 @@ cv-kunegis.pdf:
 cv-kunegis-long.pdf:  
 	cv-kunegis-long.tex kunegis.bib tub.bib
 	publications-long.aux
-	## mkbbl 
 {
 	rm -f *.log *.out *.bbl *.blg
 	cp publications-long.aux cv-kunegis-long.aux
 	pdflatex cv-kunegis-long.tex
 	bibtex cv-kunegis-long
-##	./mkbbl cv-kunegis-long.bbl
 	pdflatex cv-kunegis-long.tex
 	pdflatex cv-kunegis-long.tex
 }
@@ -62,9 +58,13 @@ publications-$name.aux:  publications-$name.tex
 	sed -re 's,^%-,,'
 }
 
-$name.bib = ../kunegis/bibtex/;
+$name.bib  = bibtex/;
 konect.bib = konect-extr/;
 
-../kunegis/bibtex/$name.bib;
-konect-extr/konect.bib;
+bibtex/$name.bib: -p bibtex;
+konect-extr/konect.bib:  -p konect-extr;
 
+# These directories must be linked to the corresponding GitHub
+# repositories. 
+konect-extr;
+bibtex;

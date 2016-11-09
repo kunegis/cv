@@ -1,0 +1,42 @@
+#! /bin/sed -Ef
+#
+# Translate source to German. 
+#
+
+s,Complete CV,Vollständiger Lebenslauf,g
+
+s,University of Koblenz--Landau,Universität Koblenz--Landau,g
+s,Germany,Deutschland,g
+
+s,Education,Ausbildung,g
+s,Positions,Stellen,g
+s,Teaching,Lehre,g
+s,Supervised \\\\ Theses,Betreute \\\\ Abschlussarbeiten,
+s,Conference Organization,Konferenz-Organisation,g
+s,Program Committees,Mitgliedschaften in \\ Programm- \\ Ausschüssen,g
+s,Review Boards and Other Reviewing,Review-Tätigkeiten,g
+s,Keynotes and Invited Talks,Eingeladene Vorträge,g
+s,Other Talks,Andere Vorträge,g
+s,Posters without Publication,Poster ohne Publikation,g
+s,Demonstrations and Presentations,Demos und Präsentationen,g
+s,Mentions in Media,Erwähnungen in Medien,g
+s,Awards and Nominations,Preise und Nominierungen,g
+s,Main Software Authorship,Autorschaft von Software,g
+s,Miscellaneous,Verschiedenes,g
+s,Publications,Publikationen,g
+
+s,Visiting Postdoctoral Researcher,Besuchender Postdoktorand,g
+s,Postdoctoral Researcher,Postdoktorand,g
+s,Student Research Assistant,Studentische Hilfskraft,g
+s,Research Assistant,Wissenschaftliche Hilfskraft,g
+
+s,Birthday,Geburtstag,g
+s,March 27,27. März,g
+s,Programming languages and technologies I use extensively,Hauptprogrammiersprachen und -technologien,
+s,Other programming languages and technologies I have used,Andere Programmiersprachen und -technologien,
+s,Languages,Sprachen,
+s,French,Französisch,
+s,German,Deutsch,
+s,English,Englisch,
+s,first language,Muttersprache,g
+s,\(advanced\),(professionell),

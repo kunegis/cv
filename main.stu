@@ -15,10 +15,10 @@
 cv-$variant.pdf:  
 	cv-$variant.tex
 	kunegis.bib tub.bib konect.bib
-	publications-short.aux
+	publications-$variant.aux
 {
 	rm -f *.log *.out *.bbl *.blg
-	cp publications-short.aux cv-"$variant".aux
+	cp publications-"$variant".aux cv-"$variant".aux
 	pdflatex cv-"$variant".tex
 	bibtex cv-"$variant"
 	pdflatex cv-"$variant".tex
@@ -40,13 +40,13 @@ publications-$name.aux:  publications-$name.tex
 	latex publications-"$name"
 }
 
->publications-short.tex:  <publications.tex
+>publications-kunegis.tex:  <publications.tex
 {
 	# We could also keep the lines; it doesn't matter
 	sed -E -e '/^%-/d'
 }
 
->publications-long.tex:  <publications.tex
+>publications-kunegis-long.tex:  <publications.tex
 {
 	sed -E -e 's,^%-,,'
 }

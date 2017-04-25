@@ -6,5 +6,5 @@ bibtex
 *.log
 *.dvi
 cv-kunegis-long.tex
-publications-long.tex
-publications-short.tex
+publications-kunegis-long.tex
+publications-kunegis.tex

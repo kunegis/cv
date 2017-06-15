@@ -8,7 +8,9 @@
 
 % version 2.4
 
-@all:  cv-kunegis.pdf cv-kunegis-long.pdf; 
+@all:  
+	cv-kunegis.pdf cv-kunegis-long.pdf
+	@check_publications extbib.tex; 
 
 @all-german:  cv-kunegis-german.pdf;
 
@@ -42,13 +44,28 @@ publications-$name.aux:  publications-$name.tex
 
 >publications-kunegis.tex:  <publications.tex
 {
+	echo '% AUTOMATICALLY GENERATED -- DO NOT EDIT'
 	# We could also keep the lines; it doesn't matter
 	sed -E -e '/^%-/d'
 }
 
 >publications-kunegis-long.tex:  <publications.tex
 {
+	echo '% AUTOMATICALLY GENERATED -- DO NOT EDIT'
 	sed -E -e 's,^%-,,'
+}
+
+@check_publications:  publications-kunegis-long.aux
+{
+	n="$(echo $(<publications-kunegis-long.aux grep -E '^\\citation\{' | wc -l))"
+	m="$(echo $(<kunegis.bib sed -E -e 's,^@([a-z]+)\{.*$,\1,;t;d' | grep -E -v '^(mastersthesis|phdthesis)$' | wc -l))"
+
+	[ "$n" -ne "$m" ] && {
+		echo >&2 "*** different numbers of publications:  $n != $m"
+		exit 1
+	}
+
+	exit 0
 }
 
 $name.bib  = bibtex/;
@@ -75,4 +92,9 @@ bibtex;
 	# Remove lines starting with '%-'
 	sed -E -e 's,^%-,,' |
 	./german
+}
+
+>extbib.tex:  <publications-kunegis-long.aux mkext
+{
+	./mkext
 }

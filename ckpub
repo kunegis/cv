@@ -1,0 +1,37 @@
+#! /bin/sh
+#
+# Check that the publication list is valid. 
+#
+
+set -e
+
+#
+# Check that the publication count in kunegis.bib and publications.tex
+# is identical, excluding theses. 
+#
+
+n="$(echo $(<publications.aux grep -E '^\\citation\{' | wc -l))"
+m="$(echo $(<kunegis.bib sed -E -e 's,^@([a-z]+)\{.*$,\1,;t;d' | grep -E -v '^(mastersthesis|phdthesis)$' | wc -l))"
+
+[ "$n" -ne "$m" ] && {
+	echo >&2 "*** different numbers of publications:  $n != $m"
+	exit 1
+}
+
+#
+# Check that all 'kunegiscat' fields in kunegis.bib has valid values. 
+#
+
+
+
+<kunegis.bib sed -E -e '
+	s,.*kunegiscat\s*=\s*\{\s*([a-z]+)\s*\}.*,\1,;t;d
+' | while IFS= read -r cat ; do
+##	echo >&2 "CHECKING cat='$cat'"
+	grep -q -F "(kunegiscat=$cat)" kunegis.bib || {
+		echo >&2 "*** Invalid category '$cat'"
+		exit 1
+	}
+done
+
+exit 0

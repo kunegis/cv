@@ -13,6 +13,30 @@
 % We include the main URL via the 'url' field, and other URLs via
 % 'url_*' fields. 
 %
+% The 'kunegiscat' field is a custom field that represents the category of the
+% publication, and it can be: 
+%   * Journal article 					(kunegiscat=journal)
+%   * Conference paper with talk, own talk 		(kunegiscat=conftalkown)
+%   * Conference paper with talk, other talk		(kunegiscat=conftalkother)
+%   * Conference paper with poster, own presentation	(kunegiscat=confposterown)
+%   * Conference paper with poster, other presentation	(kunegiscat=confposterother)
+%   * Conference paper with talk+poster, own            (kunegiscat=conftalkposterown)
+%   * Conference paper with talk+poster, other          (kunegiscat=conftalkposterother)
+%   * Workshop paper with talk, own talk		(kunegiscat=workshoptalkown) 
+%   * Workshop paper with talk, other talk		(kunegiscat=workshoptalkother) 
+%   * Workshop paper with talk+poster, own		(kunegiscat=workshoptalkposterown) 
+%   * Workshop paper with talk+poster, other		(kunegiscat=workshoptalkposterother) 
+%   * Abstract with poster, own 			(kunegiscat=abstractposterown)
+%   * Abstract with poster, other 			(kunegiscat=abstractposterother)
+%   * Abstract with demo, own                           (kunegiscat=abstractdemoown)
+%   * Abstract with demo, other 			(kunegiscat=abstractdemoother)
+%   * Other peer-reviewed 				(kunegiscat=peer)
+%   * Non-peer reviewed publication 			(kunegiscat=misc)
+%   * Thesis 						(kunegiscat=thesisown) 
+%   * Preprint / in review				(kunegiscat=preprint)
+%
+% Standalone posters are not saved here. 
+%
 
 %
 % Theses
@@ -25,6 +49,7 @@
 	year = {2006},
 	type = {diploma thesis},
 	url = {https://pdfs.semanticscholar.org/42ca/e9b00864ee09bc9bc92ef3d411e20b966a8d.pdf},
+	kunegiscat = {thesisown}, 
 }
 
 @phdthesis{kunegis:phd,
@@ -33,6 +58,7 @@
 	school = {Univ. of Koblenz--Landau},
 	year = {2011},
 	url = {https://kola.opus.hbz-nrw.de/frontdoor/index/index/docId/581},
+	kunegiscat = {thesisown}, 
 }
 
 %
@@ -46,6 +72,7 @@
 	year = {2007},
 	pages= {269--282},
 	url = {https://www.semanticscholar.org/paper/Collaborative-Filtering-using-Electrical-Resistanc-Kunegis-Schmidt/8266ddfc2cbfb6d69017ba7696bfe5335ea11b21},
+	kunegiscat = {conftalkown},
 }
 
 @inproceedings{kunegis:adapting-ratings,
@@ -54,6 +81,7 @@
 	booktitle = {Proc. Int. Conf. on Inf. Reuse and Integration},
 	year = {2007}, 
 	url = {http://ieeexplore.ieee.org/document/4296596/},
+	kunegiscat = {conftalkown},
 }
 
 @inproceedings{kunegis:assessing-unrated, 
@@ -64,6 +92,7 @@
 	year = {2007},
 	pages = {212--216}, 
 	url = {http://ieeexplore.ieee.org/document/4444225/},
+	kunegiscat = {conftalkown}, 
 }
 
 @inproceedings{kunegis:netflix-srd,
@@ -75,6 +104,7 @@
 	year = {2008},
 	pages = {261--265},
 	url = {http://dl.acm.org/citation.cfm?id=1567341},
+	kunegiscat = {conftalkown}, 
 }
 
 @inproceedings{kunegis:kernel-scalability,
@@ -87,6 +117,7 @@
 	pages = {35--38},
 	url = {http://www.dai-labor.de/en/publication/361},
 	url_presentation = {https://fr.slideshare.net/kunegis/kunegis-kernelscalabilitypresentation},
+	kunegiscat = {workshoptalkown}, 
 }
 
 @inproceedings{kunegis:alternative-similarity,
@@ -95,6 +126,7 @@
 	booktitle = {Proc. Int. Conf. on Pattern Recognit.},
 	year = {2008}, 
 	url = {http://ieeexplore.ieee.org/document/4761801/},
+	kunegiscat = {conftalkposterown},
 }
 
 @inproceedings{kunegis:slashdot-zoo,
@@ -105,6 +137,7 @@
 	pages = {741--750},	
 	url = {http://dl.acm.org/citation.cfm?id=1526809},
 	url_presentation = {https://www.slideshare.net/kunegis/the-slashdot-zoo-mining-a-social-network-with-negative-edges},
+	kunegiscat = {conftalkown}, 
 }
 
 @inproceedings{kunegis:spectral-transformation, 
@@ -116,6 +149,7 @@
 	url = {http://dl.acm.org/citation.cfm?id=1553447},
 	url_presentation = {https://fr.slideshare.net/kunegis/learning-spectral-graph-transformations-for-link-prediction},
 	url_video = {http://videolectures.net/icml09_kunegis_lsgtlp/},
+	kunegiscat = {conftalkposterown},
 }
 
 @misc{kunegis:universal-recommender,
@@ -124,6 +158,7 @@
 	year = {2009}, 
 	howpublished = {White paper}, 
 	url = {https://arxiv.org/abs/0909.3472},
+	kunegiscat = {misc}, 
 }
 
 @inproceedings{kunegis:signed-kernels,
@@ -135,6 +170,7 @@
 	year = {2010},
 	pages = {559--570}, 
 	url = {http://epubs.siam.org/doi/abs/10.1137/1.9781611972801.49},
+	kunegiscat = {conftalkposterown},                   
 }
 
 @inproceedings{kunegis:hyperbolic-sine,
@@ -144,6 +180,7 @@
 	booktitle = {Proc. Int. Conf. in Inf. Processing and Manag. of Uncertainty in Knowl.-based Syst.}, 
 	pages = {380--389},
 	url = {https://link.springer.com/chapter/10.1007/978-3-642-14049-5_39},
+	kunegiscat = {conftalkother}, 
 }
 
 @inproceedings{kunegis:spectral-network-evolution,
@@ -154,16 +191,17 @@
 	pages = {739--748}, 
 	url = {http://dl.acm.org/citation.cfm?id=1871533},
 	url_presentation = {https://www.slideshare.net/kunegis/presentation-5758116},
+	kunegiscat = {conftalkown}, 
 }
 
 @inproceedings{nasir:retweets,
 	title = {Bad News Travels Fast: A Content-based Analysis of Interestingness on {Twitter}},
-	author = {Nasir Naveed and Thomas Gottron and Jérôme Kunegis and
-                  Che Alhadi, Arifah},
+	author = {Nasir Naveed and Thomas Gottron and Jérôme Kunegis and Che Alhadi, Arifah},
 	booktitle = {Proc. Web Sci. Conf.},
 	year = {2011},
 	url = {http://dl.acm.org/citation.cfm?id=2527052},
 	url_video = {http://videolectures.net/acmwebsci2011_kunegis_interestingness/},
+	kunegiscat = {conftalkown}, 
 }
 
 @inproceedings{nasir:retweet-ranking,
@@ -174,6 +212,7 @@
 	year = {2011},
 	pages = {183--188},
 	url = {http://dl.acm.org/citation.cfm?id=2063607},
+	kunegiscat = {conftalkother}, 
 }
 
 @inproceedings{che-alhadi:trec-microblog,
@@ -183,6 +222,7 @@
 	booktitle = {Proc. Text Retrieval Conference},
 	year = {2011}, 
 	url = {https://link.springer.com/chapter/10.1007%2F978-3-642-28997-2_66},
+	kunegiscat = {conftalkown}, 
 }
 
 @inproceedings{che-alhadi:live-tweet,
@@ -193,6 +233,7 @@
 	pages = {569--570},
 	year = {2012},
 	url = {https://link.springer.com/chapter/10.1007/978-3-642-28997-2_66},
+	kunegiscat = {abstractdemoother}, 
 }
 
 @inproceedings{kunegis:network-rank,
@@ -203,6 +244,7 @@
 	pages = {255--264},
 	url = {http://dl.acm.org/citation.cfm?id=2310039},
 	url_presentation = {https://pt.slideshare.net/kunegis/presentation-2012ht},
+	kunegiscat = {conftalkown}, 
 }
 
 @article{kunegis:spectral-evolution,
@@ -215,6 +257,7 @@
 	number = {1},
 	url = {https://link.springer.com/article/10.1007/s10115-012-0575-9},
    	url_doi = {http://dx.doi.org/10.1007/s10115-012-0575-9},
+	kunegiscat = {journal}, 
 }
 
 @inproceedings{kunegis:power-law,
@@ -226,6 +269,7 @@
 	url = {http://dl.acm.org/citation.cfm?id=2380741},
 	url_slideshare = {https://www.slideshare.net/kunegis/fairness-on-the-web-alternatives-to-the-power-law-websci-2012},
 	url_video = {http://www.youtube.com/watch?v=udzzfF_KKso},
+	kunegiscat = {conftalkown}, 
 }
 
 @inproceedings{kunegis:konect-cloud,
@@ -238,6 +282,7 @@
 	url = {https://books.google.be/books?id=06fDCQAAQBAJ&pg=PA107}, 
 	url_presentation = {https://www.slideshare.net/kunegis/konect-cloud-large-scale-network-mining-in-the-cloud-12958650},
 	url_video = {http://www.tele-task.de/de/archive/video/flash/16348/},	
+	kunegiscat = {workshoptalkposterown}, 
 }
 
 @inproceedings{kunegis:split-complex-dating,
@@ -248,6 +293,7 @@
 	pages = {37--44},
 	url = {http://dl.acm.org/citation.cfm?id=2365942},
 	url_presentation = {https://fr.slideshare.net/kunegis/presentation-2012rsweb},
+	kunegiscat = {workshoptalkown}, 
 }
 
 @inproceedings{kunegis:directed-decomposition,
@@ -257,6 +303,7 @@
 	year = {2012},
 	pages = {948--953},
 	url = {http://ieeexplore.ieee.org/document/6413827/},
+	kunegiscat = {conftalkown}, 
 }
 
 @inproceedings{kunegis:latent-negative,
@@ -267,6 +314,7 @@
 	pages = {727--736},
 	url = {http://dl.acm.org/citation.cfm?id=2488452},
 	url_presentation = {https://www.slideshare.net/kunegis/presentationwww},
+	kunegiscat = {conftalkown}, 
 }
 
 @inproceedings{kunegis:preferential-attachment,
@@ -277,6 +325,7 @@
 	booktitle = {Proc. Web Sci. Conf.},
 	url = {http://dl.acm.org/citation.cfm?id=2464514}, 
 	url_arxiv = {http://arxiv.org/abs/1303.6271}, 
+	kunegiscat = {confposterown}, 
 }
 
 @article{kunegis:network-encyclopedia-1,
@@ -286,6 +335,7 @@
 	year = {2013},
 	publisher = {Springer},
 	url = {http://www.springer.com/gb/book/9781461461692},
+	kunegiscat = {peer},
 }
 
 @article{kunegis:network-encyclopedia-2,
@@ -295,6 +345,7 @@
 	year = {2013},
 	publisher = {Springer},
 	url = {http://www.springer.com/gb/book/9781461461692},
+	kunegiscat = {peer},
 }
 
 @inproceedings{kunegis:konect,
@@ -304,6 +355,7 @@
 	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
 	pages = {1343--1350},
 	url = {http://dl.acm.org/citation.cfm?id=2488173},
+	kunegiscat = {workshoptalkown}, 
 }
 
 @misc{kunegis:polcovar,
@@ -311,6 +363,7 @@
 	author = {Jérôme Kunegis},
 	year = {2014},
 	url = {http://arxiv.org/abs/1402.5835},
+	kunegiscat = {misc}, 
 }
 
 @online{kunegis:negativity,
@@ -319,6 +372,7 @@
 	year = {2014},
 	note = {arXiv:1402.6865},
 	url = {http://arxiv.org/abs/1402.6865},
+	kunegiscat = {misc}, 
 }
 
 @article{kunegis:bipartivity,
@@ -331,6 +385,7 @@
 	pages = {201--321},
 	doi = {10.1080/15427951.2014.958250},
 	url = {http://www.tandfonline.com/doi/abs/10.1080/15427951.2014.958250},
+	kunegiscat = {journal}, 
 }
 
 @article{kunegis:petster,
@@ -338,6 +393,7 @@
 	author = {Daniel Dünker and Jérôme Kunegis},
 	year = {2015},
 	url = {http://arxiv.org/abs/1501.04527},
+	kunegiscat = {misc},
 }
 
 @inproceedings{duenker:petster,
@@ -347,6 +403,7 @@
 	year = {2015},
 	pages = {361--362},
 	url = {http://dl.acm.org/citation.cfm?id=2745936},
+	kunegiscat = {confposterother}, 
 }
 
 @article{kunegis:nopref,
@@ -362,6 +419,7 @@
 	url_arxiv = {https://arxiv.org/abs/1408.0119},
 	url_src = {https://github.com/yfiua/nopref/jimis/},
 	doi = {10.18713/JIMIS-140417-2-4},
+	kunegiscat = {journal}, 
 }
 
 @article{kunegis:graph-generator,
@@ -371,6 +429,7 @@
 	journal = {Comput. Soc. Netw.},
 	note = {In review},
 	url_src = {https://github.com/yfiua/graph-generator/2017/},
+	kunegiscat = {preprint}, 
 }
 
 @inproceedings{kunegis:nopref-netsci,
@@ -380,6 +439,7 @@
 	author = {Jérôme Kunegis and Fariba Karimi and Jun Sun},
 	booktitle = {Proc. Int. Sch. and Conf. on Netw. Sci.},
 	year = {2017},
+	kunegiscat = {abstractposterown}, 
 }
 
 %
@@ -392,6 +452,7 @@
 	year = {2010},
 	booktitle = {Proc. Ambient Assisted Living},
 	url = {http://www.dai-labor.de/fileadmin/files/publications/karatas10a.pdf},
+	kunegiscat = {conftalkother}, 
 }
 
 @inproceedings{hahne:gradualisiertes-communitymodell,
@@ -399,9 +460,8 @@
 	author = {Michael Hahne and Corinna Jung and Jérôme Kunegis and Andreas Lommatzsch and André Paus}, 
 	booktitle = {Analyse sozialer {Netzwerke} und {Social} {Software} -- {Grundlagen} und {Anwendungsbeispiele}},
 	year = {2007},
-	_publisher = {Gito},
-	_editor = {Claudia Müller and Norbert Gronau}, 
 	url = {http://sowiport.gesis.org/search/id/gesis-solis-00401999},
+	kunegiscat = {journal}, 
 }
 
 @inproceedings{said:exploiting-hierarchical-tags,
@@ -411,6 +471,7 @@
 	year = {2010}, 
 	pages = {35--36}, 
 	url = {http://dl.acm.org/citation.cfm?doid=1871962.1871984},
+	kunegiscat = {confposterown}, 
 }
 
 @inproceedings{lommatzsch:multi-agent,
@@ -419,6 +480,7 @@
 	booktitle = {Proc. German e-{Science}},
 	year = {2007},
 	url = {http://pubman.mpdl.mpg.de/pubman/item/escidoc:1786624/component/escidoc:1786623/GES_paper65.pdf},
+	kunegiscat = {conftalkother}, 
 }
 
 @inproceedings{mehlitz:ir-measure,
@@ -427,6 +489,7 @@
 	booktitle = {Proc. Int. Conf. Web Intelligence},
 	year = {2007},
 	url = {http://ieeexplore.ieee.org/document/4427109/},
+	kunegiscat = {conftalkother}, 
 }
 
 @inproceedings{mehlitz:evaluation-measure,
@@ -435,6 +498,7 @@
 	booktitle = {Proc. Int. Conf. on Syst., Man and Cybernetics},
 	year = {2007},
 	url = {http://ieeexplore.ieee.org/document/4413662/},
+	kunegiscat = {conftalkother}, 
 }
 
 @inproceedings{milosevic:update-policy,
@@ -443,6 +507,7 @@
 	booktitle = {Proc. WI Workshops},
 	year = {2007}, 
 	url = {http://ieeexplore.ieee.org/document/4427620/},
+	kunegiscat = {workshoptalkother}, 
 }
 
 @inproceedings{schmidt:bandwidth-optimization,
@@ -452,6 +517,7 @@
 	year = {2007}, 
 	pages = {95--100}, 
 	url = {http://ieeexplore.ieee.org/document/4444068/},
+	kunegiscat = {conftalkother}, 
 }
 
 @inproceedings{spiegel:hydra,
@@ -461,6 +527,7 @@
 	year = {2009}, 
 	pages = {75--80},
 	url = {http://dl.acm.org/citation.cfm?id=1651289},
+	kunegiscat = {workshoptalkother}, 
 }
 
 @inproceedings{deluca:multilingual,
@@ -470,6 +537,7 @@
 	year = {2010},
 	pages = {41--42},
 	url = {http://ceur-ws.org/Vol-571/paper8.pdf},
+	kunegiscat = {workshoptalkown}, 
 }
 
 @inproceedings{spiegel:time-tensor,
@@ -478,6 +546,7 @@
 	booktitle = {Proc. Workshop on Behavior Informatics}, 
 	year = {2011},
 	url = {http://ieeexplore.ieee.org/document/5360493/},
+	kunegiscat = {workshoptalkother}, 
 }
 
 @article{fay:appcluster,
@@ -491,6 +560,7 @@
 	number = {15},
 	pages = {3458--3468},
 	url = {http://www.sciencedirect.com/science/article/pii/S1389128611002374}, 
+	kunegiscat = {journal}, 
 }
 
 @inproceedings{gottron:rule,
@@ -500,6 +570,7 @@
 	booktitle = {Proc. Web Sci. Conf.},
 	year = {2011},
 	url = {http://ansgarscherp.net/publications/pdf/P09-GottronEtAl-OneCommunityDoesNotRuleThemAll.pdf},
+	kunegiscat = {confposterother}, 
 }
 
 @techreport{fay:centrality,
@@ -509,6 +580,7 @@
 	year = {2011},
 	url = {http://arxiv.org/abs/1110.1198},
 	url_cam = {http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-806.html},
+	kunegiscat = {misc}, 
 }
 
 @inproceedings{preusse:unlink-prediction,
@@ -519,6 +591,7 @@
 	year = {2013},
 	pages = {506--515},
 	url = {https://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/view/6076},
+	kunegiscat = {conftalkother}, 
 }
 
 @inproceedings{fay:joint-diagonalization,
@@ -528,6 +601,7 @@
 	booktitle = {Proc. Int. Conf. on Advances in Soc. Netw. Anal. and Min.},
 	pages = {41--48},
 	url = {http://ieeexplore.ieee.org/document/6785685/},
+	kunegiscat = {conftalkother}, 
 }
 
 @inproceedings{kling:mgtm,
@@ -538,6 +612,7 @@
 	year = {2014},
 	pages = {603--612},
 	url = {http://dl.acm.org/citation.cfm?id=2556218},
+	kunegiscat = {conftalkother}, 
 }
 
 @online{perl:decline,
@@ -545,6 +620,7 @@
 	author = {Julia Preusse and Jérôme Kunegis and Matthias Thimm and Sergej Sizov}, 
 	year = {2014},
 	url = {http://arxiv.org/abs/1403.4415},
+	kunegiscat = {misc}, 
 }
 
 @article{komepol:dud,
@@ -558,6 +634,7 @@
 	number = {5},
 	pages = {312--316},
 	url = {http://link.springer.com/article/10.1007/s11623-015-0419-3},
+	kunegiscat = {journal}, 
 }
 
 @inproceedings{kling:lqfb,
@@ -569,6 +646,7 @@
 	year = {2015},
 	pages = {208--217}, 
 	url = {http://www.aaai.org/ocs/index.php/ICWSM/ICWSM15/paper/view/10566},
+	kunegiscat = {conftalkother}, 
 }
 
 @inproceedings{samoilenko:wikilang,
@@ -579,6 +657,7 @@
 	booktitle = {Proc. Web Sci. Conf.},
 	year = {2015},
 	url = {http://dl.acm.org/citation.cfm?id=2786497},
+	kunegiscat = {abstractposterother}, 
 }
 
 @inproceedings{perl:twitter-unlink,
@@ -587,8 +666,8 @@
 	author = {Julia Perl and Claudia Wagner and Jérôme Kunegis and Steffen Staab},
 	booktitle = {Proc. Web Sci. Conf.}, 
 	year = {2015},
-	notes = {poster}, 
 	url = {http://dl.acm.org/citation.cfm?id=2786506},
+	kunegiscat = {abstractposterother}, 
 }
 
 @inproceedings{homscheid:lkml,
@@ -602,6 +681,7 @@
 	year = {2015},
 	pages = {299--313},
 	url = {https://link.springer.com/chapter/10.1007/978-3-319-25013-7_24},
+	kunegiscat = {conftalkother}, 
 }
 
 @article{samoilenko:language-hierarchy,
@@ -615,6 +695,7 @@
 	number = {9},
 	doi = {10.1140/epjds/s13688-016-0070-8},
 	url = {http://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-016-0070-8},
+	kunegiscat = {journal}, 
 }
 
 @inproceedings{schelter:trackers,
@@ -624,6 +705,7 @@
 	booktitle = {Proc. Int. Conf. on Web and Soc. Media},
 	year = {2016},
 	url = {https://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13024},
+	kunegiscat = {conftalkother}, 
 }
 
 @misc{schelter:trackers-journal,
@@ -632,6 +714,7 @@
 	year = {2016},
 	note = {In review},
 	url = {https://arxiv.org/abs/1607.07403},
+	kunegiscat = {preprint}, 
 }
 
 @article{toedtli:ctqw,
@@ -647,6 +730,7 @@
 	url = {http://journals.aps.org/pra/abstract/10.1103/PhysRevA.94.052338},
 	url_arxiv = {http://arxiv.org/abs/1606.00992},
 	doi = {https://doi.org/10.1103/PhysRevA.94.052338},
+	kunegiscat = {journal}, 
 }	
 
 @inproceedings{sun:wiki-talk,
@@ -656,6 +740,7 @@
 	year = {2016},
 	url = {http://ieeexplore.ieee.org/document/7836657/}, 
 	url_arxiv = {https://arxiv.org/abs/1611.02941},
+	kunegiscat = {workshoptalkother}, 
 }
 
 @inproceedings{schelter:nzh-ea,
@@ -664,4 +749,5 @@
 	author = {Sebastian Schelter and Jérôme Kunegis},
 	booktitle = {Proc. Web Sci. Conf. Extended Abstracts},
 	year = {2017},
+	kunegiscat = {abstractposterother}, 
 }

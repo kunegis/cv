@@ -31,17 +31,9 @@ publications.aux:  publications.tex
 	latex publications 
 }
 
-check_publications:  publications.aux
+check_publications:  publications.aux ckpub kunegis.bib
 {
-	n="$(echo $(<publications.aux grep -E '^\\citation\{' | wc -l))"
-	m="$(echo $(<kunegis.bib sed -E -e 's,^@([a-z]+)\{.*$,\1,;t;d' | grep -E -v '^(mastersthesis|phdthesis)$' | wc -l))"
-
-	[ "$n" -ne "$m" ] && {
-		echo >&2 "*** different numbers of publications:  $n != $m"
-		exit 1
-	}
-
-	touch check_publications
+	./ckpub && touch check_publications
 }
 
 $name.bib  = bibtex/;

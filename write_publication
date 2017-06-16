@@ -30,10 +30,15 @@ number="$(    ./field "$id" number   )"
 
 printf '\\item[{[\\publicationnumber]}] '
 
-if [ -n "$url" ] ; then
-	title_linked="\\href{$url}{$title}"
+if printf "%s" "$title" | grep -q -E '[?]$' ; then
+	endpunct=
 else
-	title_linked="$title"
+	endpunct="."
+fi
+if [ -n "$url" ] ; then
+	title_linked="\\href{$url}{$title$endpunct}"
+else
+	title_linked="$title$endpunct"
 fi
 
 author="$(printf "%s" "$author" | sed -E -e 's/ and /\
@@ -44,7 +49,7 @@ if [ -n "$journal" ] ; then
 	venue_part="$venue_part, $(printf "\\")textit{$journal}"
 fi
 if [ -n "$booktitle" ] ; then
-	venue_part="$venu_part, $(printf "\\")textit{$booktitle}"
+	venue_part="$venu_part, In: $(printf "\\")textit{$booktitle}"
 fi
 
 coordinates_part=
@@ -69,14 +74,14 @@ extra_part=
 if [ "$bibtextype" = techreport ] ; then
 	extra_part="$extra_part, Technical report"
 fi
-for extra_field in publisher series institution howpublished note ; do
+for extra_field in publisher series institution howpublished note issue ; do
 	value="$(./field "$id" "$extra_field")"
 	if [ -n "$value" ] ; then
 		extra_part="$extra_part, $value"
 	fi
 done
 
-printf "%s, %s%s%s%s, %s." \
+printf "%s %s%s%s%s, %s." \
 	"$title_linked" \
 	"$author" \
 	"$venue_part" \

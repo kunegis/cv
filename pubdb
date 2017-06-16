@@ -894,7 +894,7 @@ samoilenko:language-hierarchy	year	2016
 
 samoilenko:language-hierarchy	volume	5
 
-samoilenko:language-hierarchy	number	9
+samoilenko:language-hierarchy	pages	9
 
 samoilenko:language-hierarchy	doi	10.1140/epjds/s13688-016-0070-8
 
@@ -1018,7 +1018,9 @@ kunegis:nopref	journal	J. of Interdiscip. Methodol. and Issues in Sci.
 
 kunegis:nopref	year	2017
 
-kunegis:nopref	volume	Graphs and Social Systems
+kunegis:nopref	volume	2
+
+kunegis:nopref	issue	Graphs and Social Systems
 
 kunegis:nopref	url	http://jimis.episciences.org/paper/view/id/3285
 

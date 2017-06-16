@@ -10,7 +10,7 @@
 
 @all:  
 	cv-kunegis.pdf cv-kunegis-long.pdf
-	@check_publications extbib.tex; 
+	check_publications extbib.tex; 
 
 @all-german:  cv-kunegis-german.pdf;
 
@@ -55,7 +55,7 @@ publications-$name.aux:  publications-$name.tex
 	sed -E -e 's,^%-,,'
 }
 
-@check_publications:  publications-kunegis-long.aux
+check_publications:  publications-kunegis-long.aux
 {
 	n="$(echo $(<publications-kunegis-long.aux grep -E '^\\citation\{' | wc -l))"
 	m="$(echo $(<kunegis.bib sed -E -e 's,^@([a-z]+)\{.*$,\1,;t;d' | grep -E -v '^(mastersthesis|phdthesis)$' | wc -l))"
@@ -65,7 +65,7 @@ publications-$name.aux:  publications-$name.tex
 		exit 1
 	}
 
-	exit 0
+	touch check_publications
 }
 
 $name.bib  = bibtex/;

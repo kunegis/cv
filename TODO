@@ -1,7 +1,4 @@
-* kunegis.bib:  get rid of the multiple categories, sort all by date
-* publications.tex:  generate automatically from kunegis.bib 
 * Separate publications by type
 * In the poster category, show also posters that have a publication 
 * In the talk category, show also talks that have a publication 
 * Show all URLs for publications, with icons 
-

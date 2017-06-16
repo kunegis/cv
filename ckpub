@@ -6,12 +6,11 @@
 set -e
 
 #
-# Check that the publication count in kunegis.bib and publications.tex
-# is identical, excluding theses. 
+# Check that all publications in kunegis.bib have a 'kunegiscat'. 
 #
 
-n="$(echo $(<publications.aux grep -E '^\\citation\{' | wc -l))"
-m="$(echo $(<kunegis.bib sed -E -e 's,^@([a-z]+)\{.*$,\1,;t;d' | grep -E -v '^(mastersthesis|phdthesis)$' | wc -l))"
+n="$(echo $(<kunegis.bib grep -E 'kunegiscat\s*=\s\{' | wc -l))"
+m="$(echo $(<kunegis.bib grep -E '^\s*@\s*([a-z]+)\s*\{' | wc -l))"
 
 [ "$n" -ne "$m" ] && {
 	echo >&2 "*** different numbers of publications:  $n != $m"
@@ -22,12 +21,9 @@ m="$(echo $(<kunegis.bib sed -E -e 's,^@([a-z]+)\{.*$,\1,;t;d' | grep -E -v '^(m
 # Check that all 'kunegiscat' fields in kunegis.bib has valid values. 
 #
 
-
-
 <kunegis.bib sed -E -e '
 	s,.*kunegiscat\s*=\s*\{\s*([a-z]+)\s*\}.*,\1,;t;d
 ' | while IFS= read -r cat ; do
-##	echo >&2 "CHECKING cat='$cat'"
 	grep -q -F "(kunegiscat=$cat)" kunegis.bib || {
 		echo >&2 "*** Invalid category '$cat'"
 		exit 1

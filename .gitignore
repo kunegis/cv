@@ -5,6 +5,5 @@ bibtex
 *.blg
 *.log
 *.dvi
-cv-kunegis-long.tex
-publications-kunegis-long.tex
-publications-kunegis.tex
+corepub
+publications-*.tex

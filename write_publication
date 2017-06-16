@@ -36,7 +36,8 @@ else
 	title_linked="$title"
 fi
 
-author="$(printf "%s" "$author" | sed -E -e 's/ and /, /g')"
+author="$(printf "%s" "$author" | sed -E -e 's/ and /\
+/g' | sed -E -e 's/^(.*), (.*)$/\2 \1/g;$!s/$/, /')"
 
 venue_part=
 if [ -n "$journal" ] ; then

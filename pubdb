@@ -30,7 +30,7 @@ milosevic:update-policy	_	inproceedings
 
 milosevic:update-policy	title	Resource-Aware Update Policy for Highly Dynamic {P2P} Networks
 
-milosevic:update-policy	author	Dragan Milošević and Jérôme Kunegis and {\,{S}}ahin Albayrak
+milosevic:update-policy	author	Dragan Milošević and Jérôme Kunegis and Şahin Albayrak
 
 milosevic:update-policy	booktitle	Proc. WI Workshops
 
@@ -43,7 +43,7 @@ mehlitz:evaluation-measure	_	inproceedings
 
 mehlitz:evaluation-measure	title	A New Evaluation Measure for Information Retrieval Systems
 
-mehlitz:evaluation-measure	author	Martin Mehlitz and Christian Bauckhage and Jérôme Kunegis and {\,{S}}ahin Albayrak
+mehlitz:evaluation-measure	author	Martin Mehlitz and Christian Bauckhage and Jérôme Kunegis and Şahin Albayrak
 
 mehlitz:evaluation-measure	booktitle	Proc. Int. Conf. on Syst., Man and Cybern.
 
@@ -71,7 +71,7 @@ mehlitz:ir-measure	_	inproceedings
 
 mehlitz:ir-measure	title	Using Novel {IR} Measures to Learn Optimal Cluster Structures for Web Information Retrieval
 
-mehlitz:ir-measure	author	Martin Mehlitz and Jérôme Kunegis and {\,{S}}ahin Albayrak
+mehlitz:ir-measure	author	Martin Mehlitz and Jérôme Kunegis and Şahin Albayrak
 
 mehlitz:ir-measure	booktitle	Proc. Int. Conf. Web Intell.
 
@@ -112,7 +112,7 @@ kunegis:adapting-ratings	_	inproceedings
 
 kunegis:adapting-ratings	title	Adapting Ratings in Memory-Based Collaborative Filtering using Linear Regression
 
-kunegis:adapting-ratings	author	Jérôme Kunegis and {\,{S}}ahin Albayrak
+kunegis:adapting-ratings	author	Jérôme Kunegis and Şahin Albayrak
 
 kunegis:adapting-ratings	booktitle	Proc. Int. Conf. on Inf. Reuse and Integration
 
@@ -125,7 +125,7 @@ kunegis:assessing-unrated	_	inproceedings
 
 kunegis:assessing-unrated	title	Assessing the Value of Unrated Items in Collaborative Filtering
 
-kunegis:assessing-unrated	author	Jérôme Kunegis and Andreas Lommatzsch and Martin Mehlitz and {\,{S}}ahin Albayrak
+kunegis:assessing-unrated	author	Jérôme Kunegis and Andreas Lommatzsch and Martin Mehlitz and Şahin Albayrak
 
 kunegis:assessing-unrated	booktitle	Proc. Int. Conf. on Digital Inf. Manag.
 
@@ -140,7 +140,7 @@ kunegis:netflix-srd	_	inproceedings
 
 kunegis:netflix-srd	title	Modeling Collaborative Similarity with the Signed Resistance Distance Kernel
 
-kunegis:netflix-srd	author	Jérôme Kunegis and Stephan Schmidt and Christian Bauckhage and Martin Mehlitz and Albayrak, {\,{S}}ahin
+kunegis:netflix-srd	author	Jérôme Kunegis and Stephan Schmidt and Christian Bauckhage and Martin Mehlitz and Şahin Albayrak
 
 kunegis:netflix-srd	booktitle	Proc. Eur. Conf. on Artif. Intell.
 
@@ -155,7 +155,7 @@ kunegis:kernel-scalability	_	inproceedings
 
 kunegis:kernel-scalability	title	On the Scalability of Graph Kernels Applied to Collaborative Recommenders
 
-kunegis:kernel-scalability	author	Jérôme Kunegis and Andreas Lommatzsch and Christian Bauckhage and {\,{S}}ahin Albayrak
+kunegis:kernel-scalability	author	Jérôme Kunegis and Andreas Lommatzsch and Christian Bauckhage and Şahin Albayrak
 
 kunegis:kernel-scalability	booktitle	Proc. ECAI Workshop on Recommender Syst.
 
@@ -249,7 +249,7 @@ said:exploiting-hierarchical-tags	_	inproceedings
 
 said:exploiting-hierarchical-tags	title	Exploiting Hierarchical Tags for Context-awareness
 
-said:exploiting-hierarchical-tags	author	Alan Said and Jérôme Kunegis and Ernesto William De Luca and Sahin Albayrak
+said:exploiting-hierarchical-tags	author	Alan Said and Jérôme Kunegis and De Luca, Ernesto W. and Şahin Albayrak
 
 said:exploiting-hierarchical-tags	booktitle	Proc. Workshop on Exploiting Semantic Annotations for Inf. Retrieval
 
@@ -264,7 +264,7 @@ deluca:multilingual	_	inproceedings
 
 deluca:multilingual	title	Multilingual Ontology-based User Profile Enrichment
 
-deluca:multilingual	author	De Luca, Ernesto W. and Till Plumbaum and Jérôme Kunegis and {\,{S}}ahin Albayrak
+deluca:multilingual	author	De Luca, Ernesto W. and Till Plumbaum and Jérôme Kunegis and Şahin Albayrak
 
 deluca:multilingual	booktitle	Proc. Workshop on the Multilingual Semantic Web
 
@@ -307,7 +307,7 @@ kunegis:hyperbolic-sine	_	inproceedings
 
 kunegis:hyperbolic-sine	title	The Link Prediction Problem in Bipartite Networks
 
-kunegis:hyperbolic-sine	author	Jérôme Kunegis and De Luca, Ernesto W. and {\,{S}}ahin Albayrak
+kunegis:hyperbolic-sine	author	Jérôme Kunegis and De Luca, Ernesto W. and Şahin Albayrak
 
 kunegis:hyperbolic-sine	year	2010
 
@@ -367,7 +367,7 @@ spiegel:time-tensor	_	inproceedings
 
 spiegel:time-tensor	title	Link Prediction on Evolving Data using Tensor Factorization
 
-spiegel:time-tensor	author	Stephan Spiegel and Jan Clausen and {\,{S}}ahin Albayrak and Jérôme Kunegis
+spiegel:time-tensor	author	Stephan Spiegel and Jan Clausen and Şahin Albayrak and Jérôme Kunegis
 
 spiegel:time-tensor	booktitle	Proc. Workshop on Behavior Informatics
 
@@ -696,13 +696,17 @@ kunegis:konect	pages	1343--1350
 kunegis:konect	url	http://dl.acm.org/citation.cfm?id=2488173
 
 kunegis:konect	kunegiscat	workshoptalkown
-kunegis:polcovar	_	misc
+kunegis:polcovar	_	journal
 
 kunegis:polcovar	title	{Polcovar}: Software for Computing the Mean and Variance of Subgraph Counts in Random Graphs
 
 kunegis:polcovar	author	Jérôme Kunegis
 
 kunegis:polcovar	year	2014
+
+kunegis:polcovar	journal	CoRR
+
+kunegis:polcovar	volume	abs/1402.5835
 
 kunegis:polcovar	url	http://arxiv.org/abs/1402.5835
 
@@ -722,7 +726,7 @@ kling:mgtm	pages	603--612
 kling:mgtm	url	http://dl.acm.org/citation.cfm?id=2556218
 
 kling:mgtm	kunegiscat	conftalkother
-perl:decline	_	online
+perl:decline	_	article
 
 perl:decline	title	{DecLiNe} -- Models for Decay of Links in Networks
 
@@ -730,10 +734,14 @@ perl:decline	author	Julia Preusse and Jérôme Kunegis and Matthias Thimm and Se
 
 perl:decline	year	2014
 
+perl:decline	journal	CoRR
+
+perl:decline	volume	abs/1403.4415
+
 perl:decline	url	http://arxiv.org/abs/1403.4415
 
 perl:decline	kunegiscat	misc
-kunegis:negativity	_	online
+kunegis:negativity	_	article
 
 kunegis:negativity	title	Applications of Structural Balance in Signed Social Networks
 
@@ -741,7 +749,9 @@ kunegis:negativity	author	Jérôme Kunegis
 
 kunegis:negativity	year	2014
 
-kunegis:negativity	note	arXiv:1402.6865
+kunegis:negativity	journal	CoRR
+
+kunegis:negativity	volume	abs/1402.6865
 
 kunegis:negativity	url	http://arxiv.org/abs/1402.6865
 
@@ -849,6 +859,10 @@ kunegis:petster	title	Social Networking by Proxy:  A Case Study of {Catster}, {D
 kunegis:petster	author	Daniel Dünker and Jérôme Kunegis
 
 kunegis:petster	year	2015
+
+kunegis:petster	journal	CoRR
+
+kunegis:petster	volume	abs/1501.04527
 
 kunegis:petster	url	http://arxiv.org/abs/1501.04527
 

@@ -1,0 +1,1019 @@
+kunegis:master	_	mastersthesis
+
+kunegis:master	title	Using Integer Linear Programming for Search Results Optimization
+
+kunegis:master	author	Jérôme Kunegis
+
+kunegis:master	school	Tech. Univ. of Berlin
+
+kunegis:master	year	2006
+
+kunegis:master	type	diploma thesis
+
+kunegis:master	url	https://pdfs.semanticscholar.org/42ca/e9b00864ee09bc9bc92ef3d411e20b966a8d.pdf
+
+kunegis:master	kunegiscat	thesisown
+hahne:gradualisiertes-communitymodell	_	inproceedings
+
+hahne:gradualisiertes-communitymodell	title	Ein gradualisiertes {Community-Modell} zur {Bildung} wissenschaftlicher {Gemeinschaften}
+
+hahne:gradualisiertes-communitymodell	author	Michael Hahne and Corinna Jung and Jérôme Kunegis and Andreas Lommatzsch and André Paus
+
+hahne:gradualisiertes-communitymodell	booktitle	Analyse sozialer {Netzwerke} und {Social} {Software} -- {Grundlagen} und {Anwendungsbeispiele}
+
+hahne:gradualisiertes-communitymodell	year	2007
+
+hahne:gradualisiertes-communitymodell	url	http://sowiport.gesis.org/search/id/gesis-solis-00401999
+
+hahne:gradualisiertes-communitymodell	kunegiscat	chapter
+milosevic:update-policy	_	inproceedings
+
+milosevic:update-policy	title	Resource-Aware Update Policy for Highly Dynamic {P2P} Networks
+
+milosevic:update-policy	author	Dragan Milošević and Jérôme Kunegis and {\,{S}}ahin Albayrak
+
+milosevic:update-policy	booktitle	Proc. WI Workshops
+
+milosevic:update-policy	year	2007
+
+milosevic:update-policy	url	http://ieeexplore.ieee.org/document/4427620/
+
+milosevic:update-policy	kunegiscat	workshoptalkother
+mehlitz:evaluation-measure	_	inproceedings
+
+mehlitz:evaluation-measure	title	A New Evaluation Measure for Information Retrieval Systems
+
+mehlitz:evaluation-measure	author	Martin Mehlitz and Christian Bauckhage and Jérôme Kunegis and {\,{S}}ahin Albayrak
+
+mehlitz:evaluation-measure	booktitle	Proc. Int. Conf. on Syst., Man and Cybern.
+
+mehlitz:evaluation-measure	year	2007
+
+mehlitz:evaluation-measure	url	http://ieeexplore.ieee.org/document/4413662/
+
+mehlitz:evaluation-measure	kunegiscat	conftalkother
+schmidt:bandwidth-optimization	_	inproceedings
+
+schmidt:bandwidth-optimization	title	Scalable Bandwidth Optimization in Advance Reservation Networks
+
+schmidt:bandwidth-optimization	author	Stephan Schmidt and Jérôme Kunegis
+
+schmidt:bandwidth-optimization	booktitle	Proc. Int. Conf. on Netw.
+
+schmidt:bandwidth-optimization	year	2007
+
+schmidt:bandwidth-optimization	pages	95--100
+
+schmidt:bandwidth-optimization	url	http://ieeexplore.ieee.org/document/4444068/
+
+schmidt:bandwidth-optimization	kunegiscat	conftalkother
+mehlitz:ir-measure	_	inproceedings
+
+mehlitz:ir-measure	title	Using Novel {IR} Measures to Learn Optimal Cluster Structures for Web Information Retrieval
+
+mehlitz:ir-measure	author	Martin Mehlitz and Jérôme Kunegis and {\,{S}}ahin Albayrak
+
+mehlitz:ir-measure	booktitle	Proc. Int. Conf. Web Intell.
+
+mehlitz:ir-measure	year	2007
+
+mehlitz:ir-measure	url	http://ieeexplore.ieee.org/document/4427109/
+
+mehlitz:ir-measure	kunegiscat	conftalkother
+lommatzsch:multi-agent	_	inproceedings
+
+lommatzsch:multi-agent	title	A Multi-agent Framework for Personalized Information Filtering
+
+lommatzsch:multi-agent	author	Andreas Lommatzsch and Martin Mehlitz and Jérôme Kunegis
+
+lommatzsch:multi-agent	booktitle	Proc. German e-{Science}
+
+lommatzsch:multi-agent	year	2007
+
+lommatzsch:multi-agent	url	http://pubman.mpdl.mpg.de/pubman/item/escidoc:1786624/component/escidoc:1786623/GES_paper65.pdf
+
+lommatzsch:multi-agent	kunegiscat	conftalkother
+kunegis:negative-resistance	_	inproceedings
+
+kunegis:negative-resistance	title	Collaborative Filtering using Electrical Resistance Network Models with Negative Edges
+
+kunegis:negative-resistance	author	Jérôme Kunegis and Stephan Schmidt
+
+kunegis:negative-resistance	booktitle	Proc. Industrial Conf. on Data Min.
+
+kunegis:negative-resistance	year	2007
+
+kunegis:negative-resistance	pages	269--282
+
+kunegis:negative-resistance	url	https://www.semanticscholar.org/paper/Collaborative-Filtering-using-Electrical-Resistanc-Kunegis-Schmidt/8266ddfc2cbfb6d69017ba7696bfe5335ea11b21
+
+kunegis:negative-resistance	kunegiscat	conftalkown
+kunegis:adapting-ratings	_	inproceedings
+
+kunegis:adapting-ratings	title	Adapting Ratings in Memory-Based Collaborative Filtering using Linear Regression
+
+kunegis:adapting-ratings	author	Jérôme Kunegis and {\,{S}}ahin Albayrak
+
+kunegis:adapting-ratings	booktitle	Proc. Int. Conf. on Inf. Reuse and Integration
+
+kunegis:adapting-ratings	year	2007
+
+kunegis:adapting-ratings	url	http://ieeexplore.ieee.org/document/4296596/
+
+kunegis:adapting-ratings	kunegiscat	conftalkown
+kunegis:assessing-unrated	_	inproceedings
+
+kunegis:assessing-unrated	title	Assessing the Value of Unrated Items in Collaborative Filtering
+
+kunegis:assessing-unrated	author	Jérôme Kunegis and Andreas Lommatzsch and Martin Mehlitz and {\,{S}}ahin Albayrak
+
+kunegis:assessing-unrated	booktitle	Proc. Int. Conf. on Digital Inf. Manag.
+
+kunegis:assessing-unrated	year	2007
+
+kunegis:assessing-unrated	pages	212--216
+
+kunegis:assessing-unrated	url	http://ieeexplore.ieee.org/document/4444225/
+
+kunegis:assessing-unrated	kunegiscat	conftalkown
+kunegis:netflix-srd	_	inproceedings
+
+kunegis:netflix-srd	title	Modeling Collaborative Similarity with the Signed Resistance Distance Kernel
+
+kunegis:netflix-srd	author	Jérôme Kunegis and Stephan Schmidt and Christian Bauckhage and Martin Mehlitz and Albayrak, {\,{S}}ahin
+
+kunegis:netflix-srd	booktitle	Proc. Eur. Conf. on Artif. Intell.
+
+kunegis:netflix-srd	year	2008
+
+kunegis:netflix-srd	pages	261--265
+
+kunegis:netflix-srd	url	http://dl.acm.org/citation.cfm?id=1567341
+
+kunegis:netflix-srd	kunegiscat	conftalkown
+kunegis:kernel-scalability	_	inproceedings
+
+kunegis:kernel-scalability	title	On the Scalability of Graph Kernels Applied to Collaborative Recommenders
+
+kunegis:kernel-scalability	author	Jérôme Kunegis and Andreas Lommatzsch and Christian Bauckhage and {\,{S}}ahin Albayrak
+
+kunegis:kernel-scalability	booktitle	Proc. ECAI Workshop on Recommender Syst.
+
+kunegis:kernel-scalability	year	2008
+
+kunegis:kernel-scalability	pages	35--38
+
+kunegis:kernel-scalability	url	http://www.dai-labor.de/en/publication/361
+
+kunegis:kernel-scalability	url_presentation	https://fr.slideshare.net/kunegis/kunegis-kernelscalabilitypresentation
+
+kunegis:kernel-scalability	kunegiscat	workshoptalkown
+kunegis:alternative-similarity	_	inproceedings
+
+kunegis:alternative-similarity	title	Alternative Similarity Functions for Graph Kernels
+
+kunegis:alternative-similarity	author	Jérôme Kunegis and Andreas Lommatzsch and Christian Bauckhage
+
+kunegis:alternative-similarity	booktitle	Proc. Int. Conf. on Pattern Recognit.
+
+kunegis:alternative-similarity	year	2008
+
+kunegis:alternative-similarity	url	http://ieeexplore.ieee.org/document/4761801/
+
+kunegis:alternative-similarity	kunegiscat	conftalkposterown
+kunegis:slashdot-zoo	_	inproceedings
+
+kunegis:slashdot-zoo	title	The {Slashdot Zoo}:  Mining a Social Network with Negative Edges
+
+kunegis:slashdot-zoo	author	Jérôme Kunegis and Andreas Lommatzsch and Christian Bauckhage
+
+kunegis:slashdot-zoo	year	2009
+
+kunegis:slashdot-zoo	booktitle	Proc. Int. World Wide Web Conf.
+
+kunegis:slashdot-zoo	pages	741--750
+
+kunegis:slashdot-zoo	url	http://dl.acm.org/citation.cfm?id=1526809
+
+kunegis:slashdot-zoo	url_presentation	https://www.slideshare.net/kunegis/the-slashdot-zoo-mining-a-social-network-with-negative-edges
+
+kunegis:slashdot-zoo	kunegiscat	conftalkown
+spiegel:hydra	_	inproceedings
+
+spiegel:hydra	title	Hydra: A Hybrid Recommender System [Cross-Linked Rating and Content Information]
+
+spiegel:hydra	author	Stephan Spiegel and Jérôme Kunegis and Fang Li
+
+spiegel:hydra	booktitle	Proc. Workshop on Complex Netw. in Inf. and Knowl. Manag.
+
+spiegel:hydra	year	2009
+
+spiegel:hydra	pages	75--80
+
+spiegel:hydra	url	http://dl.acm.org/citation.cfm?id=1651289
+
+spiegel:hydra	kunegiscat	workshoptalkother
+kunegis:spectral-transformation	_	inproceedings
+
+kunegis:spectral-transformation	title	Learning Spectral Graph Transformations for Link Prediction
+
+kunegis:spectral-transformation	author	Jérôme Kunegis and Andreas Lommatzsch
+
+kunegis:spectral-transformation	year	2009
+
+kunegis:spectral-transformation	booktitle	Proc. Int. Conf. on Mach. Learn.
+
+kunegis:spectral-transformation	pages	561--568
+
+kunegis:spectral-transformation	url	http://dl.acm.org/citation.cfm?id=1553447
+
+kunegis:spectral-transformation	url_presentation	https://fr.slideshare.net/kunegis/learning-spectral-graph-transformations-for-link-prediction
+
+kunegis:spectral-transformation	url_video	http://videolectures.net/icml09_kunegis_lsgtlp/
+
+kunegis:spectral-transformation	kunegiscat	conftalkposterown
+kunegis:universal-recommender	_	misc
+
+kunegis:universal-recommender	title	The {Universal Recommender}
+
+kunegis:universal-recommender	author	Jérôme Kunegis and Alan Said and Winfried Umbrath
+
+kunegis:universal-recommender	year	2009
+
+kunegis:universal-recommender	howpublished	White paper
+
+kunegis:universal-recommender	url	https://arxiv.org/abs/0909.3472
+
+kunegis:universal-recommender	kunegiscat	misc
+said:exploiting-hierarchical-tags	_	inproceedings
+
+said:exploiting-hierarchical-tags	title	Exploiting Hierarchical Tags for Context-awareness
+
+said:exploiting-hierarchical-tags	author	Alan Said and Jérôme Kunegis and Ernesto William De Luca and Sahin Albayrak
+
+said:exploiting-hierarchical-tags	booktitle	Proc. Workshop on Exploiting Semantic Annotations for Inf. Retrieval
+
+said:exploiting-hierarchical-tags	year	2010
+
+said:exploiting-hierarchical-tags	pages	35--36
+
+said:exploiting-hierarchical-tags	url	http://dl.acm.org/citation.cfm?doid=1871962.1871984
+
+said:exploiting-hierarchical-tags	kunegiscat	abstractposterown
+deluca:multilingual	_	inproceedings
+
+deluca:multilingual	title	Multilingual Ontology-based User Profile Enrichment
+
+deluca:multilingual	author	De Luca, Ernesto W. and Till Plumbaum and Jérôme Kunegis and {\,{S}}ahin Albayrak
+
+deluca:multilingual	booktitle	Proc. Workshop on the Multilingual Semantic Web
+
+deluca:multilingual	year	2010
+
+deluca:multilingual	pages	41--42
+
+deluca:multilingual	url	http://ceur-ws.org/Vol-571/paper8.pdf
+
+deluca:multilingual	kunegiscat	workshoptalkown
+karatas:interactive-tv	_	inproceedings
+
+karatas:interactive-tv	title	Connecting Senior Citizens through Interactive {TV}
+
+karatas:interactive-tv	author	Barış Karataş and Torsten Schmidt and Jérôme Kunegis and Till Plumbaum
+
+karatas:interactive-tv	year	2010
+
+karatas:interactive-tv	booktitle	Proc. Ambient Assist. Living
+
+karatas:interactive-tv	url	http://www.dai-labor.de/fileadmin/files/publications/karatas10a.pdf
+
+karatas:interactive-tv	kunegiscat	conftalkother
+kunegis:signed-kernels	_	inproceedings
+
+kunegis:signed-kernels	title	Spectral Analysis of Signed Graphs for Clustering, Prediction and Visualization
+
+kunegis:signed-kernels	author	Jérôme Kunegis and Stephan Schmidt and Andreas Lommatzsch and Jürgen Lerner
+
+kunegis:signed-kernels	booktitle	Proc. SIAM Int. Conf. on Data Min.
+
+kunegis:signed-kernels	year	2010
+
+kunegis:signed-kernels	pages	559--570
+
+kunegis:signed-kernels	url	http://epubs.siam.org/doi/abs/10.1137/1.9781611972801.49
+
+kunegis:signed-kernels	kunegiscat	conftalkposterown
+kunegis:hyperbolic-sine	_	inproceedings
+
+kunegis:hyperbolic-sine	title	The Link Prediction Problem in Bipartite Networks
+
+kunegis:hyperbolic-sine	author	Jérôme Kunegis and De Luca, Ernesto W. and {\,{S}}ahin Albayrak
+
+kunegis:hyperbolic-sine	year	2010
+
+kunegis:hyperbolic-sine	booktitle	Proc. Int. Conf. in Inf. Processing and Manag. of Uncertainty in Knowl.-based Syst.
+
+kunegis:hyperbolic-sine	pages	380--389
+
+kunegis:hyperbolic-sine	url	https://link.springer.com/chapter/10.1007/978-3-642-14049-5_39
+
+kunegis:hyperbolic-sine	kunegiscat	conftalkother
+kunegis:spectral-network-evolution	_	inproceedings
+
+kunegis:spectral-network-evolution	title	Network Growth and the Spectral Evolution Model
+
+kunegis:spectral-network-evolution	author	Jérôme Kunegis and Damien Fay and Christian Bauckhage
+
+kunegis:spectral-network-evolution	booktitle	Proc. Int. Conf. on Inf. and Knowl. Manag.
+
+kunegis:spectral-network-evolution	year	2010
+
+kunegis:spectral-network-evolution	pages	739--748
+
+kunegis:spectral-network-evolution	url	http://dl.acm.org/citation.cfm?id=1871533
+
+kunegis:spectral-network-evolution	url_presentation	https://www.slideshare.net/kunegis/presentation-5758116
+
+kunegis:spectral-network-evolution	kunegiscat	conftalkown
+nasir:retweets	_	inproceedings
+
+nasir:retweets	title	Bad News Travels Fast: A Content-based Analysis of Interestingness on {Twitter}
+
+nasir:retweets	author	Nasir Naveed and Thomas Gottron and Jérôme Kunegis and Che Alhadi, Arifah
+
+nasir:retweets	booktitle	Proc. Web Sci. Conf.
+
+nasir:retweets	year	2011
+
+nasir:retweets	url	http://dl.acm.org/citation.cfm?id=2527052
+
+nasir:retweets	url_video	http://videolectures.net/acmwebsci2011_kunegis_interestingness/
+
+nasir:retweets	kunegiscat	conftalkown
+kunegis:phd	_	phdthesis
+
+kunegis:phd	title	On the Spectral Evolution of Large Networks
+
+kunegis:phd	author	Jérôme Kunegis
+
+kunegis:phd	school	Univ. of Koblenz--Landau
+
+kunegis:phd	year	2011
+
+kunegis:phd	url	https://kola.opus.hbz-nrw.de/frontdoor/index/index/docId/581
+
+kunegis:phd	kunegiscat	thesisown
+spiegel:time-tensor	_	inproceedings
+
+spiegel:time-tensor	title	Link Prediction on Evolving Data using Tensor Factorization
+
+spiegel:time-tensor	author	Stephan Spiegel and Jan Clausen and {\,{S}}ahin Albayrak and Jérôme Kunegis
+
+spiegel:time-tensor	booktitle	Proc. Workshop on Behavior Informatics
+
+spiegel:time-tensor	year	2011
+
+spiegel:time-tensor	url	http://ieeexplore.ieee.org/document/5360493/
+
+spiegel:time-tensor	kunegiscat	workshoptalkother
+fay:appcluster	_	article
+
+fay:appcluster	title	Discriminating Graphs through Spectral Projections
+
+fay:appcluster	author	Damien Fay and Hamed Haddadi and Steve Uhlig and Liam Kilmartin and Andrew W. Moore and Jérôme Kunegis and Marios Iliofotou
+
+fay:appcluster	journal	Comput. Netw.
+
+fay:appcluster	year	2011
+
+fay:appcluster	volume	55
+
+fay:appcluster	number	15
+
+fay:appcluster	pages	3458--3468
+
+fay:appcluster	url	http://www.sciencedirect.com/science/article/pii/S1389128611002374
+
+fay:appcluster	kunegiscat	journal
+gottron:rule	_	inproceedings
+
+gottron:rule	title	One Community Does Not Rule Them All
+
+gottron:rule	author	Thomas Gottron and Jérôme Kunegis and Ansgar Scherp and Steffen Staab
+
+gottron:rule	booktitle	Proc. Web Sci. Conf.
+
+gottron:rule	year	2011
+
+gottron:rule	url	http://ansgarscherp.net/publications/pdf/P09-GottronEtAl-OneCommunityDoesNotRuleThemAll.pdf
+
+gottron:rule	kunegiscat	abstractposterother
+fay:centrality	_	techreport
+
+fay:centrality	title	On Joint Diagonalisation for Dynamic Network Analysis
+
+fay:centrality	author	Damien Fay and Jérôme Kunegis and Eiko Yoneki
+
+fay:centrality	institution	University of Cambridge
+
+fay:centrality	year	2011
+
+fay:centrality	url	http://arxiv.org/abs/1110.1198
+
+fay:centrality	url_cam	http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-806.html
+
+fay:centrality	kunegiscat	misc
+nasir:retweet-ranking	_	inproceedings
+
+nasir:retweet-ranking	title	Searching Microblogs: Coping with Sparsity and Document Quality
+
+nasir:retweet-ranking	author	Nasir Naveed and Thomas Gottron and Jérôme Kunegis and Che Alhadi, Arifah
+
+nasir:retweet-ranking	booktitle	Proc. Int. Conf. on Inf. and Knowl. Manag.
+
+nasir:retweet-ranking	year	2011
+
+nasir:retweet-ranking	pages	183--188
+
+nasir:retweet-ranking	url	http://dl.acm.org/citation.cfm?id=2063607
+
+nasir:retweet-ranking	kunegiscat	conftalkother
+che-alhadi:trec-microblog	_	inproceedings
+
+che-alhadi:trec-microblog	author	Che Alhadi, Arifah and Thomas Gottron and Jérôme Kunegis and Naveed, Nasir
+
+che-alhadi:trec-microblog	title	{LiveTweet}: Microblog Retrieval Based on Interestingess and an Adaptation of the Vector Space Model
+
+che-alhadi:trec-microblog	booktitle	Proc. Text Retrieval Conf.
+
+che-alhadi:trec-microblog	year	2011
+
+che-alhadi:trec-microblog	url	https://link.springer.com/chapter/10.1007%2F978-3-642-28997-2_66
+
+che-alhadi:trec-microblog	kunegiscat	abstracttalkown
+che-alhadi:live-tweet	_	inproceedings
+
+che-alhadi:live-tweet	title	{LiveTweet}: Monitoring and Predicting Interesting Microblog Posts
+
+che-alhadi:live-tweet	author	Che Alhadi, Arifah and Gottron, Thomas and Kunegis, Jérôme and Naveed, Nasir
+
+che-alhadi:live-tweet	booktitle	Proc. Eur. Conf. on Inf. Retrieval Demonstrations
+
+che-alhadi:live-tweet	pages	569--570
+
+che-alhadi:live-tweet	year	2012
+
+che-alhadi:live-tweet	url	https://link.springer.com/chapter/10.1007/978-3-642-28997-2_66
+
+che-alhadi:live-tweet	kunegiscat	abstractdemoother
+kunegis:network-rank	_	inproceedings
+
+kunegis:network-rank	title	Diversity Dynamics in Online Networks
+
+kunegis:network-rank	author	Jérôme Kunegis and Sergej Sizov and Felix Schwagereit and Damien Fay
+
+kunegis:network-rank	booktitle	Proc. Conf. on Hypertext and Soc. Media
+
+kunegis:network-rank	year	2012
+
+kunegis:network-rank	pages	255--264
+
+kunegis:network-rank	url	http://dl.acm.org/citation.cfm?id=2310039
+
+kunegis:network-rank	url_presentation	https://pt.slideshare.net/kunegis/presentation-2012ht
+
+kunegis:network-rank	kunegiscat	conftalkown
+kunegis:konect-netsci	_	inproceedings
+
+kunegis:konect-netsci	title	{KONECT} -- {The} {Koblenz} {Network} {Collection}
+
+kunegis:konect-netsci	author	Jérôme Kunegis and Steffen Staab and Daniel Dünker
+
+kunegis:konect-netsci	booktitle	Proc. Int. Sch. and Conf. on Netw. Sci.
+
+kunegis:konect-netsci	year	2012
+
+kunegis:konect-netsci	kunegiscat	abstractposterown
+kunegis:spectral-evolution	_	article
+
+kunegis:spectral-evolution	title	Spectral Evolution in Dynamic Networks
+
+kunegis:spectral-evolution	author	Kunegis, Jérôme and Fay, Damien and Bauckhage, Christian
+
+kunegis:spectral-evolution	journal	Knowl. and Inf. Syst.
+
+kunegis:spectral-evolution	pages	1--36
+
+kunegis:spectral-evolution	year	2013
+
+kunegis:spectral-evolution	volume	37
+
+kunegis:spectral-evolution	number	1
+
+kunegis:spectral-evolution	url	https://link.springer.com/article/10.1007/s10115-012-0575-9
+
+kunegis:spectral-evolution	url_doi	http://dx.doi.org/10.1007/s10115-012-0575-9
+
+kunegis:spectral-evolution	kunegiscat	journal
+preusse:unlink-prediction	_	inproceedings
+
+preusse:unlink-prediction	title	Structural Dynamics of Knowledge Networks
+
+preusse:unlink-prediction	author	Julia Preusse and Jérôme Kunegis and Matthias Thimm and Thomas Gottron and Steffen Staab
+
+preusse:unlink-prediction	booktitle	Proc. Int. Conf. on Weblogs and Soc. Media
+
+preusse:unlink-prediction	year	2013
+
+preusse:unlink-prediction	pages	506--515
+
+preusse:unlink-prediction	url	https://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/view/6076
+
+preusse:unlink-prediction	kunegiscat	conftalkother
+fay:joint-diagonalization	_	inproceedings
+
+fay:joint-diagonalization	title	Centrality and Mode Detection in Dynamic Contact Graphs; a Joint Diagonalisation Approach
+
+fay:joint-diagonalization	author	Damien Fay and Jérôme Kunegis and Eiko Yoneki
+
+fay:joint-diagonalization	year	2013
+
+fay:joint-diagonalization	booktitle	Proc. Int. Conf. on Advances in Soc. Netw. Anal. and Min.
+
+fay:joint-diagonalization	pages	41--48
+
+fay:joint-diagonalization	url	http://ieeexplore.ieee.org/document/6785685/
+
+fay:joint-diagonalization	kunegiscat	conftalkother
+kunegis:power-law	_	inproceedings
+
+kunegis:power-law	title	Fairness on the Web: Alternatives to the Power Law
+
+kunegis:power-law	author	Jérôme Kunegis and Julia Preusse
+
+kunegis:power-law	booktitle	Proc. Web Sci. Conf.
+
+kunegis:power-law	year	2012
+
+kunegis:power-law	pages	175--184
+
+kunegis:power-law	url	http://dl.acm.org/citation.cfm?id=2380741
+
+kunegis:power-law	url_slideshare	https://www.slideshare.net/kunegis/fairness-on-the-web-alternatives-to-the-power-law-websci-2012
+
+kunegis:power-law	url_video	http://www.youtube.com/watch?v=udzzfF_KKso
+
+kunegis:power-law	kunegiscat	conftalkown
+kunegis:konect-cloud	_	inproceedings
+
+kunegis:konect-cloud	title	{KONECT Cloud} -- Large Scale Network Mining in the Cloud
+
+kunegis:konect-cloud	author	Jérôme Kunegis
+
+kunegis:konect-cloud	year	2012
+
+kunegis:konect-cloud	month	April
+
+kunegis:konect-cloud	booktitle	Proc. Spring 2012 Future SOC Lab Day
+
+kunegis:konect-cloud	series	HPI Technical Report Series
+
+kunegis:konect-cloud	url	https://books.google.be/books?id=06fDCQAAQBAJ&pg=PA107
+
+kunegis:konect-cloud	url_presentation	https://www.slideshare.net/kunegis/konect-cloud-large-scale-network-mining-in-the-cloud-12958650
+
+kunegis:konect-cloud	url_video	http://www.tele-task.de/de/archive/video/flash/16348/
+
+kunegis:konect-cloud	kunegiscat	workshoptalkposterown
+kunegis:split-complex-dating	_	inproceedings
+
+kunegis:split-complex-dating	title	Online Dating Recommender Systems: The Split-complex Number Approach
+
+kunegis:split-complex-dating	author	Jérôme Kunegis and Gerd Gröner and Thomas Gottron
+
+kunegis:split-complex-dating	year	2012
+
+kunegis:split-complex-dating	booktitle	Proc. Workshop on Recommender Syst. and the Soc. Web
+
+kunegis:split-complex-dating	pages	37--44
+
+kunegis:split-complex-dating	url	http://dl.acm.org/citation.cfm?id=2365942
+
+kunegis:split-complex-dating	url_presentation	https://fr.slideshare.net/kunegis/presentation-2012rsweb
+
+kunegis:split-complex-dating	kunegiscat	workshoptalkown
+kunegis:directed-decomposition	_	inproceedings
+
+kunegis:directed-decomposition	title	Predicting Directed Links using Nondiagonal Matrix Decomposition
+
+kunegis:directed-decomposition	author	Jérôme Kunegis and Jörg Fliege
+
+kunegis:directed-decomposition	booktitle	Proc. Int. Conf. on Data Min.
+
+kunegis:directed-decomposition	year	2012
+
+kunegis:directed-decomposition	pages	948--953
+
+kunegis:directed-decomposition	url	http://ieeexplore.ieee.org/document/6413827/
+
+kunegis:directed-decomposition	kunegiscat	conftalkown
+kunegis:latent-negative	_	inproceedings
+
+kunegis:latent-negative	title	What Is the Added Value of Negative Links in Online Social Networks?
+
+kunegis:latent-negative	author	Jérôme Kunegis and Julia Preusse and Felix Schwagereit
+
+kunegis:latent-negative	year	2013
+
+kunegis:latent-negative	booktitle	Proc. Int. World Wide Web Conf.
+
+kunegis:latent-negative	pages	727--736
+
+kunegis:latent-negative	url	http://dl.acm.org/citation.cfm?id=2488452
+
+kunegis:latent-negative	url_presentation	https://www.slideshare.net/kunegis/presentationwww
+
+kunegis:latent-negative	kunegiscat	conftalkown
+kunegis:preferential-attachment	_	inproceedings
+
+kunegis:preferential-attachment	title	Preferential Attachment in Online Networks:  Measurement and Explanations
+
+kunegis:preferential-attachment	author	Jérôme Kunegis and Marcel Blattner and Christine Moser
+
+kunegis:preferential-attachment	year	2013
+
+kunegis:preferential-attachment	pages	205--214
+
+kunegis:preferential-attachment	booktitle	Proc. Web Sci. Conf.
+
+kunegis:preferential-attachment	url	http://dl.acm.org/citation.cfm?id=2464514
+
+kunegis:preferential-attachment	url_arxiv	http://arxiv.org/abs/1303.6271
+
+kunegis:preferential-attachment	kunegiscat	confposterown
+kunegis:network-encyclopedia-1	_	article
+
+kunegis:network-encyclopedia-1	title	Social Network Datasets
+
+kunegis:network-encyclopedia-1	author	Jérôme Kunegis
+
+kunegis:network-encyclopedia-1	journal	Encyclopedia of Soc. Netw. Anal. and Min.
+
+kunegis:network-encyclopedia-1	year	2013
+
+kunegis:network-encyclopedia-1	publisher	Springer
+
+kunegis:network-encyclopedia-1	url	http://www.springer.com/gb/book/9781461461692
+
+kunegis:network-encyclopedia-1	kunegiscat	peer
+kunegis:network-encyclopedia-2	_	article
+
+kunegis:network-encyclopedia-2	title	Spectral Evolution of Social Networks
+
+kunegis:network-encyclopedia-2	author	Jérôme Kunegis
+
+kunegis:network-encyclopedia-2	journal	Encyclopedia of Soc. Netw. Anal. and Min.
+
+kunegis:network-encyclopedia-2	year	2013
+
+kunegis:network-encyclopedia-2	publisher	Springer
+
+kunegis:network-encyclopedia-2	url	http://www.springer.com/gb/book/9781461461692
+
+kunegis:network-encyclopedia-2	kunegiscat	peer
+kunegis:konect	_	inproceedings
+
+kunegis:konect	title	{KONECT} -- {The} {Koblenz} {Network} {Collection}
+
+kunegis:konect	author	Jérôme Kunegis
+
+kunegis:konect	year	2013
+
+kunegis:konect	booktitle	Proc. Int. Conf. on World Wide Web Companion
+
+kunegis:konect	pages	1343--1350
+
+kunegis:konect	url	http://dl.acm.org/citation.cfm?id=2488173
+
+kunegis:konect	kunegiscat	workshoptalkown
+kunegis:polcovar	_	misc
+
+kunegis:polcovar	title	{Polcovar}: Software for Computing the Mean and Variance of Subgraph Counts in Random Graphs
+
+kunegis:polcovar	author	Jérôme Kunegis
+
+kunegis:polcovar	year	2014
+
+kunegis:polcovar	url	http://arxiv.org/abs/1402.5835
+
+kunegis:polcovar	kunegiscat	misc
+kling:mgtm	_	inproceedings
+
+kling:mgtm	title	Detecting Non-{Gaussian} Geographical Topics in Tagged Photo Collections
+
+kling:mgtm	author	Christoph Carl Kling and Jérôme Kunegis and Sergej Sizov and Steffen Staab
+
+kling:mgtm	booktitle	Proc. Int. Conf. on Web Search and Data Min.
+
+kling:mgtm	year	2014
+
+kling:mgtm	pages	603--612
+
+kling:mgtm	url	http://dl.acm.org/citation.cfm?id=2556218
+
+kling:mgtm	kunegiscat	conftalkother
+perl:decline	_	online
+
+perl:decline	title	{DecLiNe} -- Models for Decay of Links in Networks
+
+perl:decline	author	Julia Preusse and Jérôme Kunegis and Matthias Thimm and Sergej Sizov
+
+perl:decline	year	2014
+
+perl:decline	url	http://arxiv.org/abs/1403.4415
+
+perl:decline	kunegiscat	misc
+kunegis:negativity	_	online
+
+kunegis:negativity	title	Applications of Structural Balance in Signed Social Networks
+
+kunegis:negativity	author	Jérôme Kunegis
+
+kunegis:negativity	year	2014
+
+kunegis:negativity	note	arXiv:1402.6865
+
+kunegis:negativity	url	http://arxiv.org/abs/1402.6865
+
+kunegis:negativity	kunegiscat	misc
+kunegis:bipartivity	_	article
+
+kunegis:bipartivity	title	Exploiting the Structure of Bipartite Graphs for Algebraic and Spectral Graph Theory Applications
+
+kunegis:bipartivity	author	Jérôme Kunegis
+
+kunegis:bipartivity	journal	Internet Math.
+
+kunegis:bipartivity	year	2015
+
+kunegis:bipartivity	volume	11
+
+kunegis:bipartivity	number	3
+
+kunegis:bipartivity	pages	201--321
+
+kunegis:bipartivity	doi	10.1080/15427951.2014.958250
+
+kunegis:bipartivity	url	http://www.tandfonline.com/doi/abs/10.1080/15427951.2014.958250
+
+kunegis:bipartivity	kunegiscat	journal
+komepol:dud	_	article
+
+komepol:dud	title	{Glaubwürdigkeit} und {Vertrauen} von {Online}-{News}
+
+komepol:dud	author	Ines C. Vogel and Jutta Milde and Karin Stengel and Steffen Staab and Kling, Christoph Carl and Jérôme Kunegis
+
+komepol:dud	journal	Datenschutz und Datensicherheit
+
+komepol:dud	year	2015
+
+komepol:dud	volume	40
+
+komepol:dud	number	5
+
+komepol:dud	pages	312--316
+
+komepol:dud	url	http://link.springer.com/article/10.1007/s11623-015-0419-3
+
+komepol:dud	kunegiscat	journal
+kling:lqfb	_	inproceedings
+
+kling:lqfb	title	Voting Behaviour and Power in Online Democracy:  A Study of {LiquidFeedback} in {Germany}'s {Pirate} {Party}
+
+kling:lqfb	author	Christoph Carl Kling and Jérôme Kunegis and Heinrich Hartmann and Markus Strohmaier and Steffen Staab
+
+kling:lqfb	booktitle	Proc. Int. Conf. on Weblogs and Soc. Media
+
+kling:lqfb	year	2015
+
+kling:lqfb	pages	208--217
+
+kling:lqfb	url	http://www.aaai.org/ocs/index.php/ICWSM/ICWSM15/paper/view/10566
+
+kling:lqfb	kunegiscat	conftalkother
+samoilenko:wikilang	_	inproceedings
+
+samoilenko:wikilang	title	Linguistic Influence Patterns within the Global Network of {Wikipedia} Language Editions
+
+samoilenko:wikilang	author	Anna Samoilenko and Fariba Karimi and Jérôme Kunegis and Daniel Edler and Markus Strohmaier
+
+samoilenko:wikilang	booktitle	Proc. Web Sci. Conf.
+
+samoilenko:wikilang	year	2015
+
+samoilenko:wikilang	url	http://dl.acm.org/citation.cfm?id=2786497
+
+samoilenko:wikilang	kunegiscat	abstractposterother
+perl:twitter-unlink	_	inproceedings
+
+perl:twitter-unlink	title	{Twitter} as a Political Network -- Predicting the Following and Unfollowing Behavior of {German} Politicians
+
+perl:twitter-unlink	author	Julia Perl and Claudia Wagner and Jérôme Kunegis and Steffen Staab
+
+perl:twitter-unlink	booktitle	Proc. Web Sci. Conf.
+
+perl:twitter-unlink	year	2015
+
+perl:twitter-unlink	url	http://dl.acm.org/citation.cfm?id=2786506
+
+perl:twitter-unlink	kunegiscat	abstractposterother
+homscheid:lkml	_	inproceedings
+
+homscheid:lkml	title	Private-Collective Invention and Open Source Software:  Longitudinal Insights from {Linux} Kernel Development
+
+homscheid:lkml	author	Dirk Homscheid and Jérôme Kunegis and Mario Schaarschmidt
+
+homscheid:lkml	booktitle	Proc. IFIP Conf. on e-Business, e-Services and e-Society
+
+homscheid:lkml	year	2015
+
+homscheid:lkml	pages	299--313
+
+homscheid:lkml	url	https://link.springer.com/chapter/10.1007/978-3-319-25013-7_24
+
+homscheid:lkml	kunegiscat	conftalkother
+kunegis:petster	_	article
+
+kunegis:petster	title	Social Networking by Proxy:  A Case Study of {Catster}, {Dogster} and {Hamsterster}
+
+kunegis:petster	author	Daniel Dünker and Jérôme Kunegis
+
+kunegis:petster	year	2015
+
+kunegis:petster	url	http://arxiv.org/abs/1501.04527
+
+kunegis:petster	kunegiscat	misc
+duenker:petster	_	inproceedings
+
+duenker:petster	title	Social Networking by Proxy:  Analysis of {Dogster}, {Catster} and {Hamsterster}
+
+duenker:petster	author	Daniel Dünker and Jérôme Kunegis
+
+duenker:petster	booktitle	Proc. Int. Conf. on World Wide Web Companion
+
+duenker:petster	year	2015
+
+duenker:petster	pages	361--362
+
+duenker:petster	url	http://dl.acm.org/citation.cfm?id=2745936
+
+duenker:petster	kunegiscat	abstractposterother
+samoilenko:language-hierarchy	_	article
+
+samoilenko:language-hierarchy	title	Linguistic Neighbourhoods: Explaining Cultural Borders on {Wikipedia} through Multilingual Co-editing Activity
+
+samoilenko:language-hierarchy	author	Anna Samoilenko and Fariba Karimi and Daniel Edler and Jérôme Kunegis and Markus Strohmaier
+
+samoilenko:language-hierarchy	journal	Eur. Phys. J. Data Sci.
+
+samoilenko:language-hierarchy	year	2016
+
+samoilenko:language-hierarchy	volume	5
+
+samoilenko:language-hierarchy	number	9
+
+samoilenko:language-hierarchy	doi	10.1140/epjds/s13688-016-0070-8
+
+samoilenko:language-hierarchy	url	http://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-016-0070-8
+
+samoilenko:language-hierarchy	kunegiscat	journal
+schelter:trackers	_	inproceedings
+
+schelter:trackers	title	Tracking the Trackers: A Large-Scale Analysis of Embedded Web Trackers
+
+schelter:trackers	author	Sebastian Schelter and Jérôme Kunegis
+
+schelter:trackers	booktitle	Proc. Int. Conf. on Web and Soc. Media
+
+schelter:trackers	year	2016
+
+schelter:trackers	pages	679--682
+
+schelter:trackers	url	https://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13024
+
+schelter:trackers	kunegiscat	conftalkother
+schelter:trackers-journal	_	misc
+
+schelter:trackers-journal	title	On the Ubiquity of Web Tracking: Insights from a Billion-Page Web Crawl
+
+schelter:trackers-journal	author	Sebastian Schelter and Jérôme Kunegis
+
+schelter:trackers-journal	year	2016
+
+schelter:trackers-journal	note	In review
+
+schelter:trackers-journal	url	https://arxiv.org/abs/1607.07403
+
+schelter:trackers-journal	kunegiscat	preprint
+toedtli:ctqw	_	article
+
+toedtli:ctqw	title	Continuous-Time Quantum Walks on Directed Bipartite Graphs
+
+toedtli:ctqw	author	Beat Tödtli and Monika Laner and Jouri Semenov and Beatrice Paoli and Marcel Blattner and Jérôme Kunegis
+
+toedtli:ctqw	journal	Phys. Rev. A
+
+toedtli:ctqw	year	2016
+
+toedtli:ctqw	volume	94
+
+toedtli:ctqw	number	5
+
+toedtli:ctqw	pages	052338
+
+toedtli:ctqw	url	http://journals.aps.org/pra/abstract/10.1103/PhysRevA.94.052338
+
+toedtli:ctqw	url_arxiv	http://arxiv.org/abs/1606.00992
+
+toedtli:ctqw	doi	https://doi.org/10.1103/PhysRevA.94.052338
+
+toedtli:ctqw	kunegiscat	journal
+sun:wiki-talk	_	inproceedings
+
+sun:wiki-talk	title	Predicting User Roles in Social Networks using Transfer Learning with Feature Transformation
+
+sun:wiki-talk	author	Jun Sun and Jérôme Kunegis and Steffen Staab
+
+sun:wiki-talk	booktitle	Proc. ICDM Int. Workshop on Data Min. in Netw.
+
+sun:wiki-talk	year	2016
+
+sun:wiki-talk	url	http://ieeexplore.ieee.org/document/7836657/
+
+sun:wiki-talk	url_arxiv	https://arxiv.org/abs/1611.02941
+
+sun:wiki-talk	kunegiscat	workshoptalkother
+kunegis:konect-handbook	_	article
+
+kunegis:konect-handbook	title	Handbook of Network Analysis [{KONECT} project]
+
+kunegis:konect-handbook	author	Jérôme Kunegis
+
+kunegis:konect-handbook	year	2017
+
+kunegis:konect-handbook	journal	CoRR
+
+kunegis:konect-handbook	volume	abs/1402.5500
+
+kunegis:konect-handbook	number	v4
+
+kunegis:konect-handbook	url	https://github.com/kunegis/konect-handbook/blob/master/konect-handbook.pdf
+
+kunegis:konect-handbook	url_arxiv	http://arxiv.org/abs/1402.5500
+
+kunegis:konect-handbook	kunegiscat	misc
+kunegis:nopref-netsci	_	inproceedings
+
+kunegis:nopref-netsci	title	The Problem of Action at a Distance in Networks and the Emergence of Preferential Attachment from Triadic Closure
+
+kunegis:nopref-netsci	author	Jérôme Kunegis and Fariba Karimi and Jun Sun
+
+kunegis:nopref-netsci	booktitle	Proc. Int. Sch. and Conf. on Netw. Sci.
+
+kunegis:nopref-netsci	year	2017
+
+kunegis:nopref-netsci	kunegiscat	abstractposterown
+schelter:nzh-ea	_	inproceedings
+
+schelter:nzh-ea	title	`{Dark} {Germany}': Temporal Characteristics and Connectivity Patterns in Online Far-Right Protests Against Refugee Housing
+
+schelter:nzh-ea	author	Sebastian Schelter and Jérôme Kunegis
+
+schelter:nzh-ea	booktitle	Proc. Web Sci. Conf. Extended Abstracts
+
+schelter:nzh-ea	year	2017
+
+schelter:nzh-ea	kunegiscat	abstractposterother
+kunegis:nopref	_	article
+
+kunegis:nopref	title	The Problem of Action at a Distance in Networks and the Emergence of Preferential Attachment from Triadic Closure
+
+kunegis:nopref	author	Jérôme Kunegis and Fariba Karimi and Jun Sun
+
+kunegis:nopref	journal	J. of Interdiscip. Methodol. and Issues in Sci.
+
+kunegis:nopref	year	2017
+
+kunegis:nopref	volume	Graphs and Social Systems
+
+kunegis:nopref	url	http://jimis.episciences.org/paper/view/id/3285
+
+kunegis:nopref	url_hal	https://hal.archives-ouvertes.fr/hal-01359796
+
+kunegis:nopref	url_arxiv	https://arxiv.org/abs/1408.0119
+
+kunegis:nopref	url_src	https://github.com/yfiua/nopref/jimis/
+
+kunegis:nopref	doi	10.18713/JIMIS-140417-2-4
+
+kunegis:nopref	kunegiscat	journal

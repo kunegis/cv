@@ -1,0 +1,86 @@
+#! /bin/sh
+#
+# Output the Latex code for the \item element for publication with
+# Bibtex ID "$id". 
+#
+# INVOCATION 
+# 
+#    $0 $id
+#
+# INPUT FILES 
+#	pubdb, field
+#
+
+set -e
+
+id="$1"
+
+tmpfile="${TMPDIR:-/tmp}/write_publication.$$"
+
+bibtextype="$(./field "$id" _        )"
+title="$(     ./field "$id" title    )"
+author="$(    ./field "$id" author   )"
+year="$(      ./field "$id" year     )"
+url="$(       ./field "$id" url      )"
+journal="$(   ./field "$id" journal  )"
+booktitle="$( ./field "$id" booktitle)"
+pages="$(     ./field "$id" pages    )"
+volume="$(    ./field "$id" volume   )"
+number="$(    ./field "$id" number   )"
+
+printf '\\item[{[\\publicationnumber]}] '
+
+if [ -n "$url" ] ; then
+	title_linked="\\href{$url}{$title}"
+else
+	title_linked="$title"
+fi
+
+author="$(printf "%s" "$author" | sed -E -e 's/ and /, /g')"
+
+venue_part=
+if [ -n "$journal" ] ; then
+	venue_part="$venue_part, $(printf "\\")textit{$journal}"
+fi
+if [ -n "$booktitle" ] ; then
+	venue_part="$venu_part, $(printf "\\")textit{$booktitle}"
+fi
+
+coordinates_part=
+if [ -n "$volume" ] ; then 
+	coordinates_part="${coordinates_part}$volume"
+fi
+if [ -n "$number" ] ; then
+	coordinates_part="${coordinates_part}($number)"
+fi
+if [ -n "$pages" ] ; then
+	if [ -n "$coordinates_part" ] ; then
+		coordinates_part="${coordinates_part}:$pages"
+	else
+		coordinates_part="pp. $pages"
+	fi
+fi
+if [ -n "$coordinates_part" ] ; then
+	coordinates_part=", $coordinates_part"
+fi
+
+extra_part=
+if [ "$bibtextype" = techreport ] ; then
+	extra_part="$extra_part, Technical report"
+fi
+for extra_field in publisher series institution howpublished note ; do
+	value="$(./field "$id" "$extra_field")"
+	if [ -n "$value" ] ; then
+		extra_part="$extra_part, $value"
+	fi
+done
+
+printf "%s, %s%s%s%s, %s." \
+	"$title_linked" \
+	"$author" \
+	"$venue_part" \
+	"$coordinates_part" \
+	"$extra_part" \
+	"$year"
+
+printf "\\n"

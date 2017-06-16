@@ -1,0 +1,20 @@
+#! /bin/sh
+# 
+# Get a single Bibtex field 
+# 
+# INVOCATION
+# 
+#	$0 $id $field
+#
+# INPUT FILES 
+#	pubdb
+#
+
+id="$1"
+field="$2"
+
+<pubdb sed -E -e '
+s/^'"$id"'	'"$field"'	(.+)$/\1/
+t
+d
+'

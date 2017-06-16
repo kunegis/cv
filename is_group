@@ -1,0 +1,37 @@
+#! /bin/sh
+#
+# Determine whether a category belongs to a group.
+#
+# INVOCATION 
+#	$0 $group $cat
+#
+
+set -e
+
+group="$1"
+cat="$2"
+
+if [ "$group" = article ] ; then
+	if [ "$cat" = journal ] ; then
+		exit 0
+	elif [ "$cat" = chapter ] ; then
+		exit 0
+	else 
+		exit 1
+	fi
+elif [ "$group" = other ] ; then
+	if [ "$cat" = misc ] || [ "$cat" = preprint ] ; then
+		exit 0
+	else 
+		exit 1
+	fi
+elif [ "$group" = conf ] || [ "$group" = workshop ] || [ "$group" = abstract ] ; then
+	# Groups whose categories begin with the group name
+	echo "$cat" | grep -q -E '^'"$group"
+elif [ "$group" = peer ] ; then
+	# Groups whose categories have identical names to the group
+	echo "$cat" | grep -q -E '^'"$group"'$'
+else 
+	echo >&2 "*** Invalid group '$group'"
+	exit 2
+fi

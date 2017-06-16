@@ -1,4 +1,6 @@
-* Separate publications by type
 * In the poster category, show also posters that have a publication 
 * In the talk category, show also talks that have a publication 
 * Show all URLs for publications, with icons 
+* Show Sahin's name with the cedilla 
+* In the "other publication" group:  clean up all publications to show good metadata (i.e., tech report, arxiv, etc.) 
+* Generate new extbib.tex file and test in mons/ 

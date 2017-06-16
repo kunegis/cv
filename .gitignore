@@ -6,4 +6,5 @@ bibtex
 *.log
 *.dvi
 corepub
-publications-*.tex
+dep
+list-*.tex

@@ -1,0 +1,31 @@
+#! /bin/sh
+#
+# INVOCATION
+#	$0 $group
+#
+
+set -e
+
+group="$1"
+
+printf '\\begin{itemize}\n'
+
+while IFS= read -r line ; do
+	id="$(echo "$line" | cut -f 1)"
+	cat="$(echo "$line" | cut -f 2)"
+	set +e
+	./is_group "$group" "$cat" 
+	exitcode="$?"
+	set -e
+	if [ "$exitcode" = 0 ] ; then
+		./write_publication "$id"
+	elif [ "$exitcode" = 1 ] ; then
+		: # nop
+	else 
+		echo >&2 "*** Internal error in ./is_group"
+		exit 2
+	fi
+done
+
+printf '\\end{itemize}\n'
+

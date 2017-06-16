@@ -6,26 +6,11 @@
 
 \newcommand{\hide}[1]{}
 
+\newcounter{x}
+\setcounter{x}{1}
+\newcommand{\publicationnumber}{\arabic{x}\stepcounter{x}}
+
 \makeatletter
-\renewenvironment{thebibliography}[1]
-     {\section{\bibname}% <-- this line was changed from \chapter* to \section*
-      \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
-      \list{\@biblabel{\@arabic\c@enumiv}}%
-           {\settowidth\labelwidth{\@biblabel{#1}}%
-            \leftmargin\labelwidth
-            \advance\leftmargin\labelsep
-            \@openbib@code
-            \usecounter{enumiv}%
-            \let\p@enumiv\@empty
-            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
-      \sloppy
-      \clubpenalty4000
-      \@clubpenalty \clubpenalty
-      \widowpenalty4000%
-      \sfcode`\.\@m}
-     {\def\@noitemerr
-       {\@latex@warning{Empty `thebibliography' environment}}%
-      \endlist}
 \makeatother
 
 \definecolor{urlcolor}{rgb}{0.1, 0.1, 0.9}
@@ -276,8 +261,7 @@ Assistant), PIA (Personalized Information Agent), Synergie
   Offline Life} (COOL) at the World Wide Web Conf.\ (WWW), 2014. 
 \item \href{http://www2014.kr/calls/call-for-web-science-track/}{Web
   Sci.\ Track}, Int.\ World Wide Web Conf.\ (WWW), 2014.
-\item \href{http://ijcai13.org/}{Int.\ Joint Conf.\ on Artificial
-  Intelligence} (IJCAI), 2013.  
+\item \href{http://ijcai13.org/}{Int.\ Joint Conf.\ on Artif.\ Intell.} (IJCAI), 2013.  
 \item \href{http://www.websci13.org/}{Web Sci.\ Conf.}, 2013. 
 \item \href{http://webscience-education-workshop.blogs.usj.edu.lb/}{Web
   Sci.\ Education Workshop} at the Web Sci.\ Conf., 2013. 
@@ -341,9 +325,12 @@ Assistant), PIA (Personalized Information Agent), Synergie
   and Lexical Resources} (OntoLex) at the Int.\ Conf.\ on Comput.\ Linguist.\ (COLING), 2010. 
 \end{itemize}
 
-\newcommand{\bibname}{Publications}
-% The style is defined in publications.tex, not here
-\bibliography{kunegis}
+\section{Articles}           \input{list-article}
+\section{Conference Papers}  \input{list-conf}
+\section{Workshop Papers}    \input{list-workshop}
+\section{Abstracts}          \input{list-abstract}
+\section{Miscellaneous Peer-Reviewed Publications}	\input{list-peer}
+\section{Other Publications} \input{list-other}
 
 \section{Keynotes and Invited Talks}
 \begin{itemize}
@@ -372,7 +359,7 @@ Assistant), PIA (Personalized Information Agent), Synergie
   \item[{[T8]}] Observing the Web: The Koblenz Network Collection.
     Bournemouth University, 2013.
   \item[{[T9]}] Growth and Decay: Using Machine Learning to Predict the Web's
-    Future, Workshop on Artificial Intelligence on the Web, 2012. 
+    Future, Workshop on Artif.\ Intell. on the Web, 2012. 
   \item[{[T10]}] Models of Like, Dislike, Similarity and Dissimilarity using
     Split-complex Numbers, University College Dublin, 2012. 
   \item[{[T11]}] Why Is Beyoncé More Popular Than Me:  Fairness, Diversity and

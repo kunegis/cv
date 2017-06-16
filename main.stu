@@ -16,22 +16,21 @@
 cv-kunegis.pdf:  
 	cv-kunegis.tex
 	kunegis.bib tub.bib konect.bib
-	publications.aux
+	[dep]
 {
 	rm -f *.log *.out *.bbl *.blg
-	cp publications.aux cv-kunegis.aux
 	pdflatex cv-kunegis.tex
 	bibtex cv-kunegis
 	pdflatex cv-kunegis.tex
 	pdflatex cv-kunegis.tex
 }
 
-publications.aux:  publications.tex publications-core.tex
+>dep:  <cv-kunegis.tex
 {
-	latex publications 
+	sed -E -e 's,^.*\\input\{([^}]+)\}.*$,\1.tex,;t;d'
 }
 
-check_publications:  publications.aux ckpub kunegis.bib
+check_publications:  ckpub kunegis.bib
 {
 	./ckpub && touch check_publications
 }
@@ -54,7 +53,7 @@ bibtex;
 	./german
 }
 
->extbib.tex:  <publications.aux mkext
+>extbib.tex:  mkext
 {
 	./mkext
 }
@@ -69,7 +68,14 @@ bibtex;
 	./mkcore
 }
 
->publications-core.tex:  <corepub
+>list-$group.tex:  <corepub is_group write_publication kunegis.bib pubdb field mklist
 {
-	sed -E -e '/	thesisown$/d;s,^([^	]+)	(.+)$,\\nocite{\1},'
+	./mklist "$group" | sed -E -e '
+		s,([:.]) ,\1\\ ,g
+	'
+}
+
+>pubdb:  <kunegis.bib  mkpubdb
+{
+	./mkpubdb
 }

@@ -8,27 +8,33 @@
 %
 % The 'kunegiscat' field is a custom field that represents the category of the
 % publication, and it can be: 
-%   * Journal article 					(kunegiscat=journal)
-%   * Conference paper with talk, own talk 		(kunegiscat=conftalkown)
-%   * Conference paper with talk, other talk		(kunegiscat=conftalkother)
-%   * Conference paper with poster, own presentation	(kunegiscat=confposterown)
-%   * Conference paper with poster, other presentation	(kunegiscat=confposterother)
-%   * Conference paper with talk+poster, own            (kunegiscat=conftalkposterown)
-%   * Conference paper with talk+poster, other          (kunegiscat=conftalkposterother)
-%   * Workshop paper with talk, own talk		(kunegiscat=workshoptalkown) 
-%   * Workshop paper with talk, other talk		(kunegiscat=workshoptalkother) 
-%   * Workshop paper with talk+poster, own		(kunegiscat=workshoptalkposterown) 
-%   * Workshop paper with talk+poster, other		(kunegiscat=workshoptalkposterother) 
-%   * Abstract with poster, own 			(kunegiscat=abstractposterown)
-%   * Abstract with poster, other 			(kunegiscat=abstractposterother)
-%   * Abstract with demo, own                           (kunegiscat=abstractdemoown)
-%   * Abstract with demo, other 			(kunegiscat=abstractdemoother)
-%   * Other peer-reviewed 				(kunegiscat=peer)
-%   * Non-peer reviewed publication 			(kunegiscat=misc)
-%   * Thesis 						(kunegiscat=thesisown) 
-%   * Preprint / in review				(kunegiscat=preprint)
+%       						KUNEGISCAT				GROUP
+%   * Thesis 						(kunegiscat=thesisown) 			(group=thesis)		*
+%   * Journal article 					(kunegiscat=journal)			(group=article)		*
+%   * Chapter or similar				(kunegiscat=chapter)			(group=article)		*
+%   * Conference paper with talk, own talk 		(kunegiscat=conftalkown)		(group=conf)		*
+%   * Conference paper with talk, other talk		(kunegiscat=conftalkother)		(group=conf)		*
+%   * Conference paper with poster, own presentation	(kunegiscat=confposterown)		(group=conf,poster)	*
+%   * Conference paper with poster, other presentation	(kunegiscat=confposterother)		(group=conf,poster)	*
+%   * Conference paper with talk+poster, own            (kunegiscat=conftalkposterown)		(group=conf,poster)	*
+%   * Conference paper with talk+poster, other          (kunegiscat=conftalkposterother)	(group=conf,poster)	*
+%   * Workshop paper with talk, own talk		(kunegiscat=workshoptalkown) 		(group=workshop)	*
+%   * Workshop paper with talk, other talk		(kunegiscat=workshoptalkother) 		(group=workshop)	*
+%   * Workshop paper with talk+poster, own		(kunegiscat=workshoptalkposterown) 	(group=workshop,poster)	*
+%   * Workshop paper with talk+poster, other		(kunegiscat=workshoptalkposterother) 	(group=workshop,poster)	*
+%   * Abstract with talk, own				(kunegiscat=abstracttalkown)		(group=abstract)	*
+%   * Abstract with talk, other				(kunegiscat=abstracttalkother)		(group=abstract)	*
+%   * Abstract with poster, own 			(kunegiscat=abstractposterown)		(group=abstract,poster)	*
+%   * Abstract with poster, other 			(kunegiscat=abstractposterother)	(group=abstract,poster)	*
+%   * Abstract with demo, own                           (kunegiscat=abstractdemoown)		(group=abstract,demo)	*
+%   * Abstract with demo, other 			(kunegiscat=abstractdemoother)		(group=abstract,demo)	*
+%   * Other peer-reviewed 				(kunegiscat=peer)			(group=peer)	
+%   * Non-peer reviewed publication 			(kunegiscat=misc)			(group=other)
+%   * Preprint / in review				(kunegiscat=preprint)			(group=other)
 %
 % Standalone posters, demos and supervised work are not included here. 
+%
+% We don't include newlines in fields. 
 %
 
 @mastersthesis{kunegis:master,
@@ -47,7 +53,7 @@
 	booktitle = {Analyse sozialer {Netzwerke} und {Social} {Software} -- {Grundlagen} und {Anwendungsbeispiele}},
 	year = {2007},
 	url = {http://sowiport.gesis.org/search/id/gesis-solis-00401999},
-	kunegiscat = {journal}, 
+	kunegiscat = {chapter}, 
 }
 
 @inproceedings{milosevic:update-policy,
@@ -62,7 +68,7 @@
 @inproceedings{mehlitz:evaluation-measure,
 	title = {A New Evaluation Measure for Information Retrieval Systems},
 	author = {Martin Mehlitz and Christian Bauckhage and Jérôme Kunegis and {\,{S}}ahin Albayrak},
-	booktitle = {Proc. Int. Conf. on Syst., Man and Cybernetics},
+	booktitle = {Proc. Int. Conf. on Syst., Man and Cybern.},
 	year = {2007},
 	url = {http://ieeexplore.ieee.org/document/4413662/},
 	kunegiscat = {conftalkother}, 
@@ -71,7 +77,7 @@
 @inproceedings{schmidt:bandwidth-optimization,
 	title = {Scalable Bandwidth Optimization in Advance Reservation Networks},   
 	author = {Stephan Schmidt and Jérôme Kunegis},
-	booktitle = {Proc. Int. Conf. on Networks},
+	booktitle = {Proc. Int. Conf. on Netw.},
 	year = {2007}, 
 	pages = {95--100}, 
 	url = {http://ieeexplore.ieee.org/document/4444068/},
@@ -81,7 +87,7 @@
 @inproceedings{mehlitz:ir-measure,
 	title = {Using Novel {IR} Measures to Learn Optimal Cluster Structures for Web Information Retrieval},
 	author = {Martin Mehlitz and Jérôme Kunegis and {\,{S}}ahin Albayrak},
-	booktitle = {Proc. Int. Conf. Web Intelligence},
+	booktitle = {Proc. Int. Conf. Web Intell.},
 	year = {2007},
 	url = {http://ieeexplore.ieee.org/document/4427109/},
 	kunegiscat = {conftalkother}, 
@@ -117,8 +123,7 @@
 
 @inproceedings{kunegis:assessing-unrated, 
 	title = {Assessing the Value of Unrated Items in Collaborative Filtering},
-	author = {Jérôme Kunegis and Andreas Lommatzsch and Martin
-                  Mehlitz and {\,{S}}ahin Albayrak},
+	author = {Jérôme Kunegis and Andreas Lommatzsch and Martin Mehlitz and {\,{S}}ahin Albayrak},
 	booktitle = {Proc. Int. Conf. on Digital Inf. Manag.},
 	year = {2007},
 	pages = {212--216}, 
@@ -127,11 +132,9 @@
 }
 
 @inproceedings{kunegis:netflix-srd,
-	title = {Modeling Collaborative Similarity with the Signed
-                  Resistance Distance Kernel}, 
-	author = {Jérôme Kunegis and Stephan Schmidt and Christian Bauckhage
-                  and Martin Mehlitz and Albayrak, {\,{S}}ahin}, 
-	booktitle = {Proc. European Conf. on Artificial Intelligence},
+	title = {Modeling Collaborative Similarity with the Signed Resistance Distance Kernel}, 
+	author = {Jérôme Kunegis and Stephan Schmidt and Christian Bauckhage and Martin Mehlitz and Albayrak, {\,{S}}ahin}, 
+	booktitle = {Proc. Eur. Conf. on Artif. Intell.},
 	year = {2008},
 	pages = {261--265},
 	url = {http://dl.acm.org/citation.cfm?id=1567341},
@@ -139,10 +142,8 @@
 }
 
 @inproceedings{kunegis:kernel-scalability,
-	title = {On the Scalability of Graph Kernels Applied to
-                  Collaborative Recommenders}, 
-	author = {Jérôme Kunegis and Andreas Lommatzsch and Christian
-                  Bauckhage and {\,{S}}ahin Albayrak}, 
+	title = {On the Scalability of Graph Kernels Applied to Collaborative Recommenders}, 
+	author = {Jérôme Kunegis and Andreas Lommatzsch and Christian Bauckhage and {\,{S}}ahin Albayrak}, 
 	booktitle = {Proc. ECAI Workshop on Recommender Syst.},
 	year = {2008},
 	pages = {35--38},
@@ -209,7 +210,7 @@
 	year = {2010}, 
 	pages = {35--36}, 
 	url = {http://dl.acm.org/citation.cfm?doid=1871962.1871984},
-	kunegiscat = {confposterown}, 
+	kunegiscat = {abstractposterown}, 
 }
 
 @inproceedings{deluca:multilingual,
@@ -226,16 +227,14 @@
 	title = {Connecting Senior Citizens through Interactive {TV}},
 	author = {Barış Karataş and Torsten Schmidt and Jérôme Kunegis and Till Plumbaum},
 	year = {2010},
-	booktitle = {Proc. Ambient Assisted Living},
+	booktitle = {Proc. Ambient Assist. Living},
 	url = {http://www.dai-labor.de/fileadmin/files/publications/karatas10a.pdf},
 	kunegiscat = {conftalkother}, 
 }
 
 @inproceedings{kunegis:signed-kernels,
-	title = {Spectral Analysis of Signed Graphs for Clustering,
-                  Prediction and Visualization}, 
-	author = {Jérôme Kunegis and Stephan Schmidt and Andreas
-                  Lommatzsch and Jürgen Lerner},
+	title = {Spectral Analysis of Signed Graphs for Clustering, Prediction and Visualization}, 
+	author = {Jérôme Kunegis and Stephan Schmidt and Andreas Lommatzsch and Jürgen Lerner},
 	booktitle = {Proc. SIAM Int. Conf. on Data Min.},
 	year = {2010},
 	pages = {559--570}, 
@@ -294,9 +293,7 @@
 
 @article{fay:appcluster,
 	title = {Discriminating Graphs through Spectral Projections},
-	author = {Damien Fay and Hamed Haddadi and Steve Uhlig and Liam
-                  Kilmartin and Andrew W. Moore and Jérôme Kunegis and
-                  Marios Iliofotou}, 
+	author = {Damien Fay and Hamed Haddadi and Steve Uhlig and Liam Kilmartin and Andrew W. Moore and Jérôme Kunegis and Marios Iliofotou}, 
 	journal = {Comput. Netw.},
 	year = {2011}, 
 	volume = {55},
@@ -308,12 +305,11 @@
 
 @inproceedings{gottron:rule,
 	title = {One Community Does Not Rule Them All},
-	author = {Thomas Gottron and Jérôme Kunegis and Ansgar Scherp
-                  and Steffen Staab},  
+	author = {Thomas Gottron and Jérôme Kunegis and Ansgar Scherp and Steffen Staab},  
 	booktitle = {Proc. Web Sci. Conf.},
 	year = {2011},
 	url = {http://ansgarscherp.net/publications/pdf/P09-GottronEtAl-OneCommunityDoesNotRuleThemAll.pdf},
-	kunegiscat = {confposterother}, 
+	kunegiscat = {abstractposterother}, 
 }
 
 @techreport{fay:centrality,
@@ -328,8 +324,7 @@
 
 @inproceedings{nasir:retweet-ranking,
 	title = {Searching Microblogs: Coping with Sparsity and Document Quality},
-	author = {Nasir Naveed and Thomas Gottron and Jérôme Kunegis and
-                  Che Alhadi, Arifah},
+	author = {Nasir Naveed and Thomas Gottron and Jérôme Kunegis and Che Alhadi, Arifah},
 	booktitle = {Proc. Int. Conf. on Inf. and Knowl. Manag.},
 	year = {2011},
 	pages = {183--188},
@@ -339,19 +334,17 @@
 
 @inproceedings{che-alhadi:trec-microblog,
 	author = {Che Alhadi, Arifah and Thomas Gottron and Jérôme Kunegis and Naveed, Nasir},
-	title = {{LiveTweet}: Microblog Retrieval Based on Interestingess
-                  and an Adaptation of the Vector Space Model}, 
-	booktitle = {Proc. Text Retrieval Conference},
+	title = {{LiveTweet}: Microblog Retrieval Based on Interestingess and an Adaptation of the Vector Space Model}, 
+	booktitle = {Proc. Text Retrieval Conf.},
 	year = {2011}, 
 	url = {https://link.springer.com/chapter/10.1007%2F978-3-642-28997-2_66},
-	kunegiscat = {conftalkown}, 
+	kunegiscat = {abstracttalkown}, 
 }
 
 @inproceedings{che-alhadi:live-tweet,
 	title = {{LiveTweet}: Monitoring and Predicting Interesting Microblog Posts},
 	author = {Che Alhadi, Arifah and Gottron, Thomas and Kunegis, Jérôme and Naveed, Nasir},
-	booktitle = {Proc. European Conf. on Inf. Retrieval
-                  Demonstrations}, 
+	booktitle = {Proc. Eur. Conf. on Inf. Retrieval Demonstrations}, 
 	pages = {569--570},
 	year = {2012},
 	url = {https://link.springer.com/chapter/10.1007/978-3-642-28997-2_66},
@@ -392,8 +385,7 @@
 
 @inproceedings{preusse:unlink-prediction,
 	title = {Structural Dynamics of Knowledge Networks},
-	author = {Julia Preusse and Jérôme Kunegis and Matthias Thimm
-                  and Thomas Gottron and Steffen Staab}, 
+	author = {Julia Preusse and Jérôme Kunegis and Matthias Thimm and Thomas Gottron and Steffen Staab}, 
 	booktitle = {Proc. Int. Conf. on Weblogs and Soc. Media},
 	year = {2013},
 	pages = {506--515},
@@ -519,8 +511,7 @@
 
 @inproceedings{kling:mgtm,
 	title = {Detecting Non-{Gaussian} Geographical Topics in Tagged Photo Collections},
-	author = {Christoph Carl Kling and Jérôme Kunegis and Sergej
-                  Sizov and Steffen Staab},
+	author = {Christoph Carl Kling and Jérôme Kunegis and Sergej Sizov and Steffen Staab},
 	booktitle = {Proc. Int. Conf. on Web Search and Data Min.},
 	year = {2014},
 	pages = {603--612},
@@ -560,9 +551,7 @@
 
 @article{komepol:dud,
 	title = {{Glaubwürdigkeit} und {Vertrauen} von {Online}-{News}},
-	author = {Ines C. Vogel and Jutta Milde and Karin Stengel and
-                  Steffen Staab and Kling, Christoph Carl and Jérôme
-                  Kunegis}, 
+	author = {Ines C. Vogel and Jutta Milde and Karin Stengel and Steffen Staab and Kling, Christoph Carl and Jérôme Kunegis}, 
 	journal = {Datenschutz und Datensicherheit},
 	year = {2015},
 	volume = {40},
@@ -573,10 +562,8 @@
 }
 
 @inproceedings{kling:lqfb,
-	title = {Voting Behaviour and Power in Online Democracy: A
-                  Study of {LiquidFeedback} in {Germany}'s {Pirate} {Party}}, 
-	author = {Christoph Carl Kling and Jérôme Kunegis and Heinrich
-                  Hartmann and Markus Strohmaier and Steffen Staab},
+	title = {Voting Behaviour and Power in Online Democracy:  A Study of {LiquidFeedback} in {Germany}'s {Pirate} {Party}}, 
+	author = {Christoph Carl Kling and Jérôme Kunegis and Heinrich Hartmann and Markus Strohmaier and Steffen Staab},
 	booktitle = {Proc. Int. Conf. on Weblogs and Soc. Media},
 	year = {2015},
 	pages = {208--217}, 
@@ -585,10 +572,8 @@
 }
 
 @inproceedings{samoilenko:wikilang,
-	title = {Linguistic Influence Patterns within the Global Network of
-                  {Wikipedia} Language Editions}, 
-	author = {Anna Samoilenko and Fariba Karimi and Jérôme Kunegis and
-                  Daniel Edler and Markus Strohmaier}, 
+	title = {Linguistic Influence Patterns within the Global Network of {Wikipedia} Language Editions}, 
+	author = {Anna Samoilenko and Fariba Karimi and Jérôme Kunegis and Daniel Edler and Markus Strohmaier}, 
 	booktitle = {Proc. Web Sci. Conf.},
 	year = {2015},
 	url = {http://dl.acm.org/citation.cfm?id=2786497},
@@ -596,8 +581,7 @@
 }
 
 @inproceedings{perl:twitter-unlink,
-	title = {{Twitter} as a Political Network -- Predicting the Following and
-	   Unfollowing Behavior of {German} Politicians},
+	title = {{Twitter} as a Political Network -- Predicting the Following and Unfollowing Behavior of {German} Politicians},
 	author = {Julia Perl and Claudia Wagner and Jérôme Kunegis and Steffen Staab},
 	booktitle = {Proc. Web Sci. Conf.}, 
 	year = {2015},
@@ -606,13 +590,9 @@
 }
 
 @inproceedings{homscheid:lkml,
-	title = {Private-Collective Invention and Open Source Software:
-                  Longitudinal Insights from {Linux} Kernel
-                  Development},  
-	author = {Dirk Homscheid and Jérôme Kunegis and Mario
-                  Schaarschmidt},
-	booktitle = {Proc. IFIP Conf. on e-Business, e-Services and
-                  e-Society},
+	title = {Private-Collective Invention and Open Source Software:  Longitudinal Insights from {Linux} Kernel Development},  
+	author = {Dirk Homscheid and Jérôme Kunegis and Mario Schaarschmidt},
+	booktitle = {Proc. IFIP Conf. on e-Business, e-Services and e-Society},
 	year = {2015},
 	pages = {299--313},
 	url = {https://link.springer.com/chapter/10.1007/978-3-319-25013-7_24},
@@ -634,14 +614,12 @@
 	year = {2015},
 	pages = {361--362},
 	url = {http://dl.acm.org/citation.cfm?id=2745936},
-	kunegiscat = {confposterother}, 
+	kunegiscat = {abstractposterother}, 
 }
 
 @article{samoilenko:language-hierarchy,
-	title = {Linguistic Neighbourhoods: Explaining Cultural Borders on
-                  {Wikipedia} through Multilingual Co-editing Activity}, 
-	author = {Anna Samoilenko and Fariba Karimi and Daniel Edler and
-                  Jérôme Kunegis and Markus Strohmaier},
+	title = {Linguistic Neighbourhoods: Explaining Cultural Borders on {Wikipedia} through Multilingual Co-editing Activity}, 
+	author = {Anna Samoilenko and Fariba Karimi and Daniel Edler and Jérôme Kunegis and Markus Strohmaier},
 	journal = {Eur. Phys. J. Data Sci.},
 	year = {2016},
 	volume = {5},
@@ -652,11 +630,11 @@
 }
 
 @inproceedings{schelter:trackers,
-	title = {Tracking the Trackers: A Large-Scale Analysis of
-                  Embedded Web Trackers}, 
+	title = {Tracking the Trackers: A Large-Scale Analysis of Embedded Web Trackers}, 
 	author = {Sebastian Schelter and Jérôme Kunegis},
 	booktitle = {Proc. Int. Conf. on Web and Soc. Media},
 	year = {2016},
+	pages = {679--682},
 	url = {https://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13024},
 	kunegiscat = {conftalkother}, 
 }
@@ -672,13 +650,11 @@
 
 @article{toedtli:ctqw,
 	title = {Continuous-Time Quantum Walks on Directed Bipartite Graphs}, 
-	author = {Beat Tödtli and Monika Laner and Jouri Semenov and
-                  Beatrice Paoli and Marcel Blattner and Jérôme
-                  Kunegis},
+	author = {Beat Tödtli and Monika Laner and Jouri Semenov and Beatrice Paoli and Marcel Blattner and Jérôme Kunegis},
 	journal = {Phys. Rev. A},
 	year = {2016},
 	volume = {94},
-	issue = {5},
+	number = {5},
 	pages = {052338},
 	url = {http://journals.aps.org/pra/abstract/10.1103/PhysRevA.94.052338},
 	url_arxiv = {http://arxiv.org/abs/1606.00992},
@@ -709,9 +685,7 @@
 }
 
 @inproceedings{kunegis:nopref-netsci,
-	title = {The Problem of Action at a Distance in Networks and the
-                  Emergence of Preferential Attachment from Triadic
-                  Closure},
+	title = {The Problem of Action at a Distance in Networks and the Emergence of Preferential Attachment from Triadic Closure},
 	author = {Jérôme Kunegis and Fariba Karimi and Jun Sun},
 	booktitle = {Proc. Int. Sch. and Conf. on Netw. Sci.},
 	year = {2017},
@@ -719,8 +693,7 @@
 }
 
 @inproceedings{schelter:nzh-ea,
-	title = {`{Dark} {Germany}': Temporal Characteristics and Connectivity Patterns in Online Far-Right Protests
-                  Against Refugee Housing}, 
+	title = {`{Dark} {Germany}': Temporal Characteristics and Connectivity Patterns in Online Far-Right Protests Against Refugee Housing}, 
 	author = {Sebastian Schelter and Jérôme Kunegis},
 	booktitle = {Proc. Web Sci. Conf. Extended Abstracts},
 	year = {2017},
@@ -728,9 +701,7 @@
 }
 
 @article{kunegis:nopref,
-	title = {The Problem of Action at a Distance in Networks and the
-                  Emergence of Preferential Attachment from Triadic
-                  Closure},  
+	title = {The Problem of Action at a Distance in Networks and the Emergence of Preferential Attachment from Triadic Closure},  
 	author = {Jérôme Kunegis and Fariba Karimi and Jun Sun},
 	journal = {J. of Interdiscip. Methodol. and Issues in Sci.},
 	year = {2017},
@@ -742,4 +713,3 @@
 	doi = {10.18713/JIMIS-140417-2-4},
 	kunegiscat = {journal}, 
 }
-

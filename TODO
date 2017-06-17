@@ -4,3 +4,6 @@
 * Generate new extbib.tex file and test in mons/ 
 * update my bibsonomy profile and papers
 * use special icons for:  open access, award, has-many-citations, etc.
+* upload the most-cited papers to arXiv if they are not already
+  available as open access
+

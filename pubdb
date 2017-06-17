@@ -316,6 +316,8 @@ kunegis:signed-kernels	pages	559--570
 
 kunegis:signed-kernels	url	http://epubs.siam.org/doi/abs/10.1137/1.9781611972801.49
 
+kunegis:signed-kernels	url_presentation	https://www.slideshare.net/kunegis/spectral-analysis-of-signed-graphs-for-clustering-prediction-and-visualization
+
 kunegis:signed-kernels	kunegiscat	conftalkposterown
 kunegis:hyperbolic-sine	_	inproceedings
 
@@ -363,6 +365,8 @@ nasir:retweets	url	http://dl.acm.org/citation.cfm?id=2527052
 
 nasir:retweets	url_video	http://videolectures.net/acmwebsci2011_kunegis_interestingness/
 
+nasir:retweets	url_presentation	https://www.slideshare.net/kunegis/bad-news-travel-fast-a-contentbased-analysis-of-interestingness-on-twitter
+
 nasir:retweets	kunegiscat	conftalkown
 kunegis:phd	_	phdthesis
 
@@ -375,6 +379,8 @@ kunegis:phd	school	Univ. of Koblenz--Landau
 kunegis:phd	year	2011
 
 kunegis:phd	url	https://kola.opus.hbz-nrw.de/frontdoor/index/index/docId/581
+
+kunegis:phd	url_presentation	https://www.slideshare.net/kunegis/on-the-spectral-evolution-of-large-networks-phd-thesis-by-jrme-kunegis
 
 kunegis:phd	kunegiscat	thesisown
 spiegel:time-tensor	_	inproceedings
@@ -454,6 +460,8 @@ nasir:retweet-ranking	year	2011
 nasir:retweet-ranking	pages	183--188
 
 nasir:retweet-ranking	url	http://dl.acm.org/citation.cfm?id=2063607
+
+nasir:retweet-ranking	url_presentation	https://www.slideshare.net/kunegis/searching-microblogs-coping-with-sparsity-and-document-quality
 
 nasir:retweet-ranking	kunegiscat	conftalkother
 che-alhadi:trec-microblog	_	inproceedings
@@ -634,6 +642,8 @@ kunegis:directed-decomposition	pages	948--953
 
 kunegis:directed-decomposition	url	http://ieeexplore.ieee.org/document/6413827/
 
+kunegis:directed-decomposition	url_presentation	https://www.slideshare.net/kunegis/predicting-directed-links-using-nondiagonal-matrix-decompositions
+
 kunegis:directed-decomposition	kunegiscat	conftalkown
 kunegis:latent-negative	_	inproceedings
 
@@ -667,6 +677,8 @@ kunegis:preferential-attachment	booktitle	Proc. Web Sci. Conf.
 kunegis:preferential-attachment	url	http://dl.acm.org/citation.cfm?id=2464514
 
 kunegis:preferential-attachment	url_arxiv	http://arxiv.org/abs/1303.6271
+
+kunegis:preferential-attachment	url_presentation	https://www.slideshare.net/kunegis/preferential-attachment-in-online-networks-measurement-and-explanations
 
 kunegis:preferential-attachment	kunegiscat	confposterown
 kunegis:network-encyclopedia-1	_	article
@@ -714,6 +726,8 @@ kunegis:konect	pages	1343--1350
 kunegis:konect	howpublished	Web Obs. Workshop
 
 kunegis:konect	url	http://dl.acm.org/citation.cfm?id=2488173
+
+kunegis:konect	url_presentation	https://www.slideshare.net/kunegis/presentationwow
 
 kunegis:konect	kunegiscat	workshoptalkown
 kunegis:polcovar	_	journal

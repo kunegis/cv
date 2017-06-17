@@ -318,6 +318,8 @@ kunegis:signed-kernels	url	http://epubs.siam.org/doi/abs/10.1137/1.9781611972801
 
 kunegis:signed-kernels	url_presentation	https://www.slideshare.net/kunegis/spectral-analysis-of-signed-graphs-for-clustering-prediction-and-visualization
 
+kunegis:signed-kernels	url_web	https://networkscience.wordpress.com/2011/12/14/networks-with-negative-edges/
+
 kunegis:signed-kernels	kunegiscat	conftalkposterown
 kunegis:hyperbolic-sine	_	inproceedings
 
@@ -477,6 +479,17 @@ che-alhadi:trec-microblog	year	2011
 che-alhadi:trec-microblog	url	https://link.springer.com/chapter/10.1007/978-3-642-28997-2_66
 
 che-alhadi:trec-microblog	kunegiscat	abstracttalkown
+kunegis:matrix-taxonomy	_	misc
+
+kunegis:matrix-taxonomy	title	Taxonomy of $n\times n$ Matrices
+
+kunegis:matrix-taxonomy	author	Jérôme Kunegis
+
+kunegis:matrix-taxonomy	year	2012
+
+kunegis:matrix-taxonomy	url	https://networkscience.wordpress.com/2012/05/04/taxonomy-of-matrices/
+
+kunegis:matrix-taxonomy	kunegiscat	misc
 che-alhadi:live-tweet	_	inproceedings
 
 che-alhadi:live-tweet	title	{LiveTweet}: Monitoring and Predicting Interesting Microblog Posts
@@ -520,6 +533,86 @@ kunegis:konect-netsci	booktitle	Proc. Int. Sch. and Conf. on Netw. Sci.
 kunegis:konect-netsci	year	2012
 
 kunegis:konect-netsci	kunegiscat	abstractposterown
+kunegis:power-law	_	inproceedings
+
+kunegis:power-law	title	Fairness on the Web: Alternatives to the Power Law
+
+kunegis:power-law	author	Jérôme Kunegis and Julia Preusse
+
+kunegis:power-law	booktitle	Proc. Web Sci. Conf.
+
+kunegis:power-law	year	2012
+
+kunegis:power-law	pages	175--184
+
+kunegis:power-law	url	http://dl.acm.org/citation.cfm?id=2380741
+
+kunegis:power-law	url_presentation	https://www.slideshare.net/kunegis/fairness-on-the-web-alternatives-to-the-power-law-websci-2012
+
+kunegis:power-law	url_video	http://www.youtube.com/watch?v=udzzfF_KKso
+
+kunegis:power-law	url_web	https://networkscience.wordpress.com/2012/04/19/power-law-paradox-power-law-exponent-does-not-mean-what-you-think-it-means/
+
+kunegis:power-law	kunegiscat	conftalkown
+kunegis:konect-cloud	_	inproceedings
+
+kunegis:konect-cloud	title	{KONECT Cloud} -- Large Scale Network Mining in the Cloud
+
+kunegis:konect-cloud	author	Jérôme Kunegis
+
+kunegis:konect-cloud	year	2012
+
+kunegis:konect-cloud	month	April
+
+kunegis:konect-cloud	booktitle	Proc. Spring 2012 Future SOC Lab Day
+
+kunegis:konect-cloud	series	HPI Technical Report Series
+
+kunegis:konect-cloud	pages	107--110
+
+kunegis:konect-cloud	url	https://books.google.be/books?id=06fDCQAAQBAJ&pg=PA107
+
+kunegis:konect-cloud	url_presentation	https://www.slideshare.net/kunegis/konect-cloud-large-scale-network-mining-in-the-cloud-12958650
+
+kunegis:konect-cloud	url_video	http://www.tele-task.de/de/archive/video/flash/16348/
+
+kunegis:konect-cloud	kunegiscat	workshoptalkposterown
+kunegis:split-complex-dating	_	inproceedings
+
+kunegis:split-complex-dating	title	Online Dating Recommender Systems: The Split-complex Number Approach
+
+kunegis:split-complex-dating	author	Jérôme Kunegis and Gerd Gröner and Thomas Gottron
+
+kunegis:split-complex-dating	year	2012
+
+kunegis:split-complex-dating	booktitle	Proc. RecSys Workshop on Recomm. Syst. and the Soc. Web
+
+kunegis:split-complex-dating	pages	37--44
+
+kunegis:split-complex-dating	url	http://dl.acm.org/citation.cfm?id=2365942
+
+kunegis:split-complex-dating	url_presentation	https://fr.slideshare.net/kunegis/presentation-2012rsweb
+
+kunegis:split-complex-dating	url_web	https://networkscience.wordpress.com/2011/08/09/dating-sites-and-the-split-complex-numbers/
+
+kunegis:split-complex-dating	kunegiscat	workshoptalkown
+kunegis:directed-decomposition	_	inproceedings
+
+kunegis:directed-decomposition	title	Predicting Directed Links using Nondiagonal Matrix Decomposition
+
+kunegis:directed-decomposition	author	Jérôme Kunegis and Jörg Fliege
+
+kunegis:directed-decomposition	booktitle	Proc. Int. Conf. on Data Min.
+
+kunegis:directed-decomposition	year	2012
+
+kunegis:directed-decomposition	pages	948--953
+
+kunegis:directed-decomposition	url	http://ieeexplore.ieee.org/document/6413827/
+
+kunegis:directed-decomposition	url_presentation	https://www.slideshare.net/kunegis/predicting-directed-links-using-nondiagonal-matrix-decompositions
+
+kunegis:directed-decomposition	kunegiscat	conftalkown
 kunegis:spectral-evolution	_	article
 
 kunegis:spectral-evolution	title	Spectral Evolution in Dynamic Networks
@@ -569,82 +662,6 @@ fay:joint-diagonalization	pages	41--48
 fay:joint-diagonalization	url	http://ieeexplore.ieee.org/document/6785685/
 
 fay:joint-diagonalization	kunegiscat	conftalkother
-kunegis:power-law	_	inproceedings
-
-kunegis:power-law	title	Fairness on the Web: Alternatives to the Power Law
-
-kunegis:power-law	author	Jérôme Kunegis and Julia Preusse
-
-kunegis:power-law	booktitle	Proc. Web Sci. Conf.
-
-kunegis:power-law	year	2012
-
-kunegis:power-law	pages	175--184
-
-kunegis:power-law	url	http://dl.acm.org/citation.cfm?id=2380741
-
-kunegis:power-law	url_presentation	https://www.slideshare.net/kunegis/fairness-on-the-web-alternatives-to-the-power-law-websci-2012
-
-kunegis:power-law	url_video	http://www.youtube.com/watch?v=udzzfF_KKso
-
-kunegis:power-law	kunegiscat	conftalkown
-kunegis:konect-cloud	_	inproceedings
-
-kunegis:konect-cloud	title	{KONECT Cloud} -- Large Scale Network Mining in the Cloud
-
-kunegis:konect-cloud	author	Jérôme Kunegis
-
-kunegis:konect-cloud	year	2012
-
-kunegis:konect-cloud	month	April
-
-kunegis:konect-cloud	booktitle	Proc. Spring 2012 Future SOC Lab Day
-
-kunegis:konect-cloud	series	HPI Technical Report Series
-
-kunegis:konect-cloud	pages	107--110
-
-kunegis:konect-cloud	url	https://books.google.be/books?id=06fDCQAAQBAJ&pg=PA107
-
-kunegis:konect-cloud	url_presentation	https://www.slideshare.net/kunegis/konect-cloud-large-scale-network-mining-in-the-cloud-12958650
-
-kunegis:konect-cloud	url_video	http://www.tele-task.de/de/archive/video/flash/16348/
-
-kunegis:konect-cloud	kunegiscat	workshoptalkposterown
-kunegis:split-complex-dating	_	inproceedings
-
-kunegis:split-complex-dating	title	Online Dating Recommender Systems: The Split-complex Number Approach
-
-kunegis:split-complex-dating	author	Jérôme Kunegis and Gerd Gröner and Thomas Gottron
-
-kunegis:split-complex-dating	year	2012
-
-kunegis:split-complex-dating	booktitle	Proc. RecSys Workshop on Recomm. Syst. and the Soc. Web
-
-kunegis:split-complex-dating	pages	37--44
-
-kunegis:split-complex-dating	url	http://dl.acm.org/citation.cfm?id=2365942
-
-kunegis:split-complex-dating	url_presentation	https://fr.slideshare.net/kunegis/presentation-2012rsweb
-
-kunegis:split-complex-dating	kunegiscat	workshoptalkown
-kunegis:directed-decomposition	_	inproceedings
-
-kunegis:directed-decomposition	title	Predicting Directed Links using Nondiagonal Matrix Decomposition
-
-kunegis:directed-decomposition	author	Jérôme Kunegis and Jörg Fliege
-
-kunegis:directed-decomposition	booktitle	Proc. Int. Conf. on Data Min.
-
-kunegis:directed-decomposition	year	2012
-
-kunegis:directed-decomposition	pages	948--953
-
-kunegis:directed-decomposition	url	http://ieeexplore.ieee.org/document/6413827/
-
-kunegis:directed-decomposition	url_presentation	https://www.slideshare.net/kunegis/predicting-directed-links-using-nondiagonal-matrix-decompositions
-
-kunegis:directed-decomposition	kunegiscat	conftalkown
 kunegis:latent-negative	_	inproceedings
 
 kunegis:latent-negative	title	What Is the Added Value of Negative Links in Online Social Networks?

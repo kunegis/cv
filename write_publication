@@ -86,7 +86,7 @@ done
 
 margin_part=
 if [ -n "$url" ] ; then
-	margin_part="\\href{$url}{\faExternalLink}"
+	margin_part="\\href{$url}{\faFileTextO}" ## \faExternalLink
 fi
 if [ -n "$url_web" ] ; then
 	margin_part="${margin_part} \\href{$url_web}{\faChain}" 

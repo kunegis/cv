@@ -40,7 +40,7 @@
 %
 %   overlapped	the section titles overlap the body text (default)
 %
-%   margin	the section titles are to the left of the body text
+%   mm		the section titles are to the left of the body text
 %		
 %   11pt	use 11 point fonts instead of 10 point fonts
 %
@@ -194,7 +194,7 @@
 \DeclareOption{line}{\@linetrue}
 \DeclareOption{centered}{\@linefalse}
 
-\DeclareOption{margin}{\@margintrue}
+\DeclareOption{mm}{\@margintrue}
 \DeclareOption{overlapped}{\@marginfalse}
 
 \ExecuteOptions{overlapped,centered}

@@ -21,14 +21,15 @@ bibtextype="$(./field "$id" _        )"
 title="$(     ./field "$id" title    )"
 author="$(    ./field "$id" author   )"
 year="$(      ./field "$id" year     )"
-url="$(       ./field "$id" url      )"
 journal="$(   ./field "$id" journal  )"
 booktitle="$( ./field "$id" booktitle)"
 pages="$(     ./field "$id" pages    )"
 volume="$(    ./field "$id" volume   )"
 number="$(    ./field "$id" number   )"
-
-printf '\\item[{[\\publicationnumber]}] '
+url="$(       ./field "$id" url      )"
+url_presentation="$(./field "$id" url_presentation)"
+url_video="$(       ./field "$id" url_video       )"
+url_arxiv="$(       ./field "$id" url_arxiv       )"
 
 if printf "%s" "$title" | grep -q -E '[?]$' ; then
 	endpunct=
@@ -42,7 +43,7 @@ else
 fi
 
 author="$(printf "%s" "$author" | sed -E -e 's/ and /\
-/g' | sed -E -e 's/^(.*), (.*)$/\2 \1/g;$!s/$/, /')"
+/g' | sed -E -e 's/^(.*), (.*)$/\2 \1/g;$!s/$/, /' | tr -d '\n')"
 
 venue_part=
 if [ -n "$journal" ] ; then
@@ -81,12 +82,28 @@ for extra_field in publisher series institution howpublished note issue ; do
 	fi
 done
 
-printf "%s %s%s%s%s, %s." \
+margin_part=
+if [ -n "$url" ] ; then
+	margin_part="\\href{$url}{\faExternalLink}"
+fi
+if [ -n "$url_arxiv" ] ; then
+	margin_part="${margin_part} \\href{$url_arxiv}{\faFileExcelO}"
+fi
+if [ -n "$url_presentation" ] ; then
+	margin_part="${margin_part} \\href{$url_presentation}{\faSlideshare}"
+fi
+if [ -n "$url_video" ] ; then
+	margin_part="${margin_part} \\href{$url_video}{\faVideoCamera}"
+fi
+if [ -n "$margin_part" ] ; then
+	margin_part=" \\marginnote{$margin_part}"
+fi
+
+printf '\\item[{[\\publicationnumber]}]%s %s %s%s%s%s, %s.\n' \
+	"$margin_part" \
 	"$title_linked" \
 	"$author" \
 	"$venue_part" \
 	"$coordinates_part" \
 	"$extra_part" \
 	"$year"
-
-printf "\\n"

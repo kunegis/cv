@@ -1,6 +1,6 @@
+* Use kunegis.bib also for demos/talks/etc. 
 * In the poster category, show also posters that have a publication 
 * In the talk category, show also talks that have a publication 
-* Show all URLs for publications, with icons  (but where should they be placed?)
-* Show awards as icons in the papers (but where should they be placed?)
 * Generate new extbib.tex file and test in mons/ 
 * update my bibsonomy profile and papers
+* use special icons for:  open access, award, has-many-citations, etc.

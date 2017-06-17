@@ -38,6 +38,14 @@ check_publications:  ckpub kunegis.bib
 $name.bib  = bibtex/;
 konect.bib = konect-extr/;
 
+>kunegis.bib:  <bibtex/kunegis.bib
+{
+	# Insert soft hyphens in accented names because Latex doesn't
+	# accept them in \hyphenation
+	echo '% DO NOT EDIT -- AUTO-GENERATED'
+	sed -E -e 's/Milošević/Milo\-šević/g'
+}
+
 bibtex/$name.bib: -p bibtex;
 konect-extr/konect.bib:  -p konect-extr;
 

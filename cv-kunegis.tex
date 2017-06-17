@@ -1,10 +1,18 @@
-\documentclass[line,margin]{res}
+\documentclass[line,mm]{res}
 
 \usepackage[utf8]{inputenc}
 \usepackage[pdftex]{hyperref}
 \usepackage[usenames,dvipsnames]{color}
+\usepackage{marginnote}
+%% \usepackage[misc]{ifsym}
+%% \usepackage{cookingsymbols}
+\usepackage{fontawesome} % Installed by doing this:  https://blog.stefanproell.at/2016/09/14/use-fontawesome-with-pdflatex/
+%%\usepackage[english]{babel}
 
-\newcommand{\hide}[1]{}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\marginparsep}{-0.3in}
+\addtolength{\marginparwidth}{+1in}
 
 \newcounter{x}
 \setcounter{x}{1}
@@ -25,21 +33,21 @@
  
 \begin{document}
 
-\name{{\normalfont Dr.\ rer.\ nat.\ Dipl.-Inform.}\ Jérôme KUNEGIS {\normalfont (Complete CV)}}
+\name{\hspace{3.3cm}{\normalfont Dr.\ rer.\ nat.\ Dipl.-Inform.}\ Jérôme KUNEGIS \hspace{1.5cm}{\normalfont (Complete CV)}}
 \begin{resume}
 
 \vspace{0.5cm}
 
-\hspace{-3cm}
+\hspace{-0.3cm}
 \begin{tabular}{lcr}
-  Université de Namur    &\hspace{6.3cm}\hfill& {\tt \href{mailto:jerome.kunegis@unamur.be}{jerome.kunegis@unamur.be}} \\
+  Université de Namur    &\hspace{3.5cm}\hfill& {\tt \href{mailto:jerome.kunegis@unamur.be}{jerome.kunegis@unamur.be}} \\
   Rempart de la Vierge 8 &                    & {\tt \href{http://twitter.com/kunegis}{twitter.com/kunegis}} \\
   B-5000 Namur           &                    & {\tt \href{http://www.linkedin.com/in/kunegis}{linkedin.com/in/kunegis}} \\
   Belgique               &                    & {\tt \href{http://networkscience.wordpress.com/}{networkscience.wordpress.com}} \\
   & & \\
   Tel.:  +32 (0)81 72 4943
 \end{tabular}
-\vspace{1cm}
+\vspace{0.5cm}
 
 \section{Education}
 

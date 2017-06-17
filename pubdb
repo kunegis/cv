@@ -30,7 +30,7 @@ milosevic:update-policy	_	inproceedings
 
 milosevic:update-policy	title	Resource-Aware Update Policy for Highly Dynamic {P2P} Networks
 
-milosevic:update-policy	author	Dragan Milošević and Jérôme Kunegis and Şahin Albayrak
+milosevic:update-policy	author	Dragan Milo-šević and Jérôme Kunegis and Şahin Albayrak
 
 milosevic:update-policy	booktitle	Proc. Int. Conf. on Web Intell. and Intell. Agent Tech. Workshops
 
@@ -436,9 +436,9 @@ fay:centrality	institution	University of Cambridge
 
 fay:centrality	year	2011
 
-fay:centrality	url	http://arxiv.org/abs/1110.1198
+fay:centrality	url	http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-806.html
 
-fay:centrality	url_cam	http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-806.html
+fay:centrality	url_arxiv	http://arxiv.org/abs/1110.1198
 
 fay:centrality	kunegiscat	misc
 nasir:retweet-ranking	_	inproceedings
@@ -466,7 +466,7 @@ che-alhadi:trec-microblog	booktitle	Proc. Text Retrieval Conf.
 
 che-alhadi:trec-microblog	year	2011
 
-che-alhadi:trec-microblog	url	https://link.springer.com/chapter/10.1007%2F978-3-642-28997-2_66
+che-alhadi:trec-microblog	url	https://link.springer.com/chapter/10.1007/978-3-642-28997-2_66
 
 che-alhadi:trec-microblog	kunegiscat	abstracttalkown
 che-alhadi:live-tweet	_	inproceedings
@@ -530,8 +530,6 @@ kunegis:spectral-evolution	number	1
 
 kunegis:spectral-evolution	url	https://link.springer.com/article/10.1007/s10115-012-0575-9
 
-kunegis:spectral-evolution	url_doi	http://dx.doi.org/10.1007/s10115-012-0575-9
-
 kunegis:spectral-evolution	kunegiscat	journal
 preusse:unlink-prediction	_	inproceedings
 
@@ -577,7 +575,7 @@ kunegis:power-law	pages	175--184
 
 kunegis:power-law	url	http://dl.acm.org/citation.cfm?id=2380741
 
-kunegis:power-law	url_slideshare	https://www.slideshare.net/kunegis/fairness-on-the-web-alternatives-to-the-power-law-websci-2012
+kunegis:power-law	url_presentation	https://www.slideshare.net/kunegis/fairness-on-the-web-alternatives-to-the-power-law-websci-2012
 
 kunegis:power-law	url_video	http://www.youtube.com/watch?v=udzzfF_KKso
 
@@ -794,8 +792,6 @@ kunegis:bipartivity	number	3
 
 kunegis:bipartivity	pages	201--321
 
-kunegis:bipartivity	doi	10.1080/15427951.2014.958250
-
 kunegis:bipartivity	url	http://www.tandfonline.com/doi/abs/10.1080/15427951.2014.958250
 
 kunegis:bipartivity	kunegiscat	journal
@@ -918,8 +914,6 @@ samoilenko:language-hierarchy	volume	5
 
 samoilenko:language-hierarchy	pages	9
 
-samoilenko:language-hierarchy	doi	10.1140/epjds/s13688-016-0070-8
-
 samoilenko:language-hierarchy	url	http://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-016-0070-8
 
 samoilenko:language-hierarchy	kunegiscat	journal
@@ -970,8 +964,6 @@ toedtli:ctqw	pages	052338
 toedtli:ctqw	url	http://journals.aps.org/pra/abstract/10.1103/PhysRevA.94.052338
 
 toedtli:ctqw	url_arxiv	http://arxiv.org/abs/1606.00992
-
-toedtli:ctqw	doi	https://doi.org/10.1103/PhysRevA.94.052338
 
 toedtli:ctqw	kunegiscat	journal
 sun:wiki-talk	_	inproceedings
@@ -1055,7 +1047,5 @@ kunegis:nopref	url_hal	https://hal.archives-ouvertes.fr/hal-01359796
 kunegis:nopref	url_arxiv	https://arxiv.org/abs/1408.0119
 
 kunegis:nopref	url_src	https://github.com/yfiua/nopref/jimis/
-
-kunegis:nopref	doi	10.18713/JIMIS-140417-2-4
 
 kunegis:nopref	kunegiscat	journal

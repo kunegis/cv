@@ -28,6 +28,8 @@ volume="$(    ./field "$id" volume   )"
 number="$(    ./field "$id" number   )"
 url="$(       ./field "$id" url      )"
 url_presentation="$(./field "$id" url_presentation)"
+url_poster="$(      ./field "$id" url_poster      )"
+url_web="$(         ./field "$id" url_web         )"
 url_video="$(       ./field "$id" url_video       )"
 url_arxiv="$(       ./field "$id" url_arxiv       )"
 
@@ -86,11 +88,17 @@ margin_part=
 if [ -n "$url" ] ; then
 	margin_part="\\href{$url}{\faExternalLink}"
 fi
+if [ -n "$url_web" ] ; then
+	margin_part="${margin_part} \\href{$url_web}{\faChain}" 
+fi
 if [ -n "$url_arxiv" ] ; then
 	margin_part="${margin_part} \\href{$url_arxiv}{\faFileExcelO}"
 fi
 if [ -n "$url_presentation" ] ; then
 	margin_part="${margin_part} \\href{$url_presentation}{\faSlideshare}"
+fi
+if [ -n "$url_poster" ] ; then
+	margin_part="${margin_part} \\href{$url_poster}{\faObjectGroup}"
 fi
 if [ -n "$url_video" ] ; then
 	margin_part="${margin_part} \\href{$url_video}{\faVideoCamera}"

@@ -32,9 +32,13 @@ milosevic:update-policy	title	Resource-Aware Update Policy for Highly Dynamic {P
 
 milosevic:update-policy	author	Dragan Milošević and Jérôme Kunegis and Şahin Albayrak
 
-milosevic:update-policy	booktitle	Proc. WI Workshops
+milosevic:update-policy	booktitle	Proc. Int. Conf. on Web Intell. and Intell. Agent Tech. Workshops
+
+milosevic:update-policy	pages	419--423
 
 milosevic:update-policy	year	2007
+
+milosevic:update-policy	howpublished	Int. Workshop on P2P Comput. and Auton. Agents
 
 milosevic:update-policy	url	http://ieeexplore.ieee.org/document/4427620/
 
@@ -46,6 +50,8 @@ mehlitz:evaluation-measure	title	A New Evaluation Measure for Information Retrie
 mehlitz:evaluation-measure	author	Martin Mehlitz and Christian Bauckhage and Jérôme Kunegis and Şahin Albayrak
 
 mehlitz:evaluation-measure	booktitle	Proc. Int. Conf. on Syst., Man and Cybern.
+
+mehlitz:evaluation-measure	pages	1200--1204
 
 mehlitz:evaluation-measure	year	2007
 
@@ -73,7 +79,9 @@ mehlitz:ir-measure	title	Using Novel {IR} Measures to Learn Optimal Cluster Stru
 
 mehlitz:ir-measure	author	Martin Mehlitz and Jérôme Kunegis and Şahin Albayrak
 
-mehlitz:ir-measure	booktitle	Proc. Int. Conf. Web Intell.
+mehlitz:ir-measure	booktitle	Proc. Int. Conf. on Web Intell.
+
+mehlitz:ir-measure	pages	312--316
 
 mehlitz:ir-measure	year	2007
 
@@ -116,6 +124,8 @@ kunegis:adapting-ratings	author	Jérôme Kunegis and Şahin Albayrak
 
 kunegis:adapting-ratings	booktitle	Proc. Int. Conf. on Inf. Reuse and Integration
 
+kunegis:adapting-ratings	pages	49--54
+
 kunegis:adapting-ratings	year	2007
 
 kunegis:adapting-ratings	url	http://ieeexplore.ieee.org/document/4296596/
@@ -157,11 +167,13 @@ kunegis:kernel-scalability	title	On the Scalability of Graph Kernels Applied to 
 
 kunegis:kernel-scalability	author	Jérôme Kunegis and Andreas Lommatzsch and Christian Bauckhage and Şahin Albayrak
 
-kunegis:kernel-scalability	booktitle	Proc. ECAI Workshop on Recommender Syst.
+kunegis:kernel-scalability	booktitle	Proc. Eur. Conf. on Artif. Intell. Workshops
 
 kunegis:kernel-scalability	year	2008
 
 kunegis:kernel-scalability	pages	35--38
+
+kunegis:kernel-scalability	howpublished	Workshop on Recomm. Syst.
 
 kunegis:kernel-scalability	url	http://www.dai-labor.de/en/publication/361
 
@@ -204,7 +216,7 @@ spiegel:hydra	title	Hydra: A Hybrid Recommender System [Cross-Linked Rating and 
 
 spiegel:hydra	author	Stephan Spiegel and Jérôme Kunegis and Fang Li
 
-spiegel:hydra	booktitle	Proc. Workshop on Complex Netw. in Inf. and Knowl. Manag.
+spiegel:hydra	booktitle	Proc. Int. Workshop on Complex Netw. Meet Inf. and Knowl. Manag.
 
 spiegel:hydra	year	2009
 
@@ -266,11 +278,13 @@ deluca:multilingual	title	Multilingual Ontology-based User Profile Enrichment
 
 deluca:multilingual	author	De Luca, Ernesto W. and Till Plumbaum and Jérôme Kunegis and Şahin Albayrak
 
-deluca:multilingual	booktitle	Proc. Workshop on the Multilingual Semantic Web
+deluca:multilingual	booktitle	Proc. Int. Conf. on World Wide Web Companion
 
 deluca:multilingual	year	2010
 
 deluca:multilingual	pages	41--42
+
+deluca:multilingual	howpublished	Workshop on the Multiling. Semant. Web
 
 deluca:multilingual	url	http://ceur-ws.org/Vol-571/paper8.pdf
 
@@ -369,9 +383,13 @@ spiegel:time-tensor	title	Link Prediction on Evolving Data using Tensor Factoriz
 
 spiegel:time-tensor	author	Stephan Spiegel and Jan Clausen and Şahin Albayrak and Jérôme Kunegis
 
-spiegel:time-tensor	booktitle	Proc. Workshop on Behavior Informatics
+spiegel:time-tensor	booktitle	Proc. Int. Conf. on Data Min. Workshops
 
 spiegel:time-tensor	year	2011
+
+spiegel:time-tensor	pages	262--269
+
+spiegel:time-tensor	howpublished	Workshop on Behav. Informat.
 
 spiegel:time-tensor	url	http://ieeexplore.ieee.org/document/5360493/
 
@@ -578,6 +596,8 @@ kunegis:konect-cloud	booktitle	Proc. Spring 2012 Future SOC Lab Day
 
 kunegis:konect-cloud	series	HPI Technical Report Series
 
+kunegis:konect-cloud	pages	107--110
+
 kunegis:konect-cloud	url	https://books.google.be/books?id=06fDCQAAQBAJ&pg=PA107
 
 kunegis:konect-cloud	url_presentation	https://www.slideshare.net/kunegis/konect-cloud-large-scale-network-mining-in-the-cloud-12958650
@@ -593,7 +613,7 @@ kunegis:split-complex-dating	author	Jérôme Kunegis and Gerd Gröner and Thomas
 
 kunegis:split-complex-dating	year	2012
 
-kunegis:split-complex-dating	booktitle	Proc. Workshop on Recommender Syst. and the Soc. Web
+kunegis:split-complex-dating	booktitle	Proc. RecSys Workshop on Recomm. Syst. and the Soc. Web
 
 kunegis:split-complex-dating	pages	37--44
 
@@ -692,6 +712,8 @@ kunegis:konect	year	2013
 kunegis:konect	booktitle	Proc. Int. Conf. on World Wide Web Companion
 
 kunegis:konect	pages	1343--1350
+
+kunegis:konect	howpublished	Web Obs. Workshop
 
 kunegis:konect	url	http://dl.acm.org/citation.cfm?id=2488173
 
@@ -958,9 +980,13 @@ sun:wiki-talk	title	Predicting User Roles in Social Networks using Transfer Lear
 
 sun:wiki-talk	author	Jun Sun and Jérôme Kunegis and Steffen Staab
 
-sun:wiki-talk	booktitle	Proc. ICDM Int. Workshop on Data Min. in Netw.
+sun:wiki-talk	booktitle	Proc. Int. Conf. on Data Min. Workshops
+
+sun:wiki-talk	pages	128--135
 
 sun:wiki-talk	year	2016
+
+sun:wiki-talk	howpublished	Int. Workshop on Data Min. in Netw.
 
 sun:wiki-talk	url	http://ieeexplore.ieee.org/document/7836657/
 

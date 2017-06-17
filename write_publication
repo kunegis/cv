@@ -32,6 +32,8 @@ url_poster="$(      ./field "$id" url_poster      )"
 url_web="$(         ./field "$id" url_web         )"
 url_video="$(       ./field "$id" url_video       )"
 url_arxiv="$(       ./field "$id" url_arxiv       )"
+url_data="$(        ./field "$id" url_data        )"
+url_code="$(        ./field "$id" url_code        )"
 
 if printf "%s" "$title" | grep -q -E '[?]$' ; then
 	endpunct=
@@ -88,11 +90,17 @@ margin_part=
 if [ -n "$url" ] ; then
 	margin_part="\\href{$url}{\faFileTextO}" ## \faExternalLink
 fi
+if [ -n "$url_arxiv" ] ; then
+	margin_part="${margin_part} \\href{$url_arxiv}{\faFileExcelO}"
+fi
 if [ -n "$url_web" ] ; then
 	margin_part="${margin_part} \\href{$url_web}{\faChain}" 
 fi
-if [ -n "$url_arxiv" ] ; then
-	margin_part="${margin_part} \\href{$url_arxiv}{\faFileExcelO}"
+if [ -n "$url_data" ] ; then
+	margin_part="${margin_part} \\href{$url_data}{\faDatabase}" 
+fi
+if [ -n "$url_code" ] ; then
+	margin_part="${margin_part} \\href{$url_code}{\faCode}" 
 fi
 if [ -n "$url_presentation" ] ; then
 	margin_part="${margin_part} \\href{$url_presentation}{\faSlideshare}"

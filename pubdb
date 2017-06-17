@@ -100,6 +100,8 @@ lommatzsch:multi-agent	year	2007
 
 lommatzsch:multi-agent	url	http://pubman.mpdl.mpg.de/pubman/item/escidoc:1786624/component/escidoc:1786623/GES_paper65.pdf
 
+lommatzsch:multi-agent	url_web	http://www.dai-labor.de/en/irml/pia_enterprise/
+
 lommatzsch:multi-agent	kunegiscat	conftalkother
 kunegis:negative-resistance	_	inproceedings
 
@@ -209,6 +211,8 @@ kunegis:slashdot-zoo	url	http://dl.acm.org/citation.cfm?id=1526809
 
 kunegis:slashdot-zoo	url_presentation	https://www.slideshare.net/kunegis/the-slashdot-zoo-mining-a-social-network-with-negative-edges
 
+kunegis:slashdot-zoo	url_data	http://konect.uni-koblenz.de/networks/slashdot-zoo
+
 kunegis:slashdot-zoo	kunegiscat	conftalkown
 spiegel:hydra	_	inproceedings
 
@@ -255,6 +259,8 @@ kunegis:universal-recommender	year	2009
 kunegis:universal-recommender	howpublished	White paper
 
 kunegis:universal-recommender	url	https://arxiv.org/abs/0909.3472
+
+kunegis:universal-recommender	url_code	https://github.com/kunegis/universal-recommender
 
 kunegis:universal-recommender	kunegiscat	misc
 said:exploiting-hierarchical-tags	_	inproceedings
@@ -595,6 +601,8 @@ kunegis:split-complex-dating	url_presentation	https://fr.slideshare.net/kunegis/
 
 kunegis:split-complex-dating	url_web	https://networkscience.wordpress.com/2011/08/09/dating-sites-and-the-split-complex-numbers/
 
+kunegis:split-complex-dating	url_data	http://konect.uni-koblenz.de/networks/libimseti
+
 kunegis:split-complex-dating	kunegiscat	workshoptalkown
 kunegis:directed-decomposition	_	inproceedings
 
@@ -645,6 +653,8 @@ preusse:unlink-prediction	year	2013
 preusse:unlink-prediction	pages	506--515
 
 preusse:unlink-prediction	url	https://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/view/6076
+
+preusse:unlink-prediction	url_data	http://konect.uni-koblenz.de/networks/link-dynamic-dewiki
 
 preusse:unlink-prediction	kunegiscat	conftalkother
 fay:joint-diagonalization	_	inproceedings
@@ -746,6 +756,8 @@ kunegis:konect	url	http://dl.acm.org/citation.cfm?id=2488173
 
 kunegis:konect	url_presentation	https://www.slideshare.net/kunegis/presentationwow
 
+kunegis:konect	url_web	http://konect.uni-koblenz.de/
+
 kunegis:konect	kunegiscat	workshoptalkown
 kunegis:polcovar	_	journal
 
@@ -761,6 +773,8 @@ kunegis:polcovar	volume	abs/1402.5835
 
 kunegis:polcovar	url	http://arxiv.org/abs/1402.5835
 
+kunegis:polcovar	url_code	https://github.com/kunegis/polcovar/
+
 kunegis:polcovar	kunegiscat	misc
 kling:mgtm	_	inproceedings
 
@@ -775,6 +789,8 @@ kling:mgtm	year	2014
 kling:mgtm	pages	603--612
 
 kling:mgtm	url	http://dl.acm.org/citation.cfm?id=2556218
+
+kling:mgtm	url_code	https://github.com/ckling/mgtm
 
 kling:mgtm	kunegiscat	conftalkother
 perl:decline	_	article
@@ -900,6 +916,8 @@ homscheid:lkml	pages	299--313
 
 homscheid:lkml	url	https://link.springer.com/chapter/10.1007/978-3-319-25013-7_24
 
+homscheid:lkml	url_data	http://konect.uni-koblenz.de/networks/lkml-reply
+
 homscheid:lkml	kunegiscat	conftalkother
 kunegis:petster	_	article
 
@@ -951,6 +969,8 @@ samoilenko:language-hierarchy	url_poster	http://docs.wixstatic.com/ugd/4948de_7e
 
 samoilenko:language-hierarchy	url_web	http://annsamoilenko.wixsite.com/homepage/linguistic-neighbourhoods
 
+samoilenko:language-hierarchy	url_data	http://annsamoilenko.wixsite.com/homepage/data
+
 samoilenko:language-hierarchy	kunegiscat	journal
 schelter:trackers	_	inproceedings
 
@@ -966,6 +986,8 @@ schelter:trackers	pages	679--682
 
 schelter:trackers	url	https://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13024
 
+schelter:trackers	url_data	http://konect.uni-koblenz.de/networks/trackers-trackers
+
 schelter:trackers	kunegiscat	conftalkother
 schelter:trackers-journal	_	misc
 
@@ -978,6 +1000,8 @@ schelter:trackers-journal	year	2016
 schelter:trackers-journal	note	In review
 
 schelter:trackers-journal	url	https://arxiv.org/abs/1607.07403
+
+schelter:trackers-journal	url_data	http://konect.uni-koblenz.de/networks/trackers-trackers
 
 schelter:trackers-journal	kunegiscat	preprint
 toedtli:ctqw	_	article

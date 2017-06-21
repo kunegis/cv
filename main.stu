@@ -27,7 +27,11 @@ cv-kunegis.pdf:
 
 >dep:  <cv-kunegis.tex
 {
-	sed -E -e 's,^.*\\input\{([^}]+)\}.*$,\1.tex,;t;d'
+	sed -E -e '
+s,^.*\\input\{([^}]+)\}.*$,\1.tex,
+t
+d
+	'
 }
 
 check_publications:  ckpub kunegis.bib

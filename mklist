@@ -8,12 +8,15 @@ set -e
 
 group="$1"
 
+[ "$verbose" ] && exec 6>&1 || exec 6>/dev/null 
+
 printf '\\begin{itemize}\n'
 
 while IFS= read -r line ; do
 	id="$(echo "$line" | cut -f 1)"
 	cat="$(echo "$line" | cut -f 2)"
 	set +e
+	echo >&6 ./is_group "$group" "$cat" 
 	./is_group "$group" "$cat" 
 	exitcode="$?"
 	set -e

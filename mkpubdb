@@ -1,7 +1,7 @@
 #! /bin/sh
 
 sed -E -e '
-s/^\s*@([^{]+)\s*\{\s*([^, ]+)\s*,.*$/\2	_	\1/
+s/^[[:space:]]*@([^{]+)[[:space:]]*\{[[:space:]]*([^, ]+)[[:space:]]*,.*$/\2	_	\1/
 tnew
 bother
 :new
@@ -10,7 +10,7 @@ s/^(.+)	_	(.+)$/\1/
 h
 d
 :other
-s/^\s*([^[:space:]=]+)\s*=\s*\{\s*(.+)\s*\}\s*,\s*$/\1	\2	/
+s/^[[:space:]]*([^[:space:]=]+)[[:space:]]*=[[:space:]]*\{[[:space:]]*(.+)[[:space:]]*\}[[:space:]]*,[[:space:]]*$/\1	\2	/
 tnormal
 d
 :normal

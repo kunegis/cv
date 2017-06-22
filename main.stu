@@ -20,7 +20,7 @@ cv-kunegis.pdf:
 {
 	rm -f *.log *.out *.bbl *.blg
 	pdflatex cv-kunegis.tex
-	bibtex cv-kunegis
+##	bibtex cv-kunegis
 	pdflatex cv-kunegis.tex
 	pdflatex cv-kunegis.tex
 }
@@ -73,7 +73,8 @@ bibtex;
 
 >corepub:  
 	#
-	# One publication per line: publication ID from bibtex, a tab, kunegiscat of the publication 
+	# One publication per line: publication ID from bibtex, a tab,
+	# kunegiscat of the publication   
 	#
 	<kunegis.bib mkcore
 {

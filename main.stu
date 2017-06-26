@@ -20,7 +20,6 @@ cv-kunegis.pdf:
 {
 	rm -f *.log *.out *.bbl *.blg
 	pdflatex cv-kunegis.tex
-##	bibtex cv-kunegis
 	pdflatex cv-kunegis.tex
 	pdflatex cv-kunegis.tex
 }
@@ -65,7 +64,7 @@ bibtex;
 	./german
 }
 
->extbib.tex:  mkext
+>extbib.tex:  mkext <corepub
 {
 	./mkext
 }

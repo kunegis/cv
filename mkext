@@ -1,7 +1,8 @@
 #! /bin/sh
 
 sed -E -e '
-	s,^\\citation\{(.+)\},\1,;t;d 
+	s,^([^	]+)	.*$,\1,
+#	s,^\\citation\{(.+)\},\1,;t;d 
 ' |
 nl - |
 sed -E -e '

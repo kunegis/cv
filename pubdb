@@ -606,7 +606,7 @@ kunegis:split-complex-dating	url_data	http://konect.uni-koblenz.de/networks/libi
 kunegis:split-complex-dating	kunegiscat	workshoptalkown
 kunegis:directed-decomposition	_	inproceedings
 
-kunegis:directed-decomposition	title	Predicting Directed Links using Nondiagonal Matrix Decomposition
+kunegis:directed-decomposition	title	Predicting Directed Links using Nondiagonal Matrix Decompositions
 
 kunegis:directed-decomposition	author	Jérôme Kunegis and Jörg Fliege
 

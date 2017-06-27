@@ -859,6 +859,8 @@ kunegis:bipartivity	pages	201--321
 
 kunegis:bipartivity	url	http://www.tandfonline.com/doi/abs/10.1080/15427951.2014.958250
 
+kunegis:bipartivity	url_arxiv	https://arxiv.org/abs/1412.6073
+
 kunegis:bipartivity	kunegiscat	journal
 komepol:dud	_	article
 

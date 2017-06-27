@@ -34,6 +34,8 @@ url_video="$(       ./field "$id" url_video       )"
 url_arxiv="$(       ./field "$id" url_arxiv       )"
 url_data="$(        ./field "$id" url_data        )"
 url_code="$(        ./field "$id" url_code        )"
+url_media="$(       ./field "$id" url_media       )"
+url_media2="$(      ./field "$id" url_media2      )"
 
 if printf "%s" "$title" | grep -q -E '[?]$' ; then
 	endpunct=
@@ -110,6 +112,12 @@ if [ -n "$url_poster" ] ; then
 fi
 if [ -n "$url_video" ] ; then
 	margin_part="${margin_part} \\href{$url_video}{\faVideoCamera}"
+fi
+if [ -n "$url_media" ] ; then
+	margin_part="${margin_part} \\href{$url_media}{\faNewspaperO}"
+fi
+if [ -n "$url_media2" ] ; then
+	margin_part="${margin_part} \\href{$url_media2}{\faNewspaperO}"
 fi
 if [ -n "$margin_part" ] ; then
 	margin_part=" \\marginnote{$margin_part}"

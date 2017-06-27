@@ -897,6 +897,10 @@ kling:lqfb	pages	208--217
 
 kling:lqfb	url	http://www.aaai.org/ocs/index.php/ICWSM/ICWSM15/paper/view/10566
 
+kling:lqfb	url_media	https://www.piratenpartei.de/2015/05/31/die-abstimmungssoftware-liquidfeedback-der-piratenpartei-wegweisend-fuer-demokratie-2-0/
+
+kling:lqfb	url_media2	http://www.wired.it/attualita/2015/04/01/come-funzionato-davvero-democrazia-liquida-dei-pirati-tedeschi/
+
 kling:lqfb	kunegiscat	conftalkother
 samoilenko:wikilang	_	inproceedings
 
@@ -1049,6 +1053,8 @@ toedtli:ctqw	pages	052338
 toedtli:ctqw	url	http://journals.aps.org/pra/abstract/10.1103/PhysRevA.94.052338
 
 toedtli:ctqw	url_arxiv	http://arxiv.org/abs/1606.00992
+
+toedtli:ctqw	url_web	https://www.youtube.com/watch?v=fA14oa3P5dw
 
 toedtli:ctqw	kunegiscat	journal
 sun:wiki-talk	_	inproceedings

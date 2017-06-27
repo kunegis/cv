@@ -1,3 +1,6 @@
+* Use kunegis.bib also for demos/talks/etc. 
+* Generate new extbib.tex file and test in mons/ 
+
 ./projects/web-observatory/presentation-2012-iswc.odp
 ./projects/web-observatory/presentation-2013-wstnet.pdf
 ./projects/network-decompositions/presentation.odp
@@ -25,12 +28,6 @@
 ./projects/network-rank/presentation...
 ./projects/publications/...
 
-* Add url_media for the two papers that are mentioned in media 
-* Add url_web links where the dataset is available, or where paper
-  otherwise have a website
-* Add url_code links if applicable 
-* Use kunegis.bib also for demos/talks/etc. 
-* Generate new extbib.tex file and test in mons/ 
 * use special icons for:  open access, award, has-many-citations, etc.
 * upload the most-cited papers to arXiv if they are not already
   available as open access

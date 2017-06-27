@@ -1,3 +1,4 @@
+* find . -iname '*presentation*' :  in kunegis/ to add all presentation PDFs via github/kunegis/pdfs
 * Add url_media for the two papers that are mentioned in media 
 * Add url_web links where the dataset is available, or where paper
   otherwise have a website
@@ -10,4 +11,4 @@
 * use special icons for:  open access, award, has-many-citations, etc.
 * upload the most-cited papers to arXiv if they are not already
   available as open access
-* Add links to papers and presentations for theses
+* Add icon links to papers/presentations/posters for theses

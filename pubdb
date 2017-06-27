@@ -162,6 +162,8 @@ kunegis:netflix-srd	pages	261--265
 
 kunegis:netflix-srd	url	http://dl.acm.org/citation.cfm?id=1567341
 
+kunegis:netflix-srd	url_presentation	https://github.com/kunegis/pdfs/blob/master/kunegis:netflix-srd.presentation.pdf
+
 kunegis:netflix-srd	kunegiscat	conftalkown
 kunegis:kernel-scalability	_	inproceedings
 

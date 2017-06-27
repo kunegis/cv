@@ -1,15 +1,3 @@
-./projects/teaching-west/sit.2011-01/presentation.ppt
-./projects/latent-negative/www2013/presentation.www.odp
-./projects/latent-negative/www2013/presentation.www.pdf
-./projects/modeling-linguistic-networks/presentation.odp
-./projects/network-survey/presentation/presentation-2012-wstnet.odp
-./projects/wwsss-2016/presentation.pdf
-./projects/NetflixSRD2/kunegis08a.presentation.pdf
-./projects/slashdot-zoo/presentation...
-./projects/slashdot-zoo/copy/presentation...
-./projects/preferential-attachment/presentation...
-./projects/split-complex-dating/paper/presentation-2012-...
-./projects/graph-models/presentation.2013-oberseminar...
 ./projects/web-observatory/presentation-2012-iswc.odp
 ./projects/web-observatory/presentation-2013-wstnet.pdf
 ./projects/network-decompositions/presentation.odp
@@ -42,10 +30,7 @@
   otherwise have a website
 * Add url_code links if applicable 
 * Use kunegis.bib also for demos/talks/etc. 
-* In the poster category, show also posters that have a publication 
-* In the talk category, show also talks that have a publication 
 * Generate new extbib.tex file and test in mons/ 
-* update my bibsonomy profile and papers
 * use special icons for:  open access, award, has-many-citations, etc.
 * upload the most-cited papers to arXiv if they are not already
   available as open access

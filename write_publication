@@ -98,6 +98,15 @@ fi
 if [ -n "$url_arxiv" ] ; then
 	margin_part="${margin_part} \\href{$url_arxiv}{\faFileExcelO}"
 fi
+if [ -n "$url_poster" ] ; then
+	margin_part="${margin_part} \\href{$url_poster}{\faFilePictureO}"   # \faObjectGroup
+fi
+if [ -n "$url_presentation" ] ; then
+	margin_part="${margin_part} \\href{$url_presentation}{\faSlideshare}"
+fi
+if [ -n "$url_citations" ] ; then
+	margin_part="${margin_part} \\href{$url_citations}{\faQuoteRight}"  # \faComments
+fi
 if [ -n "$url_web" ] ; then
 	margin_part="${margin_part} \\href{$url_web}{\faChain}" 
 fi
@@ -106,15 +115,6 @@ if [ -n "$url_data" ] ; then
 fi
 if [ -n "$url_code" ] ; then
 	margin_part="${margin_part} \\href{$url_code}{\faCog}" 
-fi
-if [ -n "$url_citations" ] ; then
-	margin_part="${margin_part} \\href{$url_citations}{\faComments}"
-fi
-if [ -n "$url_presentation" ] ; then
-	margin_part="${margin_part} \\href{$url_presentation}{\faSlideshare}"
-fi
-if [ -n "$url_poster" ] ; then
-	margin_part="${margin_part} \\href{$url_poster}{\faObjectGroup}"
 fi
 if [ -n "$url_video" ] ; then
 	margin_part="${margin_part} \\href{$url_video}{\faVideoCamera}"

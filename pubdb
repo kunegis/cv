@@ -420,11 +420,11 @@ kunegis:phd	year	2011
 
 kunegis:phd	url	https://kola.opus.hbz-nrw.de/frontdoor/index/index/docId/581
 
-kunegis:phd	url_presentation	https://www.slideshare.net/kunegis/on-the-spectral-evolution-of-large-networks-phd-thesis-by-jrme-kunegis
-
 kunegis:phd	url_poster	https://github.com/kunegis/pdfs/blob/master/kunegis:phd.poster.pdf
 
 kunegis:phd	url_poster2	https://github.com/kunegis/pdfs/blob/master/kunegis:sdm2010.poster.pdf
+
+kunegis:phd	url_presentation	https://www.slideshare.net/kunegis/on-the-spectral-evolution-of-large-networks-phd-thesis-by-jrme-kunegis
 
 kunegis:phd	kunegiscat	thesisown
 spiegel:time-tensor	_	inproceedings

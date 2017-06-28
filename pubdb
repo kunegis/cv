@@ -25,6 +25,8 @@ hahne:gradualisiertes-communitymodell	year	2007
 
 hahne:gradualisiertes-communitymodell	url	http://sowiport.gesis.org/search/id/gesis-solis-00401999
 
+hahne:gradualisiertes-communitymodell	url_presentation	https://github.com/kunegis/pdfs/blob/master/hahne:gradualisiertes-communitymodell.presentation.pdf
+
 hahne:gradualisiertes-communitymodell	kunegiscat	chapter
 milosevic:update-policy	_	inproceedings
 
@@ -132,6 +134,8 @@ kunegis:adapting-ratings	year	2007
 
 kunegis:adapting-ratings	url	http://ieeexplore.ieee.org/document/4296596/
 
+kunegis:adapting-ratings	url_presentation	https://github.com/kunegis/pdfs/blob/master/kunegis:adapting-ratings.presentation.pdf
+
 kunegis:adapting-ratings	kunegiscat	conftalkown
 kunegis:assessing-unrated	_	inproceedings
 
@@ -146,6 +150,8 @@ kunegis:assessing-unrated	year	2007
 kunegis:assessing-unrated	pages	212--216
 
 kunegis:assessing-unrated	url	http://ieeexplore.ieee.org/document/4444225/
+
+kunegis:assessing-unrated	url_presentation	https://github.com/kunegis/pdfs/blob/master/kunegis:assessing-unrated.presentation.pdf
 
 kunegis:assessing-unrated	kunegiscat	conftalkown
 kunegis:netflix-srd	_	inproceedings
@@ -195,6 +201,8 @@ kunegis:alternative-similarity	booktitle	Proc. Int. Conf. on Pattern Recognit.
 kunegis:alternative-similarity	year	2008
 
 kunegis:alternative-similarity	url	http://ieeexplore.ieee.org/document/4761801/
+
+kunegis:alternative-similarity	url_presentation	https://github.com/kunegis/pdfs/blob/master/kunegis:alternative-similarity.presentation.pdf
 
 kunegis:alternative-similarity	url_poster	https://github.com/kunegis/pdfs/blob/master/kunegis:alternative-similarity.poster.pdf
 
@@ -351,6 +359,8 @@ kunegis:hyperbolic-sine	pages	380--389
 
 kunegis:hyperbolic-sine	url	https://link.springer.com/chapter/10.1007/978-3-642-14049-5_39
 
+kunegis:hyperbolic-sine	url_presentation	https://github.com/kunegis/pdfs/blob/master/kunegis:hyperbollic-sine.presentation.pdf
+
 kunegis:hyperbolic-sine	kunegiscat	conftalkother
 kunegis:spectral-network-evolution	_	inproceedings
 
@@ -420,6 +430,8 @@ spiegel:time-tensor	pages	262--269
 spiegel:time-tensor	howpublished	Workshop on Behav. Informat.
 
 spiegel:time-tensor	url	http://ieeexplore.ieee.org/document/5360493/
+
+spiegel:time-tensor	url_presentation	https://github.com/kunegis/pdfs/blob/master/spiegel:time-tensor.presentation.pdf
 
 spiegel:time-tensor	kunegiscat	workshoptalkother
 fay:appcluster	_	article
@@ -1122,7 +1134,7 @@ schelter:nzh-ea	booktitle	Proc. Web Sci. Conf. Extended Abstracts
 
 schelter:nzh-ea	year	2017
 
-schelter:nzh-ea	url	https://github.com/kunegis/pdfs/raw/master/schelter:nzh-ea.pdf
+schelter:nzh-ea	url	https://github.com/kunegis/pdfs/blob/master/schelter:nzh-ea.pdf
 
 schelter:nzh-ea	kunegiscat	abstractposterother
 kunegis:nopref	_	article

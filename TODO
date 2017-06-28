@@ -1,35 +1,11 @@
-* Use kunegis.bib also for demos/talks/etc. 
-* Generate new extbib.tex file and test in mons/ 
-
-./projects/web-observatory/presentation-2012-iswc.odp
-./projects/web-observatory/presentation-2013-wstnet.pdf
-./projects/network-decompositions/presentation.odp
-./projects/explicit-diagonality/explicit_diagonality.presentation.pdf
-./projects/spectral_transformation/presentation.pdf
-./projects/phd/presentation.2011-02-24/presentation.pdf
-./projects/phd/presentation/presentation.pdf
-./projects/large-network-collections/presentation.2016-10.pdf
-./projects/kernel_scalability/kunegis08b.presentation.pdf
-./projects/spectral-network-evolution/spectral-network-evolution.presentation.pdf
-./projects/spectral-network-evolution/presentation.pdf
-./projects/gradualisiertes-communitymodell/20060925__DresdenPresentation.pdf
-./projects/konect/presentations/presentation....
-./projects/directed-decomposition.icdm-10page/presentation.ppt
-./projects/signed-kernels.2/presentation.pdf
-./projects/adapting_ratings/kunegis07b.presentation.ppt
-./projects/power-law/paper/presentation-...
-./projects/konect-cloud/report-winter-1112/presentation.pdf
-./projects/konect-cloud/report-spring-2012/presentation.pdf
-./projects/hyperbolic-sine/presentation-hs.ppt
-./projects/namur/presentation.odp
-./projects/alternative_similarity/kunegis08c.presentation.ppt
-./projects/time-tensor/presentation.pdf
-./projects/hyperbolic_sine/presentation-hs.ppt
-./projects/network-rank/presentation...
-./projects/publications/...
-
 * use special icons for:  open access, award, has-many-citations, etc.
 * upload the most-cited papers to arXiv if they are not already
   available as open access
 * Add icon links to papers/presentations/posters for theses
 * Add "Projects" section
+* Add the science slam talk in Talk section
+* Add paper, poster and presentation links in Awards section
+
+== After ==
+
+* Use kunegis.bib also for demos/talks/etc. 

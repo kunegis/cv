@@ -36,6 +36,9 @@ url_data="$(        ./field "$id" url_data        )"
 url_code="$(        ./field "$id" url_code        )"
 url_media="$(       ./field "$id" url_media       )"
 url_media2="$(      ./field "$id" url_media2      )"
+url_citations="$(   ./field "$id" url_citations   )"
+url_prize="$(       ./field "$id" url_prize       )"
+url_nomination="$(  ./field "$id" url_nomination  )"
 
 if printf "%s" "$title" | grep -q -E '[?]$' ; then
 	endpunct=
@@ -90,7 +93,7 @@ done
 
 margin_part=
 if [ -n "$url" ] ; then
-	margin_part="\\href{$url}{\faFileTextO}" ## \faExternalLink
+	margin_part="\\href{$url}{\faFileTextO}" 
 fi
 if [ -n "$url_arxiv" ] ; then
 	margin_part="${margin_part} \\href{$url_arxiv}{\faFileExcelO}"
@@ -102,7 +105,10 @@ if [ -n "$url_data" ] ; then
 	margin_part="${margin_part} \\href{$url_data}{\faDatabase}" 
 fi
 if [ -n "$url_code" ] ; then
-	margin_part="${margin_part} \\href{$url_code}{\faCode}" 
+	margin_part="${margin_part} \\href{$url_code}{\faCog}" 
+fi
+if [ -n "$url_citations" ] ; then
+	margin_part="${margin_part} \\href{$url_citations}{\faComments}"
 fi
 if [ -n "$url_presentation" ] ; then
 	margin_part="${margin_part} \\href{$url_presentation}{\faSlideshare}"
@@ -118,6 +124,12 @@ if [ -n "$url_media" ] ; then
 fi
 if [ -n "$url_media2" ] ; then
 	margin_part="${margin_part} \\href{$url_media2}{\faNewspaperO}"
+fi
+if [ -n "$url_prize" ] ; then
+	margin_part="${margin_part} \\href{$url_prize}{\faStar}"
+fi
+if [ -n "$url_nomination" ] ; then
+	margin_part="${margin_part} \\href{$url_nomination}{\faStarO}"
 fi
 if [ -n "$margin_part" ] ; then
 	margin_part=" \\marginnote{$margin_part}"

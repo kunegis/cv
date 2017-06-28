@@ -28,7 +28,7 @@ elif [ "$group" = other ] ; then
 elif [ "$group" = conf ] || [ "$group" = workshop ] || [ "$group" = abstract ] ; then
 	# Groups whose categories begin with the group name
 	echo "$cat" | grep -q -E '^'"$group"
-elif [ "$group" = peer ] ; then
+elif [ "$group" = peer ] || [ "$group" = popularization ] ; then
 	# Groups whose categories have identical names to the group
 	echo "$cat" | grep -q -E '^'"$group"'$'
 else 

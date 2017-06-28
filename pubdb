@@ -119,6 +119,8 @@ kunegis:negative-resistance	pages	269--282
 
 kunegis:negative-resistance	url	https://www.semanticscholar.org/paper/Collaborative-Filtering-using-Electrical-Resistanc-Kunegis-Schmidt/8266ddfc2cbfb6d69017ba7696bfe5335ea11b21
 
+kunegis:negative-resistance	url_nomination	http://www.data-mining-forum.de/paper_award_2007.php
+
 kunegis:negative-resistance	kunegiscat	conftalkown
 kunegis:adapting-ratings	_	inproceedings
 
@@ -225,6 +227,8 @@ kunegis:slashdot-zoo	url_presentation	https://www.slideshare.net/kunegis/the-sla
 
 kunegis:slashdot-zoo	url_data	http://konect.uni-koblenz.de/networks/slashdot-zoo
 
+kunegis:slashdot-zoo	url_citations	https://scholar.google.com/scholar?cites=2851869077020776558
+
 kunegis:slashdot-zoo	kunegiscat	conftalkown
 spiegel:hydra	_	inproceedings
 
@@ -260,6 +264,8 @@ kunegis:spectral-transformation	url_presentation	https://fr.slideshare.net/kuneg
 kunegis:spectral-transformation	url_video	http://videolectures.net/icml09_kunegis_lsgtlp/
 
 kunegis:spectral-transformation	url_poster	https://github.com/kunegis/pdfs/blob/master/kunegis:spectral-transformation.poster.pdf
+
+kunegis:spectral-transformation	url_citations	https://scholar.google.com/scholar?cites=15351625439627753798
 
 kunegis:spectral-transformation	kunegiscat	conftalkposterown
 kunegis:universal-recommender	_	misc
@@ -344,6 +350,8 @@ kunegis:signed-kernels	url_web	https://networkscience.wordpress.com/2011/12/14/n
 
 kunegis:signed-kernels	url_poster	https://github.com/kunegis/pdfs/blob/master/kunegis:signed-kernels.poster.pdf
 
+kunegis:signed-kernels	url_citations	https://scholar.google.com/scholar?cites=6014639770613774473
+
 kunegis:signed-kernels	kunegiscat	conftalkposterown
 kunegis:hyperbolic-sine	_	inproceedings
 
@@ -378,6 +386,8 @@ kunegis:spectral-network-evolution	url	http://dl.acm.org/citation.cfm?id=1871533
 
 kunegis:spectral-network-evolution	url_presentation	https://www.slideshare.net/kunegis/presentation-5758116
 
+kunegis:spectral-network-evolution	url_prize	http://www.yorku.ca/cikm10/awards.php
+
 kunegis:spectral-network-evolution	kunegiscat	conftalkown
 nasir:retweets	_	inproceedings
 
@@ -394,6 +404,8 @@ nasir:retweets	url	http://dl.acm.org/citation.cfm?id=2527052
 nasir:retweets	url_video	http://videolectures.net/acmwebsci2011_kunegis_interestingness/
 
 nasir:retweets	url_presentation	https://www.slideshare.net/kunegis/bad-news-travel-fast-a-contentbased-analysis-of-interestingness-on-twitter
+
+nasir:retweets	url_citations	https://scholar.google.com/scholar?cites=3427013306158550110
 
 nasir:retweets	kunegiscat	conftalkown
 kunegis:phd	_	phdthesis
@@ -511,6 +523,21 @@ che-alhadi:trec-microblog	year	2011
 che-alhadi:trec-microblog	url	https://link.springer.com/chapter/10.1007/978-3-642-28997-2_66
 
 che-alhadi:trec-microblog	kunegiscat	abstracttalkown
+yoneki:time-aware-centrality	_	inproceedings
+
+yoneki:time-aware-centrality	title	Time-Aware Centrality in Contact Network Analysis
+
+yoneki:time-aware-centrality	author	Eiko Yoneki and Damien Fay and Jérôme Kunegis
+
+yoneki:time-aware-centrality	booktitle	Proc. Eur. Conf. on Complex Syst.
+
+yoneki:time-aware-centrality	pages	58
+
+yoneki:time-aware-centrality	year	2011
+
+yoneki:time-aware-centrality	url	http://michael.szell.net/downloads/thurner2011bae.pdf
+
+yoneki:time-aware-centrality	kunegiscat	abstracttalkother
 kunegis:matrix-taxonomy	_	misc
 
 kunegis:matrix-taxonomy	title	Taxonomy of $n\times n$ Matrices
@@ -521,7 +548,7 @@ kunegis:matrix-taxonomy	year	2012
 
 kunegis:matrix-taxonomy	url	https://networkscience.wordpress.com/2012/05/04/taxonomy-of-matrices/
 
-kunegis:matrix-taxonomy	kunegiscat	misc
+kunegis:matrix-taxonomy	kunegiscat	popularization
 che-alhadi:live-tweet	_	inproceedings
 
 che-alhadi:live-tweet	title	{LiveTweet}: Monitoring and Predicting Interesting Microblog Posts
@@ -552,6 +579,8 @@ kunegis:network-rank	pages	255--264
 kunegis:network-rank	url	http://dl.acm.org/citation.cfm?id=2310039
 
 kunegis:network-rank	url_presentation	https://pt.slideshare.net/kunegis/presentation-2012ht
+
+kunegis:network-rank	url_nomination	http://www.sigweb.org/resources/sigweb-awards/43-ted-nelson
 
 kunegis:network-rank	kunegiscat	conftalkown
 kunegis:konect-netsci	_	inproceedings
@@ -790,6 +819,8 @@ kunegis:konect	url_presentation	https://www.slideshare.net/kunegis/presentationw
 
 kunegis:konect	url_web	http://konect.uni-koblenz.de/
 
+kunegis:konect	url_citations	https://scholar.google.com/scholar?cites=7174338004474749050
+
 kunegis:konect	kunegiscat	workshoptalkown
 kunegis:polcovar	_	journal
 
@@ -909,6 +940,10 @@ kling:lqfb	pages	208--217
 
 kling:lqfb	url	http://www.aaai.org/ocs/index.php/ICWSM/ICWSM15/paper/view/10566
 
+kling:lqfb	url_arxiv	https://arxiv.org/pdf/1503.07723.pdf
+
+kling:lqfb	url_nomination	http://www.icwsm.org/2015/home/news/
+
 kling:lqfb	url_media	https://www.piratenpartei.de/2015/05/31/die-abstimmungssoftware-liquidfeedback-der-piratenpartei-wegweisend-fuer-demokratie-2-0/
 
 kling:lqfb	url_media2	http://www.wired.it/attualita/2015/04/01/come-funzionato-davvero-democrazia-liquida-dei-pirati-tedeschi/
@@ -989,6 +1024,17 @@ duenker:petster	url	http://dl.acm.org/citation.cfm?id=2745936
 duenker:petster	url_poster	https://github.com/kunegis/pdfs/blob/master/duenker:petster.poster.pdf
 
 duenker:petster	kunegiscat	abstractposterother
+kunegis:english-vowels	_	misc
+
+kunegis:english-vowels	title	Pronunciation of English Vowels
+
+kunegis:english-vowels	author	Jérôme Kunegis
+
+kunegis:english-vowels	year	2015
+
+kunegis:english-vowels	url	https://networkscience.wordpress.com/2015/01/18/pronunciation-of-english-vowels/
+
+kunegis:english-vowels	kunegiscat	popularization
 samoilenko:language-hierarchy	_	article
 
 samoilenko:language-hierarchy	title	Linguistic Neighbourhoods: Explaining Cultural Borders on {Wikipedia} through Multilingual Co-editing Activity
@@ -1090,6 +1136,28 @@ sun:wiki-talk	url_arxiv	https://arxiv.org/abs/1611.02941
 sun:wiki-talk	url_data	http://doi.org/10.5281/zenodo.49561
 
 sun:wiki-talk	kunegiscat	workshoptalkother
+kunegis:fluorine-compounds	_	misc
+
+kunegis:fluorine-compounds	title	Binary Fluorine Compounds
+
+kunegis:fluorine-compounds	author	Jérôme Kunegis
+
+kunegis:fluorine-compounds	year	2017
+
+kunegis:fluorine-compounds	url	https://networkscience.wordpress.com/2017/03/12/big-table-of-binary-fluorine-compounds/
+
+kunegis:fluorine-compounds	kunegiscat	popularization
+kunegis:german-vowels	_	misc
+
+kunegis:german-vowels	title	How to Pronounce German Vowels
+
+kunegis:german-vowels	author	Jérôme Kunegis
+
+kunegis:german-vowels	year	2017
+
+kunegis:german-vowels	url	https://networkscience.wordpress.com/2017/02/08/how-to-pronounce-german-vowels/
+
+kunegis:german-vowels	kunegiscat	popularization
 kunegis:konect-handbook	_	article
 
 kunegis:konect-handbook	title	Handbook of Network Analysis [{KONECT} project]

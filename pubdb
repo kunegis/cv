@@ -389,6 +389,17 @@ kunegis:spectral-network-evolution	url_presentation	https://www.slideshare.net/k
 kunegis:spectral-network-evolution	url_prize	http://www.yorku.ca/cikm10/awards.php
 
 kunegis:spectral-network-evolution	kunegiscat	conftalkown
+gottron:challenges	_	inproceedings
+
+gottron:challenges	title	Challenges in Mining Social Media: Sparsity and Quality
+
+gottron:challenges	author	Thomas Gottron and Nasir Naveed and Jérôme Kunegis and Che Alhadi, Arifah
+
+gottron:challenges	booktitle	Proc. Challenges in Document Min. (Dagstuhl Seminar 11171)
+
+gottron:challenges	year	2011
+
+gottron:challenges	kunegiscat	abstracttalkother
 nasir:retweets	_	inproceedings
 
 nasir:retweets	title	Bad News Travels Fast: A Content-based Analysis of Interestingness on {Twitter}
@@ -1138,6 +1149,17 @@ sun:wiki-talk	url_arxiv	https://arxiv.org/abs/1611.02941
 sun:wiki-talk	url_data	http://doi.org/10.5281/zenodo.49561
 
 sun:wiki-talk	kunegiscat	workshoptalkother
+samoilenko:neighbourhoods-ic2s2-2017	_	inproceedings
+
+samoilenko:neighbourhoods-ic2s2-2017	title	Linguistic Neighbourhoods: Explaining Cultural Borders on {Wikipedia} Through Multilingual Co-editing Activity
+
+samoilenko:neighbourhoods-ic2s2-2017	author	Anna Samoilenko and Fariba Karimi and Daniel Edler and Jérôme Kunegis and Markus Strohmaier
+
+samoilenko:neighbourhoods-ic2s2-2017	booktitle	Proc. Int. Conf. on Comput. Soc. Sci.
+
+samoilenko:neighbourhoods-ic2s2-2017	year	2017
+
+samoilenko:neighbourhoods-ic2s2-2017	kunegiscat	abstracttalkother
 kunegis:fluorine-compounds	_	misc
 
 kunegis:fluorine-compounds	title	Binary Fluorine Compounds

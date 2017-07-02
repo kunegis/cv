@@ -1228,6 +1228,8 @@ schelter:nzh-ea	year	2017
 
 schelter:nzh-ea	url	https://github.com/kunegis/pdfs/blob/master/schelter:nzh-ea.pdf
 
+schelter:nzh-ea	url_poster	https://ssc.io/pdf/nzh-poster.pdf
+
 schelter:nzh-ea	kunegiscat	abstractposterother
 kunegis:nopref	_	article
 

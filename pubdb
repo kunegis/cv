@@ -899,6 +899,19 @@ kunegis:negativity	volume	abs/1402.6865
 kunegis:negativity	url	http://arxiv.org/abs/1402.6865
 
 kunegis:negativity	kunegiscat	misc
+kunegis:power-of-many-datasets	_	inproceedings
+
+kunegis:power-of-many-datasets	title	Large Network Collections:  The Power of Many Datasets
+
+kunegis:power-of-many-datasets	author	Jérôme Kunegis
+
+kunegis:power-of-many-datasets	booktitle	Int.\ Workshop on Soc.\ Netw.\ Anal.
+
+kunegis:power-of-many-datasets	year	2015
+
+kunegis:power-of-many-datasets	note	Invited talk
+
+kunegis:power-of-many-datasets	kunegiscat	talkinvited
 kunegis:bipartivity	_	article
 
 kunegis:bipartivity	title	Exploiting the Structure of Bipartite Graphs for Algebraic and Spectral Graph Theory Applications
@@ -1256,3 +1269,27 @@ kunegis:nopref	url_code	https://github.com/kunegis/nopref
 kunegis:nopref	url_poster	https://github.com/kunegis/nopref/blob/master/netsci2017-poster/poster.pdf
 
 kunegis:nopref	kunegiscat	journal
+kunegis:stu	_	misc
+
+kunegis:stu	title	Stu -- Build Automation
+
+kunegis:stu	author	Jérôme Kunegis
+
+kunegis:stu	year	2017
+
+kunegis:stu	howpublished	\url{https://github.com/kunegis/stu}
+
+kunegis:stu	kunegiscat	software
+schelter:nzh-paper	_	inproceedings
+
+schelter:nzh-paper	title	`Dark Germany': Hidden Patterns of Participation in Online Far-Right Protests Against Refugee Housing
+
+schelter:nzh-paper	author	Sebastian Schelter and Jérôme Kunegis
+
+schelter:nzh-paper	booktitle	Proc. Int. Conf. on Soc. Inform.
+
+schelter:nzh-paper	year	2017
+
+schelter:nzh-paper	_pages	todo
+
+schelter:nzh-paper	kunegiscat	conftalkother

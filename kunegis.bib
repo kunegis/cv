@@ -14,7 +14,7 @@
 %   * Journal article 					(kunegiscat=journal)			(group=article)		
 %   * Chapter or similar				(kunegiscat=chapter)			(group=article)		
 %   * Conference paper with talk, own talk 		(kunegiscat=conftalkown)		(group=conf)		
-%   * Conference paper with talk, other talk		(kunegiscat=conftalkother)		(group=conf)		
+%   * Conference paper with talk, other talk		(kunegiscat=conftalkother)		(group=conf)
 %   * Conference paper with poster, own presentation	(kunegiscat=confposterown)		(group=conf,poster)	
 %   * Conference paper with poster, other presentation	(kunegiscat=confposterother)		(group=conf,poster)	
 %   * Conference paper with talk+poster, own            (kunegiscat=conftalkposterown)		(group=conf,poster)	
@@ -33,6 +33,10 @@
 %   * Non-peer reviewed publication 			(kunegiscat=misc)			(group=other)
 %   * Preprint / in review				(kunegiscat=preprint)			(group=other)
 %   * Popularization					(kunegiscat=popularization)		(group=popularization)
+% Not yet automatized in CV:
+%   * Invited talk					(kunegiscat=talkinvited)
+%   * Miscellenaeous talk				(kunegiscat=talkmisc)
+%   * Software						(kunegiscat=software)
 %
 % Standalone posters, demos and supervised work are not included here. 
 %
@@ -622,6 +626,15 @@
 	kunegiscat = {misc}, 
 }
 
+@inproceedings{kunegis:power-of-many-datasets,
+	title = {Large Network Collections:  The Power of Many Datasets},
+	author = {Jérôme Kunegis}, 
+	booktitle = {Int.\ Workshop on Soc.\ Netw.\ Anal.},
+	year = {2015}, 
+	note = {Invited talk}, 
+	kunegiscat = {talkinvited}, 
+}
+
 @article{kunegis:bipartivity,
 	title = {Exploiting the Structure of Bipartite Graphs for Algebraic and Spectral Graph Theory Applications},  
 	author = {Jérôme Kunegis},
@@ -850,4 +863,21 @@
 	url_code = {https://github.com/kunegis/nopref},
 	url_poster = {https://github.com/kunegis/nopref/blob/master/netsci2017-poster/poster.pdf},
 	kunegiscat = {journal}, 
+}
+
+@misc{kunegis:stu,
+	title = {Stu -- Build Automation},
+	author = {Jérôme Kunegis},
+	year = {2017}, 
+	howpublished = {\url{https://github.com/kunegis/stu}},
+	kunegiscat = {software},
+}
+
+@inproceedings{schelter:nzh-paper,
+	title = {`Dark Germany': Hidden Patterns of Participation in Online Far-Right Protests Against Refugee Housing},
+	author = {Sebastian Schelter and Jérôme Kunegis},
+	booktitle = {Proc. Int. Conf. on Soc. Inform.},
+	year = {2017},
+	_pages = {todo}, 
+	kunegiscat = {conftalkother},
 }

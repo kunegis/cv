@@ -1162,17 +1162,6 @@ sun:wiki-talk	url_arxiv	https://arxiv.org/abs/1611.02941
 sun:wiki-talk	url_data	http://doi.org/10.5281/zenodo.49561
 
 sun:wiki-talk	kunegiscat	workshoptalkother
-samoilenko:neighbourhoods-ic2s2-2017	_	inproceedings
-
-samoilenko:neighbourhoods-ic2s2-2017	title	Linguistic Neighbourhoods: Explaining Cultural Borders on {Wikipedia} Through Multilingual Co-editing Activity
-
-samoilenko:neighbourhoods-ic2s2-2017	author	Anna Samoilenko and Fariba Karimi and Daniel Edler and Jérôme Kunegis and Markus Strohmaier
-
-samoilenko:neighbourhoods-ic2s2-2017	booktitle	Proc. Int. Conf. on Comput. Soc. Sci.
-
-samoilenko:neighbourhoods-ic2s2-2017	year	2017
-
-samoilenko:neighbourhoods-ic2s2-2017	kunegiscat	abstracttalkother
 kunegis:fluorine-compounds	_	misc
 
 kunegis:fluorine-compounds	title	Binary Fluorine Compounds
@@ -1280,6 +1269,17 @@ kunegis:stu	year	2017
 kunegis:stu	howpublished	\url{https://github.com/kunegis/stu}
 
 kunegis:stu	kunegiscat	software
+samoilenko:neighbourhoods-ic2s2-2017	_	inproceedings
+
+samoilenko:neighbourhoods-ic2s2-2017	title	Linguistic Neighbourhoods: Explaining Cultural Borders on {Wikipedia} Through Multilingual Co-editing Activity
+
+samoilenko:neighbourhoods-ic2s2-2017	author	Anna Samoilenko and Fariba Karimi and Daniel Edler and Jérôme Kunegis and Markus Strohmaier
+
+samoilenko:neighbourhoods-ic2s2-2017	booktitle	Proc. Int. Conf. on Comput. Soc. Sci.
+
+samoilenko:neighbourhoods-ic2s2-2017	year	2017
+
+samoilenko:neighbourhoods-ic2s2-2017	kunegiscat	abstracttalkother
 schelter:nzh-paper	_	inproceedings
 
 schelter:nzh-paper	title	`Dark Germany': Hidden Patterns of Participation in Online Far-Right Protests Against Refugee Housing

@@ -3,6 +3,10 @@
 # Output the Latex code for the \item element for publication with
 # Bibtex ID "$id". 
 #
+# Every line ends in 
+#
+#	.%nbibtex:$BIBTEXID
+#
 # INVOCATION 
 # 
 #    $0 $id
@@ -135,11 +139,12 @@ if [ -n "$margin_part" ] ; then
 	margin_part=" \\marginnote{$margin_part}"
 fi
 
-printf '\\item[{[\\publicationnumber]}]%s %s %s%s%s%s, %s.\n' \
+printf '\\item[{[\\publicationnumber]}]%s %s %s%s%s%s, %s.%%bibtex:%s\n' \
 	"$margin_part" \
 	"$title_linked" \
 	"$author" \
 	"$venue_part" \
 	"$coordinates_part" \
 	"$extra_part" \
-	"$year"
+	"$year" \
+	"$id"

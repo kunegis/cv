@@ -5,6 +5,8 @@ bibtex
 *.blg
 *.log
 *.dvi
-corepub
 dep
+dep.*
 list-*.tex
+GROUPS
+corepub.temporal

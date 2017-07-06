@@ -64,23 +64,38 @@ bibtex;
 	./german
 }
 
->extbib.tex:  mkext <corepub
+>extbib.tex:  mkext cv-kunegis.tex [dep.extbib] dep.extbib
 {
 	./mkext
 }
 
+>dep.extbib:  <GROUPS
+{
+	sed -E -e '
+		s,^,list-,
+		s,$,.tex,
+	'
+}
 
->corepub:  
-	#
+>GROUPS:  <cv-kunegis.tex
+{
+	sed -E -e '
+		s,^.*\\input\{list-([^}]+)\}.*$,\1,
+		t
+		d
+	'
+}
+
+>corepub.temporal:  
 	# One publication per line: publication ID from bibtex, a tab,
-	# kunegiscat of the publication   
-	#
-	<kunegis.bib mkcore
+	# kunegiscat of the publication.  
+	# All sorted by time, i.e., the exact reverse of kunegis.bib
+	kunegis.bib mkcore
 {
 	./mkcore
 }
 
->list-$group.tex:  <corepub is_group write_publication kunegis.bib pubdb field mklist
+>list-$group.tex:  <corepub.temporal is_group write_publication kunegis.bib pubdb field mklist
 {
 	./mklist "$group" | sed -E -e '
 		s,([:.]) ,\1\\ ,g

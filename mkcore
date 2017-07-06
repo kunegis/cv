@@ -1,12 +1,10 @@
 #! /bin/sh
 
-sed -E -e '
+<kunegis.bib sed -E -e '
 	s/^.*@[[:space:]]*[a-z]+[[:space:]]*\{[[:space:]]*([^, ]+)[[:space:]]*,.*$/\1/
         t
 	s/^.*kunegiscat[[:space:]]*=[[:space:]]*\{[[:space:]]*([^} ]+)[[:space:]]*\}.*$/\1/
         t
         d
-' | sed -E -e '$!N;s/\n/	/' |
+' | sed -E -e '$!N;s/\n/	/'  | 
 tac
-
-

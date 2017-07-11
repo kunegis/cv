@@ -25,12 +25,18 @@ cat <<EOF
 % project proposals, research statements, and similar texts by Jérôme
 % himself. 
 %
+% This only works for publications that have a numerical ID in the CV.
+% Other types of publications such as the PhD thesis and posters are not
+% supported. 
+%
 % HOW TO USE
 %
-% Step (1):  put \usepackage{ifthen} in your Latex file
-% Step (2):  use a command such as \citek{kunegis:slashdot-zoo} to cite
+% Step (1):  put this file ('extbib.tex') in your directory
+% Step (2):  write \usepackage{ifthen} in your Latex file
+% Setp (3):  write \input{extbib} in your Latex file
+% Step (4):  use a command such as \citek{kunegis:slashdot-zoo} to cite
 %            a paper of Jérôme. 
-% Step (3):  attach Jérôme's CV to your publication 
+% Step (5):  attach Jérôme's CV ('cv-kunegis.pdf') to your publication  
 %
 
 EOF

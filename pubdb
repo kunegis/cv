@@ -1162,17 +1162,6 @@ sun:wiki-talk	url_arxiv	https://arxiv.org/abs/1611.02941
 sun:wiki-talk	url_data	http://doi.org/10.5281/zenodo.49561
 
 sun:wiki-talk	kunegiscat	workshoptalkother
-kunegis:fluorine-compounds	_	misc
-
-kunegis:fluorine-compounds	title	Binary Fluorine Compounds
-
-kunegis:fluorine-compounds	author	Jérôme Kunegis
-
-kunegis:fluorine-compounds	year	2017
-
-kunegis:fluorine-compounds	url	https://networkscience.wordpress.com/2017/03/12/big-table-of-binary-fluorine-compounds/
-
-kunegis:fluorine-compounds	kunegiscat	popularization
 kunegis:german-vowels	_	misc
 
 kunegis:german-vowels	title	How to Pronounce German Vowels
@@ -1184,6 +1173,17 @@ kunegis:german-vowels	year	2017
 kunegis:german-vowels	url	https://networkscience.wordpress.com/2017/02/08/how-to-pronounce-german-vowels/
 
 kunegis:german-vowels	kunegiscat	popularization
+kunegis:fluorine-compounds	_	misc
+
+kunegis:fluorine-compounds	title	Binary Fluorine Compounds
+
+kunegis:fluorine-compounds	author	Jérôme Kunegis
+
+kunegis:fluorine-compounds	year	2017
+
+kunegis:fluorine-compounds	url	https://networkscience.wordpress.com/2017/03/12/big-table-of-binary-fluorine-compounds/
+
+kunegis:fluorine-compounds	kunegiscat	popularization
 kunegis:konect-handbook	_	article
 
 kunegis:konect-handbook	title	Handbook of Network Analysis [{KONECT} project]
@@ -1292,4 +1292,4 @@ schelter:nzh-paper	year	2017
 
 schelter:nzh-paper	_pages	todo
 
-schelter:nzh-paper	kunegiscat	conftalkother
+schelter:nzh-paper	kunegiscat	conftalkown

@@ -1213,7 +1213,7 @@ kunegis:nopref-netsci	booktitle	Proc. Int. Sch. and Conf. on Netw. Sci.
 
 kunegis:nopref-netsci	year	2017
 
-kunegis:nopref-netsci	url	http://netsci2017.net/cam/#/event/294
+kunegis:nopref-netsci	url_web	http://netsci2017.net/cam/#/event/294
 
 kunegis:nopref-netsci	url_poster	https://github.com/kunegis/nopref/blob/master/netsci2017-poster/poster.pdf
 

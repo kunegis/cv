@@ -278,7 +278,7 @@ kunegis:universal-recommender	year	2009
 
 kunegis:universal-recommender	howpublished	White paper
 
-kunegis:universal-recommender	url	https://arxiv.org/abs/0909.3472
+kunegis:universal-recommender	url_arxiv	https://arxiv.org/abs/0909.3472
 
 kunegis:universal-recommender	url_code	https://github.com/kunegis/universal-recommender
 
@@ -847,7 +847,7 @@ kunegis:polcovar	journal	CoRR
 
 kunegis:polcovar	volume	abs/1402.5835
 
-kunegis:polcovar	url	http://arxiv.org/abs/1402.5835
+kunegis:polcovar	url_arxiv	http://arxiv.org/abs/1402.5835
 
 kunegis:polcovar	url_code	https://github.com/kunegis/polcovar/
 
@@ -881,7 +881,7 @@ perl:decline	journal	CoRR
 
 perl:decline	volume	abs/1403.4415
 
-perl:decline	url	http://arxiv.org/abs/1403.4415
+perl:decline	url_arxiv	http://arxiv.org/abs/1403.4415
 
 perl:decline	kunegiscat	misc
 kunegis:negativity	_	article
@@ -896,7 +896,7 @@ kunegis:negativity	journal	CoRR
 
 kunegis:negativity	volume	abs/1402.6865
 
-kunegis:negativity	url	http://arxiv.org/abs/1402.6865
+kunegis:negativity	url_arxiv	http://arxiv.org/abs/1402.6865
 
 kunegis:negativity	kunegiscat	misc
 kunegis:power-of-many-datasets	_	inproceedings
@@ -1030,7 +1030,7 @@ kunegis:petster	journal	CoRR
 
 kunegis:petster	volume	abs/1501.04527
 
-kunegis:petster	url	http://arxiv.org/abs/1501.04527
+kunegis:petster	url_arxiv	http://arxiv.org/abs/1501.04527
 
 kunegis:petster	kunegiscat	misc
 duenker:petster	_	inproceedings
@@ -1113,7 +1113,7 @@ schelter:trackers-journal	year	2016
 
 schelter:trackers-journal	note	In review
 
-schelter:trackers-journal	url	https://arxiv.org/abs/1607.07403
+schelter:trackers-journal	url_arxiv	https://arxiv.org/abs/1607.07403
 
 schelter:trackers-journal	url_data	http://konect.uni-koblenz.de/networks/trackers-trackers
 
@@ -1280,6 +1280,8 @@ samoilenko:neighbourhoods-ic2s2-2017	booktitle	Proc. Int. Conf. on Comput. Soc. 
 samoilenko:neighbourhoods-ic2s2-2017	year	2017
 
 samoilenko:neighbourhoods-ic2s2-2017	kunegiscat	abstracttalkother
+
+samoilenko:neighbourhoods-ic2s2-2017	url_presentation	http://docs.wixstatic.com/ugd/4948de_ce8ade30f6f54f35950619f6ba26693b.pdf
 schelter:nzh-paper	_	inproceedings
 
 schelter:nzh-paper	title	`Dark Germany': Hidden Patterns of Participation in Online Far-Right Protests Against Refugee Housing

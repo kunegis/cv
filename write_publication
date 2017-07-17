@@ -51,6 +51,12 @@ else
 fi
 if [ -n "$url" ] ; then
 	title_linked="\\href{$url}{$title$endpunct}"
+elif [ -n "$url_arxiv" ] ; then
+	title_linked="\\href{$url_arxiv}{$title$endpunct}"
+elif [ -n "$url_presentation" ] ; then
+	title_linked="\\href{$url_presentation}{$title$endpunct}"
+elif [ -n "$url_poster" ] ; then
+	title_linked="\\href{$url_poster}{$title$endpunct}"
 else
 	title_linked="$title$endpunct"
 fi

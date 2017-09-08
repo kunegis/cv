@@ -1288,7 +1288,7 @@ samoilenko:neighbourhoods-ic2s2-2017	kunegiscat	abstracttalkother
 samoilenko:neighbourhoods-ic2s2-2017	url_presentation	http://docs.wixstatic.com/ugd/4948de_ce8ade30f6f54f35950619f6ba26693b.pdf
 schelter:nzh-paper	_	inproceedings
 
-schelter:nzh-paper	title	`Dark Germany': Hidden Patterns of Participation in Online Far-Right Protests Against Refugee Housing
+schelter:nzh-paper	title	`Dark {Germany}': Hidden Patterns of Participation in Online Far-Right Protests Against Refugee Housing
 
 schelter:nzh-paper	author	Sebastian Schelter and Jérôme Kunegis
 
@@ -1296,7 +1296,7 @@ schelter:nzh-paper	booktitle	Proc. Int. Conf. on Soc. Inform.
 
 schelter:nzh-paper	year	2017
 
-schelter:nzh-paper	_pages	todo
+schelter:nzh-paper	pages	277--288
 
 schelter:nzh-paper	kunegiscat	conftalkown
 

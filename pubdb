@@ -1303,3 +1303,16 @@ schelter:nzh-paper	kunegiscat	conftalkown
 schelter:nzh-paper	url	https://link.springer.com/chapter/10.1007/978-3-319-67217-5_17
 
 schelter:nzh-paper	url_arxiv	https://arxiv.org/abs/1707.07594
+gandica:wikipedia	_	inproceedings
+
+gandica:wikipedia	title	Socio-semantic Aspects of {Wikipedia} Usage across Five Languages
+
+gandica:wikipedia	author	Yérali Gandica and Jérôme Kunegis
+
+gandica:wikipedia	booktitle	Proc. Eur. Conf. on Soc. Netw.
+
+gandica:wikipedia	year	2017
+
+gandica:wikipedia	kunegiscat	abstracttalkother
+
+gandica:wikipedia	url_web	http://www.eusn2017.uni-mainz.de/files/2016/08/EUSN2017_Booklet_25_09.pdf

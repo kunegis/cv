@@ -790,13 +790,15 @@ kunegis:network-encyclopedia-1	author	Jérôme Kunegis
 
 kunegis:network-encyclopedia-1	journal	Encyclopedia of Soc. Netw. Anal. and Min.
 
-kunegis:network-encyclopedia-1	year	2013
+kunegis:network-encyclopedia-1	year	2013, 2017
 
 kunegis:network-encyclopedia-1	publisher	Springer
 
-kunegis:network-encyclopedia-1	url	http://www.springer.com/gb/book/9781461461692
+kunegis:network-encyclopedia-1	url	https://link.springer.com/referenceworkentry/10.1007/978-1-4614-7163-9_122-1
 
-kunegis:network-encyclopedia-1	kunegiscat	peer
+kunegis:network-encyclopedia-1	url_x_full_book	http://www.springer.com/gb/book/9781461461692
+
+kunegis:network-encyclopedia-1	kunegiscat	reference
 kunegis:network-encyclopedia-2	_	article
 
 kunegis:network-encyclopedia-2	title	Spectral Evolution of Social Networks
@@ -805,13 +807,15 @@ kunegis:network-encyclopedia-2	author	Jérôme Kunegis
 
 kunegis:network-encyclopedia-2	journal	Encyclopedia of Soc. Netw. Anal. and Min.
 
-kunegis:network-encyclopedia-2	year	2013
+kunegis:network-encyclopedia-2	year	2013, 2017
 
 kunegis:network-encyclopedia-2	publisher	Springer
 
-kunegis:network-encyclopedia-2	url	http://www.springer.com/gb/book/9781461461692
+kunegis:network-encyclopedia-2	url	https://link.springer.com/referenceworkentry/10.1007/978-1-4614-7163-9_125-1
 
-kunegis:network-encyclopedia-2	kunegiscat	peer
+kunegis:network-encyclopedia-2	url_x_full_book	http://www.springer.com/gb/book/9781461461692
+
+kunegis:network-encyclopedia-2	kunegiscat	reference
 kunegis:konect	_	inproceedings
 
 kunegis:konect	title	{KONECT} -- {The} {Koblenz} {Network} {Collection}

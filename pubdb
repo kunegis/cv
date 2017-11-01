@@ -223,6 +223,8 @@ kunegis:slashdot-zoo	pages	741--750
 
 kunegis:slashdot-zoo	url	http://dl.acm.org/citation.cfm?id=1526809
 
+kunegis:slashdot-zoo	url_arxiv	https://arxiv.org/abs/1710.11395
+
 kunegis:slashdot-zoo	url_presentation	https://www.slideshare.net/kunegis/the-slashdot-zoo-mining-a-social-network-with-negative-edges
 
 kunegis:slashdot-zoo	url_data	http://konect.cc/networks/slashdot-zoo

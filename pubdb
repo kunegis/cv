@@ -1067,6 +1067,19 @@ kunegis:english-vowels	year	2015
 kunegis:english-vowels	url	https://networkscience.wordpress.com/2015/01/18/pronunciation-of-english-vowels/
 
 kunegis:english-vowels	kunegiscat	popularization
+kunegis:generator-netsci	_	inproceedings
+
+kunegis:generator-netsci	title	A Random Graph Model based on a Given Set of Networks
+
+kunegis:generator-netsci	author	Jérôme Kunegis and Jun Sun and Eiko Yoneki
+
+kunegis:generator-netsci	booktitle	Proc. Int. Sch. and Conf. on Netw. Sci.
+
+kunegis:generator-netsci	year	2016
+
+kunegis:generator-netsci	url_web	http://netsci2016.net/download/program/11Network_Model.pdf
+
+kunegis:generator-netsci	kunegiscat	abstractposterown
 samoilenko:language-hierarchy	_	article
 
 samoilenko:language-hierarchy	title	Linguistic Neighbourhoods: Explaining Cultural Borders on {Wikipedia} through Multilingual Co-editing Activity

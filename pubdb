@@ -1335,3 +1335,16 @@ gandica:wikipedia	year	2017
 gandica:wikipedia	kunegiscat	abstracttalkother
 
 gandica:wikipedia	url_web	http://www.eusn2017.uni-mainz.de/files/2016/08/EUSN2017_Booklet_25_09.pdf
+kunegis:benet2017	_	inproceedings
+
+kunegis:benet2017	title	SynGraphy: Succinct Summarisation of Large Networks via Small Synthetic Representative Graphs
+
+kunegis:benet2017	author	Jérôme Kunegis and Pawan Kumar and Jun Sun and Giuseppe Pirrò
+
+kunegis:benet2017	booktitle	Proc. Belg. Netw. Res. Meet.
+
+kunegis:benet2017	year	2017
+
+kunegis:benet2017	kunegiscat	abstracttalkown
+
+kunegis:benet2017	url_web	https://be-net.github.io/2017/files/BENET2017_paper_1.pdf

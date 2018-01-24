@@ -1124,23 +1124,6 @@ schelter:trackers	url_web	https://ssc.io/trackingthetrackers/
 schelter:trackers	url_poster	https://github.com/kunegis/pdfs/blob/master/schelter:trackers.poster.pdf
 
 schelter:trackers	kunegiscat	conftalkother
-schelter:trackers-journal	_	misc
-
-schelter:trackers-journal	title	On the Ubiquity of Web Tracking: Insights from a Billion-Page Web Crawl
-
-schelter:trackers-journal	author	Sebastian Schelter and Jérôme Kunegis
-
-schelter:trackers-journal	year	2016
-
-schelter:trackers-journal	note	In review
-
-schelter:trackers-journal	url_arxiv	https://arxiv.org/abs/1607.07403
-
-schelter:trackers-journal	url_data	http://konect.cc/networks/trackers-trackers
-
-schelter:trackers-journal	url_web	https://ssc.io/trackingthetrackers/
-
-schelter:trackers-journal	kunegiscat	preprint
 toedtli:ctqw	_	article
 
 toedtli:ctqw	title	Continuous-Time Quantum Walks on Directed Bipartite Graphs
@@ -1213,7 +1196,7 @@ kunegis:konect-handbook	title	Handbook of Network Analysis [{KONECT} project]
 
 kunegis:konect-handbook	author	Jérôme Kunegis
 
-kunegis:konect-handbook	year	2017
+kunegis:konect-handbook	year	2018
 
 kunegis:konect-handbook	journal	CoRR
 
@@ -1350,3 +1333,20 @@ kunegis:benet2017	kunegiscat	abstracttalkown
 kunegis:benet2017	url_web	https://be-net.github.io/2017/files/BENET2017_paper_1.pdf
 
 kunegis:benet2017	url_presentation	https://fr.slideshare.net/kunegis/succinct-summarisation-of-large-networks-via-small-synthetic-representative-graphs
+schelter:trackers-journal	_	article
+
+schelter:trackers-journal	title	On the Ubiquity of Web Tracking: Insights from a Billion-Page Web Crawl
+
+schelter:trackers-journal	author	Sebastian Schelter and Jérôme Kunegis
+
+schelter:trackers-journal	journal	J. of Web Sci.
+
+schelter:trackers-journal	year	2018
+
+schelter:trackers-journal	url_arxiv	https://arxiv.org/abs/1607.07403
+
+schelter:trackers-journal	url_data	http://konect.cc/networks/trackers-trackers
+
+schelter:trackers-journal	url_web	https://ssc.io/trackingthetrackers/
+
+schelter:trackers-journal	kunegiscat	journal

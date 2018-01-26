@@ -1343,6 +1343,10 @@ schelter:trackers-journal	journal	J. of Web Sci.
 
 schelter:trackers-journal	year	2018
 
+schelter:trackers-journal	volume	1
+
+schelter:trackers-journal	url	http://www.webscience-journal.net/webscience/article/view/32
+
 schelter:trackers-journal	url_arxiv	https://arxiv.org/abs/1607.07403
 
 schelter:trackers-journal	url_data	http://konect.cc/networks/trackers-trackers

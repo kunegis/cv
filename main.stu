@@ -41,12 +41,12 @@ check_publications:  ckpub kunegis.bib
 $name.bib  = bibtex/;
 konect.bib = konect-extr/;
 
->kunegis.bib:  <bibtex/kunegis.bib
+>kunegis.bib:  <bibtex/kunegis.bib insert-shy
 {
 	# Insert soft hyphens in accented names because Latex doesn't
 	# accept them in \hyphenation
 	echo '% DO NOT EDIT -- AUTO-GENERATED'
-	sed -E -e 's/Milošević/Milo\-šević/g'
+	./insert-shy
 }
 
 bibtex/$name.bib: -p bibtex;

@@ -32,7 +32,7 @@ milosevic:update-policy	_	inproceedings
 
 milosevic:update-policy	title	Resource-Aware Update Policy for Highly Dynamic {P2P} Networks
 
-milosevic:update-policy	author	Dragan Milo-šević and Jérôme Kunegis and Şahin Albayrak
+milosevic:update-policy	author	Dragan Milo\-šević and Jérôme Kunegis and Şahin Albayrak
 
 milosevic:update-policy	booktitle	Proc. Int. Conf. on Web Intell. and Intell. Agent Tech. Workshops
 
@@ -323,7 +323,7 @@ karatas:interactive-tv	_	inproceedings
 
 karatas:interactive-tv	title	Connecting Senior Citizens through Interactive {TV}
 
-karatas:interactive-tv	author	Barış Karataş and Torsten Schmidt and Jérôme Kunegis and Till Plumbaum
+karatas:interactive-tv	author	Barış Karataş and Tors\-ten Schmidt and Jérôme Kunegis and Till Plumbaum
 
 karatas:interactive-tv	year	2010
 
@@ -1196,7 +1196,7 @@ kunegis:konect-handbook	title	Handbook of Network Analysis [{KONECT} project]
 
 kunegis:konect-handbook	author	Jérôme Kunegis
 
-kunegis:konect-handbook	year	2018
+kunegis:konect-handbook	year	2017
 
 kunegis:konect-handbook	journal	CoRR
 
@@ -1342,10 +1342,6 @@ schelter:trackers-journal	author	Sebastian Schelter and Jérôme Kunegis
 schelter:trackers-journal	journal	J. of Web Sci.
 
 schelter:trackers-journal	year	2018
-
-schelter:trackers-journal	volume	1
-
-schelter:trackers-journal	url	http://www.webscience-journal.net/webscience/article/view/32
 
 schelter:trackers-journal	url_arxiv	https://arxiv.org/abs/1607.07403
 

@@ -1,0 +1,12 @@
+#! /bin/sh
+#
+# Insert Latex-coded soft hyphens into proper names used in references.  
+#
+# We add names here when Latex says that there is an overfull box at one
+# of those names. 
+#
+
+sed -E -e '
+s/Milošević/Milo\\-šević/g
+s/Torsten/Tors\\-ten/g
+'

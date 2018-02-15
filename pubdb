@@ -525,9 +525,9 @@ nasir:retweet-ranking	url_presentation	https://www.slideshare.net/kunegis/search
 nasir:retweet-ranking	kunegiscat	conftalkother
 che-alhadi:trec-microblog	_	inproceedings
 
-che-alhadi:trec-microblog	author	Che Alhadi, Arifah and Thomas Gottron and Jérôme Kunegis and Naveed, Nasir
-
 che-alhadi:trec-microblog	title	{LiveTweet}: Microblog Retrieval Based on Interestingess and an Adaptation of the Vector Space Model
+
+che-alhadi:trec-microblog	author	Che Alhadi, Arifah and Thomas Gottron and Jérôme Kunegis and Naveed, Nasir
 
 che-alhadi:trec-microblog	booktitle	Proc. Text Retrieval Conf.
 

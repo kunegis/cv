@@ -525,9 +525,9 @@ nasir:retweet-ranking	url_presentation	https://www.slideshare.net/kunegis/search
 nasir:retweet-ranking	kunegiscat	conftalkother
 che-alhadi:trec-microblog	_	inproceedings
 
-che-alhadi:trec-microblog	title	{LiveTweet}: Microblog Retrieval Based on Interestingess and an Adaptation of the Vector Space Model
-
 che-alhadi:trec-microblog	author	Che Alhadi, Arifah and Thomas Gottron and Jérôme Kunegis and Naveed, Nasir
+
+che-alhadi:trec-microblog	title	{LiveTweet}: Microblog Retrieval Based on Interestingess and an Adaptation of the Vector Space Model
 
 che-alhadi:trec-microblog	booktitle	Proc. Text Retrieval Conf.
 
@@ -1343,10 +1343,31 @@ schelter:trackers-journal	journal	J. of Web Sci.
 
 schelter:trackers-journal	year	2018
 
+schelter:trackers-journal	volume	4
+
+schelter:trackers-journal	number	1
+
 schelter:trackers-journal	url_arxiv	https://arxiv.org/abs/1607.07403
 
 schelter:trackers-journal	url_data	http://konect.cc/networks/trackers-trackers
 
 schelter:trackers-journal	url_web	https://ssc.io/trackingthetrackers/
 
+schelter:trackers-journal	url_web2	http://www.webscience-journal.net/webscience/issue/view/5
+
 schelter:trackers-journal	kunegiscat	journal
+kunegis:caricature-netsci2018	_	inproceedings
+
+kunegis:caricature-netsci2018	title	{SynGraphy}: Succinct Summarisation of Large Networks via Small Synthetic Representative Graphs
+
+kunegis:caricature-netsci2018	author	Jérôme Kunegis and Pawan Kumar Jun Sun and Giuseppe Pirrò
+
+kunegis:caricature-netsci2018	booktitle	Proc. Int. Sch. and Conf. on Netw. Sci.
+
+kunegis:caricature-netsci2018	year	2018
+
+kunegis:caricature-netsci2018	url_web_	todo: website
+
+kunegis:caricature-netsci2018	url_poster_	todo
+
+kunegis:caricature-netsci2018	kunegiscat	abstractposterown

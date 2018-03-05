@@ -34,6 +34,7 @@ url="$(       ./field "$id" url      )"
 url_presentation="$(./field "$id" url_presentation)"
 url_poster="$(      ./field "$id" url_poster      )"
 url_web="$(         ./field "$id" url_web         )"
+url_web2="$(        ./field "$id" url_web2        )"
 url_video="$(       ./field "$id" url_video       )"
 url_arxiv="$(       ./field "$id" url_arxiv       )"
 url_data="$(        ./field "$id" url_data        )"
@@ -121,6 +122,9 @@ if [ -n "$url_citations" ] ; then
 fi
 if [ -n "$url_web" ] ; then
 	margin_part="${margin_part} \\href{$url_web}{\faChain}" 
+fi
+if [ -n "$url_web2" ] ; then
+	margin_part="${margin_part} \\href{$url_web2}{\faChain}" 
 fi
 if [ -n "$url_data" ] ; then
 	margin_part="${margin_part} \\href{$url_data}{\faDatabase}" 

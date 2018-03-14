@@ -652,7 +652,9 @@ kunegis:konect-cloud	url	https://books.google.be/books?id=06fDCQAAQBAJ&pg=PA107
 
 kunegis:konect-cloud	url_presentation	https://www.slideshare.net/kunegis/konect-cloud-large-scale-network-mining-in-the-cloud-12958650
 
-kunegis:konect-cloud	url_video	http://www.tele-task.de/de/archive/video/flash/16348/
+kunegis:konect-cloud	url_video	https://www.tele-task.de/lecture/video/3215/
+
+kunegis:konect-cloud	_url_video_old	http://www.tele-task.de/de/archive/video/flash/16348/
 
 kunegis:konect-cloud	url_poster	https://github.com/kunegis/pdfs/blob/master/kunegis:konect-cloud.poster.pdf
 

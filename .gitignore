@@ -8,5 +8,6 @@ bibtex
 dep
 dep.*
 list-*.tex
+date.tex
 GROUPS
 corepub.temporal

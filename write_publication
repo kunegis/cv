@@ -39,6 +39,7 @@ url_video="$(       ./field "$id" url_video       )"
 url_arxiv="$(       ./field "$id" url_arxiv       )"
 url_data="$(        ./field "$id" url_data        )"
 url_code="$(        ./field "$id" url_code        )"
+url_blog="$(        ./field "$id" url_blog        )"
 url_media="$(       ./field "$id" url_media       )"
 url_media2="$(      ./field "$id" url_media2      )"
 url_citations="$(   ./field "$id" url_citations   )"
@@ -134,6 +135,9 @@ if [ -n "$url_code" ] ; then
 fi
 if [ -n "$url_video" ] ; then
 	margin_part="${margin_part} \\href{$url_video}{\faVideoCamera}"
+fi
+if [ -n "$url_blog" ] ; then
+	margin_part="${margin_part} \\href{$url_blog}{\faComment}"
 fi
 if [ -n "$url_media" ] ; then
 	margin_part="${margin_part} \\href{$url_media}{\faNewspaperO}"

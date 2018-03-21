@@ -348,7 +348,7 @@ kunegis:signed-kernels	url	http://epubs.siam.org/doi/abs/10.1137/1.9781611972801
 
 kunegis:signed-kernels	url_presentation	https://www.slideshare.net/kunegis/spectral-analysis-of-signed-graphs-for-clustering-prediction-and-visualization
 
-kunegis:signed-kernels	url_web	https://networkscience.wordpress.com/2011/12/14/networks-with-negative-edges/
+kunegis:signed-kernels	url_blog	https://networkscience.wordpress.com/2011/12/14/networks-with-negative-edges/
 
 kunegis:signed-kernels	url_poster	https://github.com/kunegis/pdfs/blob/master/kunegis:signed-kernels.poster.pdf
 
@@ -629,7 +629,7 @@ kunegis:power-law	url_presentation	https://www.slideshare.net/kunegis/fairness-o
 
 kunegis:power-law	url_video	http://www.youtube.com/watch?v=udzzfF_KKso
 
-kunegis:power-law	url_web	https://networkscience.wordpress.com/2012/04/19/power-law-paradox-power-law-exponent-does-not-mean-what-you-think-it-means/
+kunegis:power-law	url_blog	https://networkscience.wordpress.com/2012/04/19/power-law-paradox-power-law-exponent-does-not-mean-what-you-think-it-means/
 
 kunegis:power-law	kunegiscat	conftalkown
 kunegis:konect-cloud	_	inproceedings
@@ -675,7 +675,7 @@ kunegis:split-complex-dating	url	http://dl.acm.org/citation.cfm?id=2365942
 
 kunegis:split-complex-dating	url_presentation	https://fr.slideshare.net/kunegis/presentation-2012rsweb
 
-kunegis:split-complex-dating	url_web	https://networkscience.wordpress.com/2011/08/09/dating-sites-and-the-split-complex-numbers/
+kunegis:split-complex-dating	url_blog	https://networkscience.wordpress.com/2011/08/09/dating-sites-and-the-split-complex-numbers/
 
 kunegis:split-complex-dating	url_data	http://konect.cc/networks/libimseti
 
@@ -1347,7 +1347,11 @@ schelter:trackers-journal	year	2018
 
 schelter:trackers-journal	volume	4
 
-schelter:trackers-journal	number	1
+schelter:trackers-journal	number	4
+
+schelter:trackers-journal	pages	53--66
+
+schelter:trackers-journal	url	https://www.nowpublishers.com/article/Details/JWS-0014
 
 schelter:trackers-journal	url_arxiv	https://arxiv.org/abs/1607.07403
 
@@ -1356,6 +1360,8 @@ schelter:trackers-journal	url_data	http://konect.cc/networks/trackers-trackers
 schelter:trackers-journal	url_web	https://ssc.io/trackingthetrackers/
 
 schelter:trackers-journal	url_web2	http://www.webscience-journal.net/webscience/issue/view/5
+
+schelter:trackers-journal	url_blog	https://networkscience.wordpress.com/2018/03/21/google-is-the-largest-web-tracker-but-by-far-not-the-only-one/
 
 schelter:trackers-journal	kunegiscat	journal
 kunegis:caricature-netsci2018	_	inproceedings

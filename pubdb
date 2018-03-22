@@ -272,7 +272,7 @@ kunegis:spectral-transformation	url_citations	https://scholar.google.com/scholar
 kunegis:spectral-transformation	kunegiscat	conftalkposterown
 kunegis:universal-recommender	_	misc
 
-kunegis:universal-recommender	title	The {Universal Recommender}
+kunegis:universal-recommender	title	The {Universal} {Recommender}
 
 kunegis:universal-recommender	author	Jérôme Kunegis and Alan Said and Winfried Umbrath
 
@@ -285,6 +285,21 @@ kunegis:universal-recommender	url_arxiv	https://arxiv.org/abs/0909.3472
 kunegis:universal-recommender	url_code	https://github.com/kunegis/universal-recommender
 
 kunegis:universal-recommender	kunegiscat	misc
+lommatzsch:semantic-engine	_	misc
+
+lommatzsch:semantic-engine	title	{Semantic} {Engine}
+
+lommatzsch:semantic-engine	author	Andreas Lommatzsch and Jérôme Kunegis and Tors\-ten Schmidt and Stefan Marx
+
+lommatzsch:semantic-engine	year	2010
+
+lommatzsch:semantic-engine	howpublished	White paper
+
+lommatzsch:semantic-engine	url	http://www.dai-labor.de/fileadmin/Files/Publikationen/Buchdatei/WhitepaperSemantic Engine.pdf
+
+lommatzsch:semantic-engine	url_web	http://www.dai-labor.de/irml/semantic_engine/
+
+lommatzsch:semantic-engine	kunegiscat	misc
 said:exploiting-hierarchical-tags	_	inproceedings
 
 said:exploiting-hierarchical-tags	title	Exploiting Hierarchical Tags for Context-awareness
@@ -1379,3 +1394,14 @@ kunegis:caricature-netsci2018	url_web_	todo: website
 kunegis:caricature-netsci2018	url_poster_	todo
 
 kunegis:caricature-netsci2018	kunegiscat	abstractposterown
+seth:sister-cities-www2018	_	inproceedings
+
+seth:sister-cities-www2018	title	The Role of Cultural Importance in Sister City Relationships
+
+seth:sister-cities-www2018	author	Mridul Seth and Jérôme Kunegis and Renaud Lambiotte
+
+seth:sister-cities-www2018	booktitle	Proc. Wiki Workshop
+
+seth:sister-cities-www2018	year	2018
+
+seth:sister-cities-www2018	kunegiscat	abstractposterown

@@ -30,7 +30,8 @@ booktitle="$( ./field "$id" booktitle)"
 pages="$(     ./field "$id" pages    )"
 volume="$(    ./field "$id" volume   )"
 number="$(    ./field "$id" number   )"
-url="$(       ./field "$id" url      )"
+url="$(       	    ./field "$id" url             )"
+url2="$(       	    ./field "$id" url2            )"
 url_presentation="$(./field "$id" url_presentation)"
 url_poster="$(      ./field "$id" url_poster      )"
 url_web="$(         ./field "$id" url_web         )"
@@ -108,6 +109,9 @@ done
 margin_part=
 if [ -n "$url" ] ; then
 	margin_part="\\href{$url}{\faFileTextO}" 
+fi
+if [ -n "$url2" ] ; then
+	margin_part="${margin_part} \\href{$url2}{\faFileTextO}"
 fi
 if [ -n "$url_arxiv" ] ; then
 	margin_part="${margin_part} \\href{$url_arxiv}{\faFileExcelO}"

@@ -777,6 +777,8 @@ kunegis:latent-negative	pages	727--736
 
 kunegis:latent-negative	url	http://dl.acm.org/citation.cfm?id=2488452
 
+kunegis:latent-negative	url2	https://github.com/kunegis/pdfs/raw/master/kunegis:latent-negative.pdf
+
 kunegis:latent-negative	url_presentation	https://www.slideshare.net/kunegis/presentationwww
 
 kunegis:latent-negative	kunegiscat	conftalkown

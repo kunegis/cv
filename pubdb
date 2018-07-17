@@ -1425,16 +1425,20 @@ sun:tranet	journal	IEEE Comput. Mag.
 
 sun:tranet	year	2018
 
-sun:tranet	month	June
+sun:tranet	_month	June
 
-sun:tranet	volume_	todo
+sun:tranet	volume	51
 
-sun:tranet	number_	todo
+sun:tranet	number	6
 
-sun:tranet	pages_	todo
+sun:tranet	pages	52--60
 
 sun:tranet	kunegiscat	journal
 
-sun:tranet	url_	todo
+sun:tranet	url	https://ieeexplore.ieee.org/document/8395138/
 
-sun:tranet	url	https://eprints.soton.ac.uk/421084/
+sun:tranet	url2	https://eprints.soton.ac.uk/421084/
+
+sun:tranet	doi	10.1109/MC.2018.2701640
+
+sun:tranet	ISSN	0018-9162

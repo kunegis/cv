@@ -1442,3 +1442,25 @@ sun:tranet	url2	https://eprints.soton.ac.uk/421084/
 sun:tranet	doi	10.1109/MC.2018.2701640
 
 sun:tranet	ISSN	0018-9162
+kunegis:adventure-mi1	_	misc
+
+kunegis:adventure-mi1	title	Game Dependency Graph:  The Secret of Monkey Island
+
+kunegis:adventure-mi1	author	Jérôme Kunegis
+
+kunegis:adventure-mi1	year	2019
+
+kunegis:adventure-mi1	url	https://networkscience.wordpress.com/2019/01/18/game-dependency-graph-the-secret-of-monkey-island/
+
+kunegis:adventure-mi1	kunegiscat	popularization
+kunegis:flora	_	misc
+
+kunegis:flora	title	Phylogenetic Tree of My Houseplants
+
+kunegis:flora	author	Jérôme Kunegis
+
+kunegis:flora	year	2019
+
+kunegis:flora	url	https://networkscience.wordpress.com/2019/05/10/phylogenetic-tree-of-my-houseplants/
+
+kunegis:flora	kunegiscat	popularization

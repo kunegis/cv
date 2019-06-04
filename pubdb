@@ -541,6 +541,8 @@ nasir:retweet-ranking	url	http://dl.acm.org/citation.cfm?id=2063607
 
 nasir:retweet-ranking	url_presentation	https://www.slideshare.net/kunegis/searching-microblogs-coping-with-sparsity-and-document-quality
 
+nasir:retweet-ranking	url_citations	https://scholar.google.com/scholar?cites=7377522492252427196
+
 nasir:retweet-ranking	kunegiscat	conftalkother
 che-alhadi:trec-microblog	_	inproceedings
 

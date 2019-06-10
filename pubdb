@@ -1466,3 +1466,14 @@ kunegis:flora	year	2019
 kunegis:flora	url	https://networkscience.wordpress.com/2019/05/10/phylogenetic-tree-of-my-houseplants/
 
 kunegis:flora	kunegiscat	popularization
+kunegis:hp	_	misc
+
+kunegis:hp	title	Network of Characters in {Harry} {Potter}
+
+kunegis:hp	author	Jérôme Kunegis
+
+kunegis:hp	year	2019
+
+kunegis:hp	url	https://networkscience.wordpress.com/2019/06/07/network-of-characters-in-harry-potter/
+
+kunegis:hp	kunegiscat	popularization

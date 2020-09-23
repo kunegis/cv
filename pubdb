@@ -1477,3 +1477,18 @@ kunegis:hp	year	2019
 kunegis:hp	url	https://networkscience.wordpress.com/2019/06/07/network-of-characters-in-harry-potter/
 
 kunegis:hp	kunegiscat	popularization
+kunegis:diversity	_	article
+
+kunegis:diversity	title	Modeling the Evolution of Networks as Shrinking Structural Diversity
+
+kunegis:diversity	author	Jérôme Kunegis
+
+kunegis:diversity	year	2020
+
+kunegis:diversity	journal	CoRR
+
+kunegis:diversity	volume	abs/2009.09764
+
+kunegis:diversity	url_arxiv	http://arxiv.org/abs/2009.09764
+
+kunegis:diversity	kunegiscat	misc

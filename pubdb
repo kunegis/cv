@@ -1492,3 +1492,36 @@ kunegis:diversity	volume	abs/2009.09764
 kunegis:diversity	url_arxiv	http://arxiv.org/abs/2009.09764
 
 kunegis:diversity	kunegiscat	misc
+kunegis:adventure-mi2	_	misc
+
+kunegis:adventure-mi2	title	Game Dependency Graph: Monkey Island 2: LeChuck's Revenge
+
+kunegis:adventure-mi2	author	Jérôme Kunegis
+
+kunegis:adventure-mi2	year	2020
+
+kunegis:adventure-mi2	url	https://networkscience.wordpress.com/2020/04/15/game-dependency-graph-monkey-island-2-lechucks-revenge/
+
+kunegis:adventure-mi2	kunegiscat	popularization
+kunegis:adventure-mi3	_	misc
+
+kunegis:adventure-mi3	title	Game Dependency Graph: The Curse of Monkey Island
+
+kunegis:adventure-mi3	author	Jérôme Kunegis
+
+kunegis:adventure-mi3	year	2020
+
+kunegis:adventure-mi3	url	https://networkscience.wordpress.com/2020/06/01/game-dependency-graph-the-curse-of-monkey-island/
+
+kunegis:adventure-mi3	kunegiscat	popularization
+kunegis:adventure-dot	_	misc
+
+kunegis:adventure-dot	title	Game Dependency Graph: Day of the Tentacle
+
+kunegis:adventure-dot	author	Jérôme Kunegis
+
+kunegis:adventure-dot	year	2021
+
+kunegis:adventure-dot	url	https://networkscience.wordpress.com/2021/03/13/game-dependency-graph-day-of-the-tentacle/
+
+kunegis:adventure-dot	kunegiscat	popularization

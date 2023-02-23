@@ -10,17 +10,17 @@
 #	pubdb
 #
 
-id="$1"
-field="$2"
+id=$1
+field=$2
 
-ret="$(<pubdb sed -E -e '
+ret=$(<pubdb sed -E -e '
 s/^'"$id"'	'"$field"'	(.+)$/\1/
 t
 d
-')"
+')
 
 if echo "$field" | grep -E -q ^url ; then
-	ret="$(printf "%s\n" "$ret" | sed -E -e 's,#,\\#,g')"
+	ret=$(printf "%s\n" "$ret" | sed -E -e 's,#,\\#,g')
 fi
 
 printf "%s\n" "$ret"

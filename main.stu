@@ -6,10 +6,9 @@
 # and execute 'stu' within this directory. 
 #
 
-% version 2.5
+% version 2.7
 
-@all:  
-	cv-kunegis.pdf check_publications extbib.tex; 
+@all:  cv-kunegis.pdf check_publications extbib.tex; 
 
 @all-german:  cv-kunegis-german.pdf;
 
@@ -18,7 +17,7 @@ cv-kunegis.pdf:
 	kunegis.bib tub.bib konect.bib
 	[dep]
 {
- 	LC_ALL=C date +'%B %d, %Y;' >date.tex
+ 	LC_ALL=C date +'%B %d, %Y.' >date.tex
 	rm -f *.log *.out *.bbl *.blg
 	pdflatex cv-kunegis.tex
 	pdflatex cv-kunegis.tex
@@ -110,8 +109,3 @@ bibtex;
 {
 	./mkpubdb
 }
-
-## >date.tex
-## {
-## 	LC_ALL=C date '%B %d, %Y'
-##}

@@ -121,6 +121,8 @@ kunegis:negative-resistance	url	https://www.semanticscholar.org/paper/Collaborat
 
 kunegis:negative-resistance	url_nomination	http://www.data-mining-forum.de/paper_award_2007.php
 
+kunegis:negative-resistance	text_prize	Best Paper Nominee
+
 kunegis:negative-resistance	kunegiscat	conftalkown
 kunegis:adapting-ratings	_	inproceedings
 
@@ -371,6 +373,10 @@ kunegis:signed-kernels	url_poster	https://github.com/kunegis/pdfs/blob/master/ku
 
 kunegis:signed-kernels	url_citations	https://scholar.google.com/scholar?cites=6014639770613774473
 
+kunegis:signed-kernels	url_prize	http://www.siam.org/prizes/sponsored/travel.php
+
+kunegis:signed-kernels	text_prize	Won Student Travel Fellowship Award
+
 kunegis:signed-kernels	kunegiscat	conftalkposterown
 kunegis:hyperbolic-sine	_	inproceedings
 
@@ -386,7 +392,11 @@ kunegis:hyperbolic-sine	pages	380--389
 
 kunegis:hyperbolic-sine	url	https://link.springer.com/chapter/10.1007/978-3-642-14049-5_39
 
+kunegis:hyperbolic-sine	url_arxiv	https://arxiv.org/abs/1006.5367
+
 kunegis:hyperbolic-sine	url_presentation	https://github.com/kunegis/pdfs/blob/master/kunegis:hyperbollic-sine.presentation.pdf
+
+kunegis:hyperbolic-sine	url_citations	https://scholar.google.com/scholar?cites=690168870775970564
 
 kunegis:hyperbolic-sine	kunegiscat	conftalkother
 kunegis:spectral-network-evolution	_	inproceedings
@@ -406,6 +416,8 @@ kunegis:spectral-network-evolution	url	http://dl.acm.org/citation.cfm?id=1871533
 kunegis:spectral-network-evolution	url_presentation	https://www.slideshare.net/kunegis/presentation-5758116
 
 kunegis:spectral-network-evolution	url_prize	http://www.yorku.ca/cikm10/awards.php
+
+kunegis:spectral-network-evolution	text_prize	Won Student Travel Award
 
 kunegis:spectral-network-evolution	kunegiscat	conftalkown
 gottron:challenges	_	inproceedings
@@ -617,6 +629,8 @@ kunegis:network-rank	url	http://dl.acm.org/citation.cfm?id=2310039
 kunegis:network-rank	url_presentation	https://pt.slideshare.net/kunegis/presentation-2012ht
 
 kunegis:network-rank	url_nomination	http://www.sigweb.org/resources/sigweb-awards/43-ted-nelson
+
+kunegis:network-rank	text_prize	Nelson Newcomer Award Nominee
 
 kunegis:network-rank	kunegiscat	conftalkown
 kunegis:konect-netsci	_	inproceedings
@@ -1005,6 +1019,8 @@ kling:lqfb	url_media	https://www.piratenpartei.de/2015/05/31/die-abstimmungssoft
 
 kling:lqfb	url_media2	http://www.wired.it/attualita/2015/04/01/come-funzionato-davvero-democrazia-liquida-dei-pirati-tedeschi/
 
+kling:lqfb	text_prize	Won Best Paper Honorable Mention
+
 kling:lqfb	kunegiscat	conftalkother
 samoilenko:wikilang	_	inproceedings
 
@@ -1345,7 +1361,7 @@ gandica:wikipedia	kunegiscat	abstracttalkother
 gandica:wikipedia	url_web	http://www.eusn2017.uni-mainz.de/files/2016/08/EUSN2017_Booklet_25_09.pdf
 kunegis:benet2017	_	inproceedings
 
-kunegis:benet2017	title	SynGraphy: Succinct Summarisation of Large Networks via Small Synthetic Representative Graphs
+kunegis:benet2017	title	{SynGraphy}: Succinct Summarisation of Large Networks via Small Synthetic Representative Graphs
 
 kunegis:benet2017	author	Jérôme Kunegis and Pawan Kumar and Jun Sun and Giuseppe Pirrò and Anna Samoilenko
 
@@ -1525,3 +1541,18 @@ kunegis:adventure-dot	year	2021
 kunegis:adventure-dot	url	https://networkscience.wordpress.com/2021/03/13/game-dependency-graph-day-of-the-tentacle/
 
 kunegis:adventure-dot	kunegiscat	popularization
+kunegis:caricature	_	article
+
+kunegis:caricature	title	{SynGraphy}: Succinct Summarisation of Large Networks via Small Synthetic Representative Graphs
+
+kunegis:caricature	author	Jérôme Kunegis and Pawan Kumar and Jun Sun and Anna Samoilenko and Giuseppe Pirró
+
+kunegis:caricature	year	2023
+
+kunegis:caricature	journal	CoRR
+
+kunegis:caricature	volume	abs/2302.07755
+
+kunegis:caricature	url_arxiv	https://arxiv.org/abs/2302.07755
+
+kunegis:caricature	kunegiscat	misc

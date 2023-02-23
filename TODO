@@ -1,2 +1,8 @@
 * Add presentation and poster from kunegis/projects/gaussian_kernel/ and .../graph_kernels/ and other projects that are still compressed. 
 
+* automatically generate different CV versions:
+** short for C/C++
+** short for Python
+** academic
+** full
+** information for recruiters

@@ -6,20 +6,27 @@
 \usepackage{marginnote}
 \usepackage{fontawesome} % Installed by doing this:  https://blog.stefanproell.at/2016/09/14/use-fontawesome-with-pdflatex/
 \usepackage{enumitem}
+\usepackage{ifthen} % For extbib.tex
 
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\marginparsep}{-0.3in}
 \addtolength{\marginparwidth}{+1in}
 
+\setlist[itemize]{topsep=-5pt,itemsep=-1pt}
+
+% Auto-incrementing numbers for each type of publication
 \newcounter{x}
 \setcounter{x}{1}
 \newcommand{\publicationnumber}{\arabic{x}\stepcounter{x}}
 \newcounter{y}
 \setcounter{y}{1}
 \newcommand{\talknumber}{T\arabic{y}\stepcounter{y}}
+\newcounter{z}
+\setcounter{z}{1}
+\newcommand{\popularizationnumber}{\roman{z}\stepcounter{z}}
 
-\setlist[itemize]{topsep=-5pt,itemsep=+1pt}
+\input{extbib}
 
 \makeatletter
 \makeatother
@@ -36,36 +43,197 @@
 
 \begin{document}
 
-\name{\hspace{4.1cm}{\normalfont Dr.\ rer.\ nat.\ Dipl.-Inform.}\ Jérôme KUNEGIS \hspace{0.4cm}{\normalfont (Complete CV\footnote{This version of this file is up to date as of \input{date} a current version is maintained at \href{http://github.com/kunegis/cv/}{github.com/kunegis/cv}.}\footnote{
-    Legend:  ~
-    \faFileTextO~Publication is available ~~
-    \faFileExcelO~Publication is available on arXiv ~~
-    \faFilePictureO~Poster is available ~~
-    \faSlideshare~Slides are available ~~
-    \faQuoteRight~Publication has 100+ citations ~~
-    \faChain~Publication/event has an accompanying website ~~
-    \faDatabase~Dataset is available ~~
-    \faCog~Source code is available ~~
-    \faVideoCamera~Video of talk is available ~~
-    \faComment~A blog article was written about the topic ~~
-    \faNewspaperO~Publication has media coverage ~~
-    \faStar~Prize ~~
-    \faStarO~Nomination for a prize 
-})}}
+\name{
+  \hspace{3.95cm} Jérôme KUNEGIS \hfill
+  {\normalfont (Complete CV\footnote{This version of this file is up to date as of \input{date}})}
+  \hspace{2.95cm}
+}
 \begin{resume}
 
-\vspace{0.5cm}
-
-\hspace{+0.53cm}
+\hspace{0.61cm}
 \begin{tabular}{lcr}
-  Université de Namur    &\hspace{2.7cm}\hfill& {\tt \href{mailto:kunegis@gmail.com}{kunegis@gmail.com}} \\
-  Rempart de la Vierge 8 &                    & {\tt \href{http://twitter.com/kunegis}{twitter.com/kunegis}} \\
-  B-5000 Namur           &                    & {\tt \href{http://www.linkedin.com/in/kunegis}{linkedin.com/in/kunegis}} \\
-  Belgique               &                    & {\tt \href{http://networkscience.wordpress.com/}{networkscience.wordpress.com}} \\
-  & & \\
-  Tel.:  +32 (0)81 72 4943
+  {\tt \href{mailto:kunegis@gmail.com}{kunegis@gmail.com}} &\hspace{2.05cm}\hfill &{\tt \href{http://www.linkedin.com/in/kunegis}{linkedin.com/in/kunegis}} \\
+  {\tt \href{http://networkscience.wordpress.com/}{networkscience.wordpress.com}} && {\tt \href{https://github.com/kunegis}{github.com/kunegis}} 
 \end{tabular}
-\vspace{0.5cm}
+
+\vspace{0.1cm}
+
+\section{Skills}
+\begin{itemize}
+  \item \textbf{Languages:}
+    French (native), 
+    German (native),
+    English (advanced, C2), 
+    Dutch (beginner, A2), 
+    Spanish (intermediate), 
+    Portuguese (beginner).  
+  \item \textbf{Programming languages:}
+    Major work performed in:  C (C90, C99), C++ (experience with C++98, C++14,
+    C++20), Java (SE~6), Matlab (2009), Perl~(5), Python~(3), shell
+    scripting (POSIX, Bash, KornShell (KSH)); work performed in:
+    Ada, AWK, BASIC, JavaScript, Julia, Logo, Object Pascal, Octave, PHP, Turbo Pascal.
+  \item \textbf{Operating systems:}
+    Major work performed on: GNU/Linux (Ubuntu, Red Hat), Windows, AIX; work
+    performed on: FreeBSD, macOS.  
+  \item \textbf{Source code management and bug tracking:}
+    Bugzilla, CVS, Git, Gitlab/Github/Bitbucket, Jira, Kanban, Subversion/SVN. 
+  \item \textbf{Build systems and continuous integration/delivery (CI/CD):}
+    Ant, Autotools/Autoconf/Automake, Cook, Jenkins, Make, Maven, Stu (I am the
+    author). 
+  \item \textbf{Typesetting and layouting:}
+    CSS, HTML, JSP, Tex/Latex. 
+  \item \textbf{Query, data processing and representation technologies:}
+    CSV, RDF, relational databases, sed, SQL, XSLT. 
+  \item \textbf{Programming methodologies and topics:}
+    Agent-oriented programming,
+    agile software development,
+    character encodings,
+    chess programming,
+    data manipulation~/ data engineering,
+    internationalization,
+    linear programming~/ optimization,
+    machine learning,
+    message passing,
+    numerical computing,
+    object oriented programming,
+    parsing, 
+    regular expressions,
+    scrum,
+    systems programming, visualization~/ plotting. 
+  \item \textbf{Networking and organizatorial skills:}
+    Organisation of conferences, workshops, off-campus meetings,
+    use of Twitter/Facebook for outreach, popularization of scientific topics. 
+  \item \textbf{Teaching and didactical skills:}
+    Lectures, seminars, projects, supervision of bachelor/master/PhD theses,
+    drafting and correcting exams.
+    I~have given both lectures and academic talks in English, French and
+    German.
+  \item \textbf{Scientific topics:}
+    Algebraic graph theory,
+    complex networks,
+    data mining,
+    databases~/ relational algebra,
+    game theory,
+    graph theory,
+    linear algebra,
+    machine learning,
+    matrix decompositions,
+    network science, network theory,
+    random graphs,
+    recommender systems,
+    search engines~/ information retrieval,
+    semantic web,
+    web science.
+  \item \textbf{Research highlights:}
+    First study and large published dataset about social networks with negative `enemy'
+    edges~\citek{kunegis:slashdot-zoo}, 
+    large-scale study of web tracking~\citek{schelter:trackers},
+    algebraic analysis of bipartite networks~\citek{kunegis:hyperbolic-sine} and
+    signed graphs~\citek{kunegis:signed-kernels},
+    invented a machine learning technique for link
+    prediction~\citek{kunegis:spectral-transformation},
+    introduced the spectral evolution model for networks~\citek{kunegis:spectral-network-evolution},
+    introduced measures for the skewness of degree distributions~\citek{kunegis:power-law}.
+\end{itemize}
+
+\section{Soft Skills}
+\begin{itemize}
+\item \textbf{Adaptability:}
+  I have worked both in the industry and in academia.  This gives me a unique
+  perspective on the value of programming and management techniques, as well as
+  the experience when to use them. 
+\item \textbf{Communication:}
+  I love to convey ideas to other people.  As a scientist, talking about new
+  approaches to problems is second nature to me.  As is disseminating results to
+  larger audiences. 
+\item \textbf{Teamwork:}
+  I am able to work in teams small and large, with collaborators close and
+  distant, from my own teams as well as from other companies.  I have both
+  managed a team of developers, as well as been an individual developer in a team.
+\item \textbf{Creativity:}
+  My usual approach is to go beyond the standard ``do what everyone does'' and
+  to find novel solutions to problems.  This is a core skill for a scientist,
+  which I also strive to apply to software development. 
+\item \textbf{Analytic thinking:}
+  Being precise is important to me.  ``It kind of works'' is not enough~--
+  things must be shown to work via extensive testing, as well as via theoretical
+  consideration. 
+\item \textbf{Eclecticism:}
+  There's more than one way to do it.  I don't believe that there is one ideal
+  way to solve a given problem.  In my career, I have learned and used a large
+  diversity of programming languages in order to give me a broad range of tools
+  to solve real-world computer science problems.
+\end{itemize}
+
+\section{Software Development}
+\begin{itemize}
+\item \textbf{CREST over SwiftNet} \hfill 2023--present \\
+  Message passing platform (C, C++)
+\item \textbf{FractAda} \hfill 2022 \\
+  Animated fractal generation (Ada)
+\item \textbf{Flora} \hfill 2020--present \\
+  Plant collection database and phylogenetic visualization tool (C++20)
+\item \textbf{Tracking Analysis} \hfill 2018 \\
+  Analysis of large-scale web tracking data (shell script, Matlab)
+\item \textbf{Santé} \hfill 2018--present \\
+  Health data mining and analysis (Python)
+\item \textbf{Social Information Processing} \hfill 2014--2017 \\
+  Cloud infrastructure for intra-department collaboration on computing projects
+  (acquisition and management of 18-machine cloud)
+\item \textbf{REVEAL} \hfill 2014--2016 \\
+  Latent data discovery (Octave)
+\item \textbf{LiquidFeedback} \hfill 2014--2015 \\
+  Extraction and analysis of data from a liquid democracy platform (Python,
+  shell scripting)
+\item \textbf{Polcovar} \hfill 2013 \\
+  Symbolic calculation of the number of arbitrary subgraph counts in Erdős--Rényi
+  graphs (Matlab, Octave)
+\item \textbf{SynGraphy} \hfill 2013--2015 \\
+  A library for graph generation based on arbitrary graph properties (Matlab) 
+\item \textbf{Petster} \hfill 2013--2017 \\
+  Crawling and analysis of social media data from pet social networks (shell
+  scripting, Matlab, Python)
+\item \textbf{SocialSensor} \hfill 2013--2014 \\
+  Social media content analysis platform (Java)
+\item \textbf{KONECT-Toolbox} \hfill 2012--2022 \\
+  Toolbox for calculation of network statistics, matrix decompositions and other
+  characteristics (Matlab, Octave)
+\item \textbf{Stu} \hfill 2012--present \\
+  Build system for large data analysis projects (C++14)
+\item \textbf{KONECT-Web} \hfill 2011--present \\
+  Website of the KONECT project (HTML, shell scripting, Perl, Octave, Stu)
+\item \textbf{KONECT-Analysis} \hfill 2011--2022 \\
+  Analysis code of KONECT, creation of plots and visualizations (C++11, shell
+  scripting, Matlab, Octave, Julia, Perl)
+\item \textbf{KONECT-Extr} \hfill 2010--2019 \\
+  Extraction library for the 1000+ KONECT network datasets (shell scripting, C99,
+  Perl)
+\item \textbf{ROBUST} \hfill 2010--2013 \\
+  Analysis of business communities (Java)
+\item \textbf{LiveTweet} \hfill 2010--2011 \\
+  Extraction and analysis of Twitter trends (Java, Matlab)
+\item \textbf{Learning Semantic Recommenders} \hfill 2010 \\
+  Link prediction library on network data with semantic relationships (Java)
+\item \textbf{SmartSenior} \hfill 2009--2010 \\
+  Intelligent services for elderly people (Java)
+\item \textbf{WebTV} \hfill 2008--2010 \\
+  Recommender system for smart TVs (Java)
+\item \textbf{Slashdot Zoo} \hfill 2008--2009 \\
+  Crawling Slashdot.org and analysis of friend/foe relationshis (shell
+  scripting, Matlab)
+\item \textbf{Universal Recommender} \hfill 2007--2010 \\
+  Library for building recommender systems (Java)
+\item \textbf{Search Results Optimization via Linear Integer Programming} \hfill 2006 \\
+  Search engine using linear integer programming to support hard and soft
+  constraints (Java)
+\item \textbf{DDDC} \hfill 2005--2010 \\
+  Monitoring tool for continuous deployment (shell scripting)
+\item \textbf{PIA -- Personal Information Agent} \hfill 2002--2010 \\
+  Search engine and social exchange site for scientific documents (Java, HTML,
+  CSS)
+\item \textbf{BabyChess} \hfill 1998--2006 \\
+  Chess engine and desktop application (C++98)
+\end{itemize}
 
 \section{Education}
 
@@ -77,25 +245,30 @@
   \href{https://www.slideshare.net/kunegis/on-the-spectral-evolution-of-large-networks-phd-thesis-by-jrme-kunegis}{\faSlideshare}
   \href{https://github.com/kunegis/phd}{\faCog}
 }
-\textbf{Dr.\ rer.\ nat.}, University of Koblenz--Landau \hfill 2011 \\
+\textbf{Dr.\ rer.\ nat.}, University of Koblenz--Landau, Germany \hfill 2011 \\
+(Computer science, PhD-equivalent) \\
 Thesis: \emph{\href{https://kola.opus.hbz-nrw.de/frontdoor/index/index/docId/581}{On
        the Spectral Evolution of Large Networks}}
 
 \item[{[E2]}]
 \marginnote{\href{https://pdfs.semanticscholar.org/42ca/e9b00864ee09bc9bc92ef3d411e20b966a8d.pdf}{\faFileTextO}}
 \textbf{Dipl.-Inform.}, Technical University of Berlin \hfill 2006 \\
+(Computer science, Master-equivalent) \\
 Thesis: \emph{\href{https://pdfs.semanticscholar.org/42ca/e9b00864ee09bc9bc92ef3d411e20b966a8d.pdf}{Using Integer Linear Programming for Search Results Optimization}}
 
 \item[{[E3]}]
 \textbf{Vordiplom}, Technical University of Berlin \hfill 2003 \\
+(Computer science, Bachelor-equivalent) \\
 Studiengang:  Informatik
 
 \item[{[E4]}]
-\textbf{Baccalauréat}, Lycée Français de Berlin \hfill 1999 \\
+  \textbf{Baccalauréat}, Lycée Français de Berlin \hfill 1999 \\
+  (French high school diploma) \\
 Série scientifique
 
 \item[{[E5]}]
 \textbf{Abitur}, Lycée Français de Berlin \hfill 1999 \\
+  (German high school diploma) \\
 Leistungskurse:  Mathematik, Physik 
 
 \item[{[E6]}]
@@ -105,42 +278,31 @@ Série collège
 \end{itemize}
 
 \section{Positions}
-
 \begin{itemize}
-
-\item[]
-\textbf{Postdoctoral Researcher} \hfill 2017--present \\
-Namur Center for Complex Systems (naXys), University of Namur 
-
-\item[]
-\textbf{Postdoctoral Researcher} \hfill 2011--2016 \\
-Institute for Web Science and Technologies, University of Koblenz--Landau 
-
-\item[]
-\textbf{Visiting Postdoctoral Researcher} \hfill 2013 \\
-Networks and Operating Systems Group, University of Cambridge
-
-\item[]
-\textbf{Research Assistant} \hfill 2010--2011 \\
-Institute for Web Science and Technologies, University of Koblenz--Landau 
-
-\item[]
-\textbf{Research Assistant} \hfill 2006--2010 \\
-DAI Laboratory, Technical University of Berlin 
-
-\item[]
-\textbf{Student Research Assistant} \hfill 2002--2006 \\
-DAI Laboratory, Technical University of Berlin 
-
+\item[] \textbf{Dev/Systems Engineer} \hfill 2023--present \\
+  Society for Worldwide Interbank Financial Telecommunication
+\item[] \textbf{Postdoctoral Researcher} \hfill 2017--2019 \\
+  Namur Center for Complex Systems (naXys), University of Namur 
+\item[] \textbf{Postdoctoral Researcher} \hfill 2011--2016 \\
+  Institute for Web Science and Technologies, University of Koblenz--Landau 
+\item[] \textbf{Visiting Postdoctoral Researcher} \hfill 2013 \\
+  Networks and Operating Systems Group, University of Cambridge
+\item[] \textbf{Research Assistant} \hfill 2010--2011 \\
+  Institute for Web Science and Technologies, University of Koblenz--Landau 
+\item[]   \textbf{Research Assistant} \hfill 2006--2010 \\
+  DAI Laboratory, Technical University of Berlin 
+\item[] \textbf{Student Research Assistant} \hfill 2002--2006 \\
+  DAI Laboratory, Technical University of Berlin
+\item[] \textbf{Intern, Air Traffic Control Tower} \hfill 1997 \\
+  Berlin-Tempelhof Airport
 \end{itemize}
 
 \section{Research Projects}
 \begin{itemize}
-\item 
-  \href{http://nouvelles.unamur.be/upnews.2015-10-01.8995593781}{IDEES} (ERDF/FEDER -- Wallonia/Wallonie) \hfill 2017--present \\
-  L'Internet de Demain pour développer les Entreprises, l'Économie et la Société 
 \item \href{http://konect.cc/}{KONECT} \hfill 2011--present \\
   Koblenz Network Collection
+\item \href{http://nouvelles.unamur.be/upnews.2015-10-01.8995593781}{IDEES} (ERDF/FEDER -- Wallonia/Wallonie) \hfill 2017--2019 \\
+  L'Internet de Demain pour développer les Entreprises, l'Économie et la Société 
 \item \href{http://revealproject.eu/}{REVEAL} (EU FP7-ICT) \hfill 2014--2016 \\
   Revealing Hidden Concepts in Social Media
 \item SIP (DFG WGI) \hfill 2014--2016 \\
@@ -175,14 +337,14 @@ DAI Laboratory, Technical University of Berlin
 \begin{itemize}
 \item Graph Theory (Théorie des graphes, in French), Mathematics (BSc),
   Univ.\ of Namur, First Quadrimester 2017/18, 2018/19.   
-\item Network Theory and Dynamic Systems, Web Science (MSc), Univ.\ of
+\item Network Theory and Dynamic Systems (in English), Web Science (MSc), Univ.\ of
   Koblenz--Landau, Summer Term 2014, 2015, 2016.   
 \item Introduction to Database Systems (Grundlagen der Datenbanken, in
   German), Computer Science (BSc), Univ.\ of Koblenz--Lan\-dau, 
   Winter Term 2012/\allowbreak 13, 2013/\allowbreak 14, 2014/15, 2015/16.
 \end{itemize}
 
-\section{Tutoring}
+\section{Other Teaching}
 \begin{itemize}
 \item Advanced Topics in Network Science (Seminar), Univ.\ of
   Koblenz--Landau, Summer Term 2016. 
@@ -194,12 +356,12 @@ DAI Laboratory, Technical University of Berlin
   Koblenz--Landau, Winter Term 2014/2015. 
 \item Advanced Topics in Network Theory (Seminar), Univ.\ of
   Koblenz--Landau, Summer Term 2014. 
-\item Network Theory and Dynamic Systems, Web Science (MSc), Univ.\ of
+\item Network Theory and Dynamic Systems, Web Science (MSc), tutoring, Univ.\ of
   Koblenz--Landau, Summer Term 2013, 2014.
 \item Social Networks (Soziale Netzwerke, Proseminar), Univ.\ of
   Koblenz--Landau, Summer Term 2012, 2013.
 \item
-  Introduction to Database Systems (Grundlagen der Datenbanken),
+  Introduction to Database Systems (Grundlagen der Datenbanken), tutoring,
   Computer Science (BSc), Univ.\ of
   Koblenz--Landau, Winter Term 2010/2011, 2011/2012. 
 \end{itemize}
@@ -242,22 +404,22 @@ DAI Laboratory, Technical University of Berlin
 \begin{itemize}
 \item
   \marginnote{\href{http://socinf-maison-2018.isistan.unicen.edu.ar/}{\faChain}}
-  \href{http://socinf-maison-2018.isistan.unicen.edu.ar/}{Jt.\ Int.\ Workshop on Soc.\ Influ.\ Anal.\ and Min.\ Actionable Insights from Soc.\ Netw.}\ (SocInf+MAISoN) at the Int.\ Jt.\ Conf.\ on Artif.\ Intell.\ and Eur.\ Conf.\ on Artif.\ Intell.\ (IJCAI-ECAI), 2018, Stockholm, Sweden, Program Chair.
+  \href{http://socinf-maison-2018.isistan.unicen.edu.ar/}{Joint International Workshop on Social Influence Analysis and Minining Actionable Insights from Social Networks}\ (SocInf+MAISoN) at the Int.\ Jt.\ Conf.\ on Artif.\ Intell.\ and Eur.\ Conf.\ on Artif.\ Intell.\ (IJCAI-ECAI), 2018, Stockholm, Sweden, Program Chair.
 \item 
   \marginnote{\href{https://sites.google.com/site/ocm2016/}{\faChain}}
   \href{https://sites.google.com/site/ocm2016/}{WeST Off-Campus
   Meeting} (OCM), 2016, La~Roche-en-Ardenne, Belgium, Chair. 
 \item
   \marginnote{\href{http://informatik2013.de/}{\faChain}}
-  \href{http://informatik2013.de/}{INFORMATIK}, 2013, Koblenz, Germany, Publicity Chair. 
+  \href{http://informatik2013.de/}{INFORMATIK} (largest German computer science conference), 2013, Koblenz, Germany, Publicity Chair. 
 \item
   \marginnote{\href{http://www.websci11.org/}{\faChain}}
-  \href{http://www.websci11.org/}{Web Sci.\ Conf.}, 2011, Koblenz, Germany,
+  \href{http://www.websci11.org/}{Web Science Conference}, 2011, Koblenz, Germany,
   Publicity Chair.  
 \item
   \marginnote{\href{http://www.dai-labor.de/unm2010/}{\faChain}}
   \href{http://www.dai-labor.de/unm2010/}{Special Session on
-  Uncertainty in Netw.\ Min.} (UNM) at the Int.\ Conf.\ on Inf.\ Processing and Manag.\ of Uncertainty in Knowl.-based Syst.\ (IPMU),
+  Uncertainty in Network Mining} (UNM) at the Int.\ Conf.\ on Inf.\ Processing and Manag.\ of Uncertainty in Knowl.-based Syst.\ (IPMU),
   2010, Dortmund, Germany, Technical Chair.   
 \end{itemize}
 
@@ -267,7 +429,6 @@ DAI Laboratory, Technical University of Berlin
 \section{Reference Works}    \input{list-reference}
 \section{Abstracts}          \input{list-abstract}
 \section{Other Publications} \input{list-other}
-\section{Popularization}     \input{list-popularization}
 
 \section{Keynotes and Invited Talks}
 \begin{itemize}
@@ -282,7 +443,7 @@ DAI Laboratory, Technical University of Berlin
   \href{https://www.slideshare.net/kunegis/algebraic-graphtheoretic-measures-of-conflict}{Algebraic Graph-theoric Measures of Conflict}, 
   \href{http://jgss.sciencesconf.org/}{Journée Graphes et Systèmes
     Sociaux} (Seminar on Graphs and Soc.\ Syst.), 2016.  
-\item[{[\talknumber]}] Measuring Conflict in Signed Soc.\ Networks, 
+\item[{[\talknumber]}] Measuring Conflict in Signed Social Networks, 
   Application of Netw.\ Theory on Comput.\ Soc.\ Sci.\ (Workshop), 2015.
 \item[{[\talknumber]}] 
   \marginnote{\href{http://www.ars15.unisa.it/}{\faLink}}
@@ -346,7 +507,7 @@ DAI Laboratory, Technical University of Berlin
       \href{https://sites.google.com/site/icwsmscienceslam/}{\faStar}
       \href{https://www.youtube.com/watch?v=OxwsmNp3LFw}{\faVideoCamera}}
     \href{https://www.slideshare.net/kunegis/science-slam-by-jrme-kunegis-icwsm-2016}{It's Really about Hamsters.}
-    Int.\ Conf.\ on Weblogs and Soc.\ Media Sci.\ Slam, 2016. 
+    Int.\ Conf.\ on Weblogs and Soc.\ Media Sci.\ Slam, 2016.  (Won First Prize)
   \item[{[\talknumber]}] 
     \marginnote{\href{https://github.com/kunegis/pdfs/blob/master/kunegis:konect-eth.presentation.pdf}{\faSlideshare}}
     \href{https://github.com/kunegis/pdfs/blob/master/kunegis:konect-eth.presentation.pdf}{KONECT:
@@ -447,7 +608,7 @@ DAI Laboratory, Technical University of Berlin
     Wikipedia through Multilingual Co-editing Activity.  Anna
     Samoilenko, Fariba Karimi, Daniel Edler, Jérôme Kunegis, Markus
     Strohmaier, Int.\ Sch.\ and Conf.\ on Netw.\ Sci.\ (NetSciX),
-    2016. 
+    2016.  (Won Best Poster Award)
   \item[{[P2]}]
     \marginnote{\href{https://github.com/kunegis/pdfs/blob/master/kunegis:stu-poster.pdf}{\faFilePictureO}}
     Do You Use Stu? Soon, You'll Do.
@@ -515,7 +676,7 @@ DAI Laboratory, Technical University of Berlin
    Schülerinformationstage, Institute for Web Science and
    Technologies, Univ.\ of Koblenz--Landau, 2011, 2013, 2015, 2016.  
  \item[{[D2]}] Institute for Web Science and Technologies, conference booth.
-       \href{http://informatik2013.de}{INFORMATIK 2013}.  
+   \href{http://informatik2013.de}{INFORMATIK 2013}.  
  \item[{[D3]}] 
    \marginnote{\href{https://livetweet.west.uni-koblenz.de/}{\faChain}
      \href{https://link.springer.com/chapter/10.1007/978-3-642-28997-2_66}{\faFileTextO}}
@@ -576,7 +737,7 @@ DAI Laboratory, Technical University of Berlin
 
 \section{Other Reviewing}
 \begin{itemize}
-\item Royal Military Academy (Belgium), 2018. 
+\item Royal Military Academy, Belgium, 2018. 
 \item \href{http://journals.cambridge.org/action/displayJournal?jid=NWS}{Netw.\ Sci.}, 2015, 2016.
 \item \href{http://surveys.acm.org/}{ACM Comput.\ Surveys}, 2014, 2015. 
 \item \href{http://www.webscience-journal.net}{The J.\ of Web Sci.}, 2014, 2018. 
@@ -622,7 +783,7 @@ DAI Laboratory, Technical University of Berlin
     \href{https://github.com/kunegis/konect-toolbox}{KONECT Toolbox}, network analysis toolbox (Matlab, C99)
   \item 
     \marginnote{\href{https://github.com/kunegis/polcovar}{\faCog} \href{http://arxiv.org/abs/1402.5835}{\faFileExcelO}}
-    \href{https://github.com/kunegis/polcovar}{Polcovar}, software for counting patterns in random graphs (Matlab)
+    \href{https://github.com/kunegis/polcovar}{Polcovar}, counting subgraph patterns in random graphs (Matlab)
   \item
     \marginnote{\href{https://github.com/kunegis/universal-recommender}{\faCog}}
     \href{https://github.com/kunegis/universal-recommender}{Universal Recommender}, recommendation library (Java)
@@ -638,11 +799,11 @@ DAI Laboratory, Technical University of Berlin
     \marginnote{\href{https://www.piratenpartei.de/2015/05/31/die-abstimmungssoftware-liquidfeedback-der-piratenpartei-wegweisend-fuer-demokratie-2-0/}{\faNewspaperO}}
     \href{https://www.piratenpartei.de/2015/05/31/die-abstimmungssoftware-liquidfeedback-der-piratenpartei-wegweisend-fuer-demokratie-2-0/}{Die
       Abstimmungssoftware LiquidFeedback in der Piratenpartei:
-      wegweisend für Demokratie 2.0?}, www.piratenpartei.de, May 2015. 
+      wegweisend für Demokratie 2.0?} (in German), www.piratenpartei.de, May 2015. 
 \item
   \marginnote{\href{http://www.wired.it/attualita/2015/04/01/come-funzionato-davvero-democrazia-liquida-dei-pirati-tedeschi/}{\faNewspaperO}}
   \href{http://www.wired.it/attualita/2015/04/01/come-funzionato-davvero-democrazia-liquida-dei-pirati-tedeschi/}{Come
-    ha funzionato davvero la democrazia liquida dei Pirati tedeschi},
+    ha funzionato davvero la democrazia liquida dei Pirati tedeschi} (in Italian),
   Wired Italia, April 2015. 
 \end{itemize}
 
@@ -696,23 +857,31 @@ DAI Laboratory, Technical University of Berlin
     Mathematical Rally, 12\textsuperscript{th} grade), 1999. 
 \end{itemize}
 
+\section{Popularization}     \input{list-popularization}
+
 \section{Miscellaneous}
 \begin{itemize}
   \item Birthday:  March 27
-  \item Languages: 
-    French (native language), 
-    German (native language),
-    English (advanced), 
-    Dutch (beginner, A2), 
-    Spanish (intermediate), 
-    Portuguese (beginner).  
-    I have given both lectures and academic talks in English, French and German. 
-  \item Programming languages and technologies I use extensively:
-    C, C++, Java, Latex, Stu, Make, Matlab, GNU Octave, sed, sh
-  \item Principal other programming languages and technologies I have used:
-    BASIC, HTML, JavaScript, Logo, Perl, PHP, Turbo Pascal 
+  \item Full titles:  Dr.\ rer.\ nat.\ Dipl.-Inform.\ Jérôme KUNEGIS
+\end{itemize}
+
+\section{Legend}
+\begin{itemize}
+  \item[]
+    \faFileTextO~Publication is available ~~
+    \faFileExcelO~Publication is available on arXiv ~~
+    \faFilePictureO~Poster is available ~~
+    \faSlideshare~Slides are available ~~
+    \faQuoteRight~Publication has 100+ citations ~~
+    \faChain~Publication/event has an accompanying website ~~
+    \faDatabase~Dataset is available ~~
+    \faCog~Source code is available ~~
+    \faVideoCamera~Video of talk is available ~~
+    \faComment~A blog article was written about the topic ~~
+    \faNewspaperO~Publication has media coverage ~~
+    \faStar~I won a prize for this work ~~
+    \faStarO~Nomination for a prize 
 \end{itemize}
 
 \end{resume}
 \end{document}
-

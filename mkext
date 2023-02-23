@@ -31,9 +31,10 @@ cat <<EOF
 %
 % HOW TO USE
 %
+% Step (0):  in the cv/ directory, build extbib.tex and cv-kunegis.pdf
 % Step (1):  put this file ('extbib.tex') in your directory
-% Step (2):  write \usepackage{ifthen} in your Latex file
-% Setp (3):  write \input{extbib} in your Latex file
+% Step (2):  put \usepackage{ifthen} in your Latex file
+% Setp (3):  put \input{extbib} in your Latex file
 % Step (4):  use a command such as \citek{kunegis:slashdot-zoo} to cite
 %            a paper of Jérôme. 
 % Step (5):  attach Jérôme's CV ('cv-kunegis.pdf') to your publication  

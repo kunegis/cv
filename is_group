@@ -5,11 +5,16 @@
 # INVOCATION 
 #	$0 $group $cat
 #
+# EXIT STATUS
+#	0	Yes, it belongs to the group
+#	1	No, it does not
+#	2	Error
+#
 
 set -e
 
-group="$1"
-cat="$2"
+group=$1
+cat=$2
 
 if [ "$group" = article ] ; then
 	if [ "$cat" = journal ] ; then

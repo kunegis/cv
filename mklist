@@ -6,23 +6,23 @@
 
 set -e
 
-group="$1"
+group=$1
 
 [ "$verbose" ] && exec 6>&1 || exec 6>/dev/null 
 
 printf '\\begin{itemize}\n'
 
 while IFS= read -r line ; do
-	id="$(echo "$line" | cut -f 1)"
-	cat="$(echo "$line" | cut -f 2)"
+	id=$(echo "$line" | cut -f 1)
+	cat=$(echo "$line" | cut -f 2)
 	set +e
 	echo >&6 ./is_group "$group" "$cat" 
 	./is_group "$group" "$cat" 
-	exitcode="$?"
+	exitstatus=$?
 	set -e
-	if [ "$exitcode" = 0 ] ; then
+	if [ "$exitstatus" = 0 ] ; then
 		./write_publication "$id"
-	elif [ "$exitcode" = 1 ] ; then
+	elif [ "$exitstatus" = 1 ] ; then
 		: # nop
 	else 
 		echo >&2 "*** Internal error in ./is_group"

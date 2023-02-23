@@ -9,11 +9,11 @@ set -e
 # Check that all publications in kunegis.bib have a 'kunegiscat'. 
 #
 
-n="$(echo $(<kunegis.bib grep -E 'kunegiscat[[:space:]]*=[[:space:]]\{' | wc -l))"
-m="$(echo $(<kunegis.bib grep -E '^[[:space:]]*@[[:space:]]*([a-z]+)[[:space:]]*\{' | wc -l))"
+n=$(echo $(<kunegis.bib grep -E 'kunegiscat[[:space:]]*=[[:space:]]\{' | wc -l))
+m=$(echo $(<kunegis.bib grep -E '^[[:space:]]*@[[:space:]]*([a-z]+)[[:space:]]*\{' | wc -l))
 
 [ "$n" -ne "$m" ] && {
-	echo >&2 "*** different numbers of publications:  $n != $m"
+	echo >&2 "*** Different numbers of publications:  $n != $m"
 	exit 1
 }
 

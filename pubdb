@@ -1556,3 +1556,18 @@ kunegis:caricature	volume	abs/2302.07755
 kunegis:caricature	url_arxiv	https://arxiv.org/abs/2302.07755
 
 kunegis:caricature	kunegiscat	misc
+kunegis:guided-graph-generation	_	article
+
+kunegis:guided-graph-generation	title	Guided Graph Generation:  Evaluation of Graph Generators in Terms of Network Statistics, and a New Algorithm
+
+kunegis:guided-graph-generation	author	Jérôme Kunegis and Jun Sun and Eiko Yoneki
+
+kunegis:guided-graph-generation	year	2023
+
+kunegis:guided-graph-generation	journal	CoRR
+
+kunegis:guided-graph-generation	volume	abs/2303.00635
+
+kunegis:guided-graph-generation	url_arxiv	https://arxiv.org/abs/2303.00635
+
+kunegis:guided-graph-generation	kunegiscat	misc

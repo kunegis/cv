@@ -1231,25 +1231,6 @@ kunegis:fluorine-compounds	year	2017
 kunegis:fluorine-compounds	url	https://networkscience.wordpress.com/2017/03/12/big-table-of-binary-fluorine-compounds/
 
 kunegis:fluorine-compounds	kunegiscat	popularization
-kunegis:konect-handbook	_	article
-
-kunegis:konect-handbook	title	Handbook of Network Analysis [{KONECT} project]
-
-kunegis:konect-handbook	author	Jérôme Kunegis
-
-kunegis:konect-handbook	year	2017
-
-kunegis:konect-handbook	journal	CoRR
-
-kunegis:konect-handbook	volume	abs/1402.5500
-
-kunegis:konect-handbook	number	v4
-
-kunegis:konect-handbook	url	https://github.com/kunegis/konect-handbook/blob/master/konect-handbook.pdf
-
-kunegis:konect-handbook	url_arxiv	http://arxiv.org/abs/1402.5500
-
-kunegis:konect-handbook	kunegiscat	misc
 kunegis:nopref-netsci	_	inproceedings
 
 kunegis:nopref-netsci	title	The Problem of Action at a Distance in Networks and the Emergence of Preferential Attachment from Triadic Closure
@@ -1571,3 +1552,22 @@ kunegis:guided-graph-generation	volume	abs/2303.00635
 kunegis:guided-graph-generation	url_arxiv	https://arxiv.org/abs/2303.00635
 
 kunegis:guided-graph-generation	kunegiscat	misc
+kunegis:konect-handbook	_	article
+
+kunegis:konect-handbook	title	Handbook of Network Analysis [{KONECT} project]
+
+kunegis:konect-handbook	author	Jérôme Kunegis
+
+kunegis:konect-handbook	year	2026
+
+kunegis:konect-handbook	journal	CoRR
+
+kunegis:konect-handbook	volume	abs/1402.5500
+
+kunegis:konect-handbook	number	v5
+
+kunegis:konect-handbook	url	https://github.com/kunegis/konect-handbook/blob/master/konect-handbook.pdf
+
+kunegis:konect-handbook	url_arxiv	http://arxiv.org/abs/1402.5500
+
+kunegis:konect-handbook	kunegiscat	misc

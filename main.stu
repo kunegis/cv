@@ -6,7 +6,7 @@
 # and execute 'stu' within this directory. 
 #
 
-% version 2.7
+% version 2.16
 
 @all:  cv-kunegis.pdf check_publications extbib.tex; 
 

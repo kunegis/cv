@@ -451,6 +451,10 @@ nasir:retweets	url_presentation	https://www.slideshare.net/kunegis/bad-news-trav
 
 nasir:retweets	url_citations	https://scholar.google.com/scholar?cites=3427013306158550110
 
+nasir:retweets	url_prize	https://websci26.org/?page_id=897
+
+nasir:retweets	text_prize	Won Test of Time Award
+
 nasir:retweets	kunegiscat	conftalkown
 kunegis:phd	_	phdthesis
 

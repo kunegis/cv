@@ -51,13 +51,13 @@ konect.bib = konect-extr/;
 	./insert-shy
 }
 
-bibtex/$name.bib: -p bibtex;
+bibtex/$name.bib: bibtex;
 konect-extr/konect.bib:  -p konect-extr;
 
 # These directories must be linked to the corresponding GitHub
 # repositories. 
 konect-extr;
-bibtex;
+-p bibtex;
 
 >cv-kunegis-german.tex:  <cv-kunegis.tex  german
 {
